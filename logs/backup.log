@@ -1,0 +1,7 @@
+2024-01-29 02:00:00 INFO database_prod: Backup started
+2024-01-29 02:15:30 INFO database_prod: Backup completed successfully, 1.2GB in 15min
+2024-01-29 02:30:00 INFO fileserver_backup: Backup started
+2024-01-29 02:45:22 ERROR fileserver_backup: Backup failed - Cannot connect to storage backend
+2024-01-29 03:00:00 INFO user_data: Backup started
+2024-01-29 03:20:15 INFO user_data: Backup completed successfully, 850MB in 20min
+2024-01-29 03:30:00 ERROR config_backup: Backup failed - Permission denied
