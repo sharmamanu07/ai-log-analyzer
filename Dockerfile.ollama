@@ -1,0 +1,37 @@
+# Custom Ollama image with phi3:mini pre-installed
+FROM ollama/ollama:latest
+
+# Set working directory
+WORKDIR /app
+
+# Create a script to download model on first run
+RUN mkdir -p /usr/local/bin
+COPY <<EOF /usr/local/bin/init-ollama.sh
+#!/bin/bash
+set -e
+
+echo "Starting Ollama server in background..."
+ollama serve &
+OLLAMA_PID=$!
+
+echo "Waiting for Ollama to be ready..."
+sleep 10
+
+echo "Downloading phi3:mini model..."
+ollama pull phi3:mini
+
+echo "Model download completed!"
+echo "Available models:"
+ollama list
+
+echo "Stopping background server..."
+kill $OLLAMA_PID
+wait $OLLAMA_PID 2>/dev/null || true
+
+echo "Starting Ollama server..."
+exec ollama serve
+EOF
+
+RUN chmod +x /usr/local/bin/init-ollama.sh
+
+# Use custom startup script
