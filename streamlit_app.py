@@ -182,7 +182,7 @@ def process_uploaded_files(uploaded_files):
         st.session_state.summary = summarizer.generate_summary(st.session_state.anomalies)
         
         st.success(f"✅ Processed {len(all_logs)} log entries from {len(uploaded_files)} files")
-        st.rerun()
+        
 
 def display_results():
     """Display analysis results"""
