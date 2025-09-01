@@ -440,10 +440,9 @@ def show_ai_chat():
             if st.button("📋 Load Sample Data", key="chat_sample"):
                 load_sample_data()
                 st.rerun()
-
         return
 
-    # AI Engine Status
+    # AI Engine Status + Example queries
     col1, col2 = st.columns([3, 1])
 
     with col2:
@@ -461,14 +460,7 @@ def show_ai_chat():
         # Always show built-in processor
         st.success("🟢 Built-in NLP: Ready")
 
-        st.write("**Capabilities:**")
-        st.write("• Security pattern analysis")
-        st.write("• Threat summarization")
-        st.write("• Natural language responses")
-        st.write("• Context-aware insights")
-
-    with col1:
-        # Example queries
+        # --- Move Example Queries above Capabilities ---
         st.subheader("💡 Example Queries")
 
         example_queries = [
@@ -480,23 +472,39 @@ def show_ai_chat():
             "What security incidents need immediate attention?"
         ]
 
-        # Create example query buttons
-        cols = st.columns(2)
         for i, example in enumerate(example_queries):
-            with cols[i % 2]:
-                if st.button(f"💬 {example[:35]}{'...' if len(example) > 35 else ''}", key=f"example_{i}"):
-                    # Add to chat and process
-                    st.session_state.chat_history.append({
-                        'type': 'user',
-                        'content': example,
-                        'timestamp': datetime.now()
-                    })
-                    process_ai_query(example)
-                    st.rerun()
+            if st.button(f"💬 {example[:35]}{'...' if len(example) > 35 else ''}", key=f"example_{i}"):
+                st.session_state.chat_history.append({
+                    'role': 'user',
+                    'content': example,
+                    'timestamp': datetime.now()
+                })
+                process_ai_query(example)
+                st.rerun()
+
+        st.markdown("---")
+        st.write("**Capabilities:**")
+        st.write("• Security pattern analysis")
+        st.write("• Threat summarization")
+        st.write("• Natural language responses")
+        st.write("• Context-aware insights")
+
+    with col1:
+        # Display chat history first (like ChatGPT)
+        st.subheader("💬 Conversation")
+
+        if st.session_state.chat_history:
+            for message in st.session_state.chat_history[-20:]:
+                role = message["role"]
+                avatar = "👤" if role == "user" else "🤖"
+                with st.chat_message(role, avatar=avatar):
+                    st.markdown(message["content"])
+        else:
+            st.info("💡 Start a conversation by asking a question or clicking an example on the right!")
 
         st.markdown("---")
 
-        # Custom query input
+        # Custom query input stays at the bottom
         st.subheader("💬 Ask Your Question")
 
         user_query = st.text_area(
@@ -511,14 +519,11 @@ def show_ai_chat():
         with col_ask:
             if st.button("🚀 Ask AI", key="ask_button", disabled=not user_query.strip()):
                 if user_query.strip():
-                    # Add user query to chat history
                     st.session_state.chat_history.append({
-                        'type': 'user',
+                        'role': 'user',
                         'content': user_query,
                         'timestamp': datetime.now()
                     })
-
-                    # Process the query
                     process_ai_query(user_query)
                     st.rerun()
 
@@ -527,27 +532,6 @@ def show_ai_chat():
                 st.session_state.chat_history = []
                 st.rerun()
 
-        # Display chat history
-        st.subheader("💬 Chat History")
-
-        if st.session_state.chat_history:
-            # Show recent messages (last 10 exchanges)
-            recent_messages = list(reversed(st.session_state.chat_history[-20:]))
-
-            for message in recent_messages:
-                timestamp = message['timestamp'].strftime("%H:%M:%S")
-
-                if message['type'] == 'user':
-                    st.markdown(f"**👤 You ({timestamp}):**")
-                    st.markdown(f"> {message['content']}")
-                else:
-                    with st.container():
-                        st.markdown(f"**🤖 AI Assistant ({timestamp}):**")
-                        st.markdown(message['content'])
-
-                st.markdown("---")
-        else:
-            st.info("💡 Start a conversation by asking a question or clicking an example above!")
 
 def show_settings():
     """Settings and configuration"""
@@ -921,17 +905,16 @@ def process_ai_query(query: str, debug: bool = True):
         # Add note about LLM status
         ollama_status = check_ollama_connection()
         if not ollama_status['available']:
-            response += f"\n\n*Note: Advanced AI (Phi-3 Mini) is not available. Using built-in analysis.*"
+            response += "\n\n*Note: Advanced AI (Phi-3 Mini) is not available. Using built-in analysis.*"
         else:
-            response += f"\n\n*Note: AI model provided insufficient response. Using enhanced built-in analysis.*"
+            response += "\n\n*Note: AI model provided insufficient response. Using enhanced built-in analysis.*"
     
-    # Add response to chat history
+    # ✅ Use 'role' instead of 'type'
     st.session_state.chat_history.append({
-        'type': 'assistant',
+        'role': 'assistant',
         'content': response,
         'timestamp': datetime.now()
     })
-
 
 def generate_intelligent_response(query: str) -> str:
     """Generate intelligent response based on log analysis"""
