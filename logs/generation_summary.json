@@ -1,48 +1,48 @@
 {
-  "generation_time": "2025-09-01T08:17:07.629050",
+  "generation_time": "2025-09-01T16:13:33.385297",
   "period_covered": "7 days",
   "files_created": [
     {
       "filename": "security.log",
-      "entries": 554,
-      "size_bytes": 46465,
-      "size_human": "46,465 bytes"
+      "entries": 2140,
+      "size_bytes": 179526,
+      "size_human": "179,526 bytes"
     },
     {
       "filename": "backup.log",
-      "entries": 37,
-      "size_bytes": 3233,
-      "size_human": "3,233 bytes"
+      "entries": 152,
+      "size_bytes": 13158,
+      "size_human": "13,158 bytes"
     },
     {
       "filename": "vault.log",
-      "entries": 556,
-      "size_bytes": 58577,
-      "size_human": "58,577 bytes"
+      "entries": 2325,
+      "size_bytes": 243594,
+      "size_human": "243,594 bytes"
     },
     {
       "filename": "system.log",
-      "entries": 1011,
-      "size_bytes": 73867,
-      "size_human": "73,867 bytes"
+      "entries": 4247,
+      "size_bytes": 308556,
+      "size_human": "308,556 bytes"
     },
     {
       "filename": "apache_access.log",
-      "entries": 1940,
-      "size_bytes": 257290,
-      "size_human": "257,290 bytes"
+      "entries": 9044,
+      "size_bytes": 1200416,
+      "size_human": "1,200,416 bytes"
     },
     {
       "filename": "database.log",
-      "entries": 2175,
-      "size_bytes": 179949,
-      "size_human": "179,949 bytes"
+      "entries": 2220,
+      "size_bytes": 183954,
+      "size_human": "183,954 bytes"
     },
     {
       "filename": "application.log",
-      "entries": 2134,
-      "size_bytes": 175563,
-      "size_human": "175,563 bytes"
+      "entries": 2296,
+      "size_bytes": 189558,
+      "size_human": "189,558 bytes"
     }
   ],
   "scenarios_included": [

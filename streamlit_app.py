@@ -525,6 +525,9 @@ def show_ai_chat():
                         'timestamp': datetime.now()
                     })
                     process_ai_query(user_query)
+                    # New Line below
+                    # Clear the text area
+                    st.session_state.user_query_input = ""
                     st.rerun()
 
         with col_clear:

@@ -35,7 +35,7 @@ def generate_comprehensive_sample_logs():
 def generate_security_logs():
     """Generate comprehensive security/authentication logs"""
     
-    base_time = datetime.now() - timedelta(days=7)
+    base_time = datetime.now() - timedelta(days=30)
     
     # Realistic IP addresses and users
     internal_ips = ['10.0.1.100', '10.0.1.101', '10.0.1.102', '10.0.1.103', '10.0.1.104']
@@ -45,7 +45,7 @@ def generate_security_logs():
     logs = []
     
     # Generate normal authentication activity (80% success rate)
-    for day in range(7):
+    for day in range(30):
         day_start = base_time + timedelta(days=day, hours=8)  # Business hours start
         day_end = base_time + timedelta(days=day, hours=18)   # Business hours end
         
@@ -67,7 +67,7 @@ def generate_security_logs():
     attacker_ip = '203.0.113.10'
     target_user = 'admin'
     
-    for i in range(25):  # 25 failed attempts over 15 minutes
+    for i in range(50):  # 25 failed attempts over 15 minutes
         timestamp = attack_time + timedelta(minutes=i//2)
         logs.append(f"{timestamp.strftime('%Y-%m-%d %H:%M:%S')} [ERROR] auth: Failed login attempt for user {target_user} from {attacker_ip}")
     
@@ -84,7 +84,7 @@ def generate_security_logs():
 def generate_backup_logs():
     """Generate realistic backup system logs"""
     
-    base_time = datetime.now() - timedelta(days=7)
+    base_time = datetime.now() - timedelta(days=30)
     logs = []
     
     backup_jobs = {
@@ -105,7 +105,7 @@ def generate_backup_logs():
     ]
     
     # Generate daily backup logs
-    for day in range(7):
+    for day in range(30):
         for job_name, config in backup_jobs.items():
             # Most jobs run daily at 2 AM + some offset
             backup_time = base_time + timedelta(days=day, hours=2, minutes=random.randint(0, 60))
@@ -132,7 +132,7 @@ def generate_backup_logs():
 def generate_vault_logs():
     """Generate HashiCorp Vault-style logs"""
     
-    base_time = datetime.now() - timedelta(days=7)
+    base_time = datetime.now() - timedelta(days=30)
     logs = []
     
     vault_paths = [
@@ -148,7 +148,7 @@ def generate_vault_logs():
     operations = ['read', 'write', 'delete', 'list']
     
     # Generate normal vault operations
-    for day in range(7):
+    for day in range(30):
         day_start = base_time + timedelta(days=day)
         
         # Normal operations throughout the day
@@ -165,7 +165,7 @@ def generate_vault_logs():
     
     # Generate suspicious vault access (day 2)
     attack_time = base_time + timedelta(days=2, hours=22, minutes=30)
-    for i in range(15):
+    for i in range(30):
         timestamp = attack_time + timedelta(minutes=i*2)
         path = random.choice(['secret/database/prod-credentials', 'secret/encryption/master-keys'])
         logs.append(f"{timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')} [ERROR] core: read operation on {path} by unknown_user - authentication failed")
@@ -189,7 +189,7 @@ def generate_system_logs():
     hosts = ['web-server-01', 'db-server-01', 'app-server-01']
     
     # Generate normal system activity
-    for day in range(7):
+    for day in range(30):
         day_start = base_time + timedelta(days=day)
         
         for _ in range(random.randint(100, 200)):
@@ -287,7 +287,7 @@ def generate_web_server_logs():
     ]
     
     # Generate normal web traffic
-    for day in range(7):
+    for day in range(30):
         day_start = base_time + timedelta(days=day)
         
         # Normal traffic during business hours
@@ -325,7 +325,7 @@ def generate_web_server_logs():
         "/product?id=1' OR 1=1--"
     ]
     
-    for i in range(15):
+    for i in range(30):
         timestamp = injection_time + timedelta(minutes=i*2)
         payload = random.choice(injection_payloads)
         status = random.choices([400, 403, 500], weights=[50, 30, 20])[0]
