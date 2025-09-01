@@ -1,0 +1,2134 @@
+2025-08-25 08:18:07 [INFO] order-service: Order created: order_id 83117
+2025-08-25 08:19:07 [INFO] order-service: Payment processed for order_id: 16947
+2025-08-25 08:21:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 08:21:07 [INFO] user-service: User profile updated for user_id: 1179
+2025-08-25 08:29:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 08:29:07 [INFO] order-service: Payment processed for order_id: 55971
+2025-08-25 08:38:07 [INFO] auth-service: User authentication successful for user_id: 7048
+2025-08-25 08:44:07 [WARN] payment-service: Payment authorization successful: transaction_id 992631
+2025-08-25 08:47:07 [ERROR] user-service: User profile updated for user_id: 8687
+2025-08-25 08:49:07 [INFO] order-service: Payment processed for order_id: 41128
+2025-08-25 08:51:07 [ERROR] user-service: Failed to load user profile for user_id: 6509
+2025-08-25 08:52:07 [WARN] auth-service: Token refresh for user_id: 8641
+2025-08-25 08:53:07 [INFO] order-service: Order status updated: order_id 10092
+2025-08-25 09:05:07 [WARN] order-service: Order created: order_id 30031
+2025-08-25 09:05:07 [INFO] user-service: User profile updated for user_id: 8026
+2025-08-25 09:06:07 [INFO] order-service: Order status updated: order_id 63325
+2025-08-25 09:18:07 [INFO] order-service: Order created: order_id 11319
+2025-08-25 09:28:07 [FATAL] user-service: New user registration: user_id 5994
+2025-08-25 09:30:07 [INFO] auth-service: Invalid login attempt for user_id: 4310
+2025-08-25 09:35:07 [ERROR] order-service: Order created: order_id 15912
+2025-08-25 09:39:07 [INFO] auth-service: Invalid login attempt for user_id: 7427
+2025-08-25 09:50:07 [FATAL] user-service: User profile updated for user_id: 1212
+2025-08-25 10:01:07 [ERROR] order-service: Order created: order_id 46193
+2025-08-25 10:08:07 [INFO] user-service: User profile updated for user_id: 1165
+2025-08-25 10:15:07 [INFO] user-service: User profile updated for user_id: 4411
+2025-08-25 10:21:07 [INFO] payment-service: Refund processed: transaction_id 832833
+2025-08-25 10:23:07 [INFO] user-service: User profile updated for user_id: 4720
+2025-08-25 10:26:07 [WARN] auth-service: Invalid login attempt for user_id: 4254
+2025-08-25 10:28:07 [INFO] payment-service: Refund processed: transaction_id 600311
+2025-08-25 10:28:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 10:34:07 [ERROR] user-service: Failed to load user profile for user_id: 9409
+2025-08-25 10:42:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 10:44:07 [WARN] auth-service: Token refresh for user_id: 2760
+2025-08-25 10:51:07 [INFO] order-service: Order status updated: order_id 92889
+2025-08-25 10:51:07 [INFO] payment-service: Payment authorization successful: transaction_id 498425
+2025-08-25 10:52:07 [INFO] order-service: Order status updated: order_id 54039
+2025-08-25 10:54:07 [INFO] auth-service: User authentication successful for user_id: 7431
+2025-08-25 11:15:07 [INFO] user-service: Failed to load user profile for user_id: 1451
+2025-08-25 11:17:07 [INFO] auth-service: Invalid login attempt for user_id: 9531
+2025-08-25 11:18:07 [INFO] order-service: Order created: order_id 47526
+2025-08-25 11:22:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 11:35:07 [INFO] auth-service: Token refresh for user_id: 2451
+2025-08-25 11:37:07 [INFO] user-service: New user registration: user_id 8618
+2025-08-25 11:40:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 11:43:07 [INFO] user-service: User profile updated for user_id: 6141
+2025-08-25 11:44:07 [ERROR] order-service: Order created: order_id 54147
+2025-08-25 11:47:07 [INFO] user-service: New user registration: user_id 2753
+2025-08-25 11:52:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 11:52:07 [WARN] user-service: User profile updated for user_id: 3455
+2025-08-25 11:54:07 [INFO] payment-service: Payment authorization successful: transaction_id 817144
+2025-08-25 11:56:07 [INFO] auth-service: Invalid login attempt for user_id: 8737
+2025-08-25 11:57:07 [WARN] payment-service: Refund processed: transaction_id 323711
+2025-08-25 12:33:07 [INFO] order-service: Order created: order_id 45030
+2025-08-25 12:35:07 [INFO] order-service: Order created: order_id 51538
+2025-08-25 12:38:07 [ERROR] user-service: User profile updated for user_id: 8407
+2025-08-25 12:47:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-25 12:50:07 [INFO] order-service: Payment processed for order_id: 87478
+2025-08-25 12:54:07 [INFO] user-service: Failed to load user profile for user_id: 6061
+2025-08-25 12:54:07 [INFO] user-service: User profile updated for user_id: 3252
+2025-08-25 12:59:07 [WARN] order-service: Order status updated: order_id 47572
+2025-08-25 13:11:07 [INFO] order-service: Order status updated: order_id 33822
+2025-08-25 13:13:07 [INFO] user-service: User profile updated for user_id: 4471
+2025-08-25 13:28:07 [INFO] auth-service: Token refresh for user_id: 9917
+2025-08-25 13:32:07 [WARN] user-service: New user registration: user_id 8147
+2025-08-25 13:33:07 [INFO] user-service: New user registration: user_id 5007
+2025-08-25 13:39:07 [INFO] user-service: New user registration: user_id 9430
+2025-08-25 13:45:07 [WARN] user-service: Failed to load user profile for user_id: 3724
+2025-08-25 13:49:07 [INFO] order-service: Order status updated: order_id 15112
+2025-08-25 13:49:07 [INFO] order-service: Order status updated: order_id 55755
+2025-08-25 13:50:07 [INFO] user-service: Failed to load user profile for user_id: 9039
+2025-08-25 13:59:07 [INFO] auth-service: Token refresh for user_id: 1514
+2025-08-25 13:59:07 [INFO] order-service: Payment processed for order_id: 56070
+2025-08-25 14:04:07 [INFO] order-service: Payment processed for order_id: 58688
+2025-08-25 14:05:07 [WARN] order-service: Payment processed for order_id: 16605
+2025-08-25 14:11:07 [INFO] payment-service: Payment authorization successful: transaction_id 279129
+2025-08-25 14:16:07 [INFO] user-service: User profile updated for user_id: 7195
+2025-08-25 14:24:07 [ERROR] order-service: Order status updated: order_id 62840
+2025-08-25 14:27:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 14:31:07 [INFO] auth-service: Token refresh for user_id: 3797
+2025-08-25 14:39:07 [INFO] order-service: Payment processed for order_id: 51230
+2025-08-25 14:45:07 [INFO] order-service: Payment processed for order_id: 96170
+2025-08-25 14:46:07 [INFO] auth-service: User authentication successful for user_id: 5999
+2025-08-25 14:48:07 [WARN] user-service: Failed to load user profile for user_id: 6099
+2025-08-25 14:51:07 [WARN] user-service: User profile updated for user_id: 4831
+2025-08-25 15:00:07 [INFO] user-service: New user registration: user_id 2746
+2025-08-25 15:06:07 [INFO] payment-service: Payment authorization successful: transaction_id 555082
+2025-08-25 15:10:07 [INFO] payment-service: Refund processed: transaction_id 303979
+2025-08-25 15:16:07 [INFO] payment-service: Refund processed: transaction_id 844959
+2025-08-25 15:18:07 [WARN] order-service: Order status updated: order_id 88608
+2025-08-25 15:27:07 [WARN] auth-service: Token refresh for user_id: 2656
+2025-08-25 15:33:07 [INFO] order-service: Order status updated: order_id 50110
+2025-08-25 15:45:07 [ERROR] payment-service: Refund processed: transaction_id 847925
+2025-08-25 15:46:07 [INFO] user-service: User profile updated for user_id: 5281
+2025-08-25 15:46:07 [INFO] order-service: Order created: order_id 93043
+2025-08-25 15:47:07 [INFO] auth-service: Invalid login attempt for user_id: 1215
+2025-08-25 15:49:07 [ERROR] user-service: User profile updated for user_id: 1676
+2025-08-25 15:49:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 15:56:07 [ERROR] payment-service: Payment authorization successful: transaction_id 676535
+2025-08-25 15:56:07 [INFO] auth-service: User authentication successful for user_id: 7126
+2025-08-25 15:58:07 [INFO] auth-service: Invalid login attempt for user_id: 7182
+2025-08-25 16:08:07 [WARN] order-service: Order status updated: order_id 93419
+2025-08-25 16:17:07 [INFO] auth-service: Token refresh for user_id: 9253
+2025-08-25 16:20:07 [INFO] order-service: Payment processed for order_id: 38069
+2025-08-25 16:21:07 [INFO] order-service: Payment processed for order_id: 61690
+2025-08-25 16:31:07 [INFO] payment-service: Refund processed: transaction_id 381614
+2025-08-25 16:33:07 [INFO] auth-service: Invalid login attempt for user_id: 7865
+2025-08-25 16:33:07 [INFO] user-service: Failed to load user profile for user_id: 8487
+2025-08-25 16:33:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 16:41:07 [WARN] auth-service: Token refresh for user_id: 1781
+2025-08-25 16:50:07 [INFO] payment-service: Payment authorization successful: transaction_id 978991
+2025-08-25 16:54:07 [INFO] auth-service: Invalid login attempt for user_id: 3957
+2025-08-25 16:58:07 [WARN] payment-service: Refund processed: transaction_id 947640
+2025-08-25 17:01:07 [WARN] order-service: Payment processed for order_id: 74206
+2025-08-25 17:02:07 [INFO] user-service: Failed to load user profile for user_id: 2429
+2025-08-25 17:08:07 [INFO] auth-service: Invalid login attempt for user_id: 9302
+2025-08-25 17:15:07 [INFO] payment-service: Payment authorization successful: transaction_id 198215
+2025-08-25 17:24:07 [INFO] payment-service: Refund processed: transaction_id 336158
+2025-08-25 17:27:07 [INFO] order-service: Order status updated: order_id 26279
+2025-08-25 17:31:07 [INFO] auth-service: Token refresh for user_id: 8709
+2025-08-25 17:32:07 [INFO] user-service: User profile updated for user_id: 2842
+2025-08-25 17:33:07 [INFO] auth-service: User authentication successful for user_id: 5392
+2025-08-25 17:42:07 [INFO] order-service: Payment processed for order_id: 40368
+2025-08-25 17:51:07 [INFO] auth-service: Invalid login attempt for user_id: 9000
+2025-08-25 17:54:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 17:59:07 [INFO] user-service: New user registration: user_id 1409
+2025-08-25 18:03:07 [INFO] auth-service: Invalid login attempt for user_id: 9815
+2025-08-25 18:06:07 [INFO] order-service: Order status updated: order_id 86696
+2025-08-25 18:07:07 [ERROR] payment-service: Payment authorization successful: transaction_id 891106
+2025-08-25 18:10:07 [WARN] user-service: New user registration: user_id 3511
+2025-08-25 18:13:07 [INFO] user-service: User profile updated for user_id: 1880
+2025-08-25 18:16:07 [INFO] order-service: Payment processed for order_id: 92475
+2025-08-25 18:19:07 [INFO] auth-service: Token refresh for user_id: 9735
+2025-08-25 18:31:07 [INFO] order-service: Order status updated: order_id 43761
+2025-08-25 18:33:07 [INFO] order-service: Payment processed for order_id: 53134
+2025-08-25 18:33:07 [INFO] payment-service: Payment authorization successful: transaction_id 445809
+2025-08-25 18:42:07 [INFO] user-service: User profile updated for user_id: 5191
+2025-08-25 18:43:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 18:46:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 18:46:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 18:56:07 [INFO] order-service: Order created: order_id 45234
+2025-08-25 19:01:07 [WARN] order-service: Order status updated: order_id 13282
+2025-08-25 19:04:07 [INFO] payment-service: Payment authorization successful: transaction_id 158294
+2025-08-25 19:08:07 [INFO] user-service: User profile updated for user_id: 1105
+2025-08-25 19:09:07 [INFO] order-service: Order status updated: order_id 53412
+2025-08-25 19:14:07 [INFO] order-service: Payment processed for order_id: 52836
+2025-08-25 19:14:07 [INFO] order-service: Order created: order_id 26148
+2025-08-25 19:22:07 [FATAL] auth-service: Invalid login attempt for user_id: 3767
+2025-08-25 19:43:07 [INFO] order-service: Order created: order_id 21879
+2025-08-25 19:43:07 [INFO] payment-service: Payment authorization successful: transaction_id 624876
+2025-08-25 19:49:07 [INFO] payment-service: Refund processed: transaction_id 748580
+2025-08-25 19:50:07 [INFO] auth-service: User authentication successful for user_id: 8503
+2025-08-25 19:51:07 [WARN] order-service: Payment processed for order_id: 85030
+2025-08-25 19:54:07 [INFO] payment-service: Refund processed: transaction_id 940536
+2025-08-25 19:57:07 [INFO] payment-service: Refund processed: transaction_id 327562
+2025-08-25 20:00:07 [INFO] auth-service: Invalid login attempt for user_id: 6314
+2025-08-25 20:04:07 [INFO] order-service: Order created: order_id 66289
+2025-08-25 20:07:07 [INFO] user-service: Failed to load user profile for user_id: 8313
+2025-08-25 20:08:07 [INFO] auth-service: Token refresh for user_id: 3799
+2025-08-25 20:13:07 [INFO] user-service: User profile updated for user_id: 3161
+2025-08-25 20:13:07 [INFO] payment-service: Payment authorization successful: transaction_id 236936
+2025-08-25 20:17:07 [INFO] auth-service: Invalid login attempt for user_id: 6620
+2025-08-25 20:18:07 [INFO] order-service: Order created: order_id 46602
+2025-08-25 20:19:07 [ERROR] payment-service: Refund processed: transaction_id 851141
+2025-08-25 20:24:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 20:26:07 [INFO] payment-service: Refund processed: transaction_id 902185
+2025-08-25 20:31:07 [INFO] auth-service: User authentication successful for user_id: 2567
+2025-08-25 20:37:07 [WARN] payment-service: Payment authorization successful: transaction_id 633953
+2025-08-25 20:37:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 20:39:07 [INFO] payment-service: Refund processed: transaction_id 951811
+2025-08-25 20:44:07 [INFO] auth-service: User authentication successful for user_id: 5199
+2025-08-25 20:49:07 [INFO] order-service: Order status updated: order_id 35869
+2025-08-25 20:51:07 [INFO] payment-service: Payment authorization successful: transaction_id 255515
+2025-08-25 20:51:07 [INFO] user-service: Failed to load user profile for user_id: 5185
+2025-08-25 20:51:07 [ERROR] order-service: Order created: order_id 10809
+2025-08-25 20:57:07 [INFO] user-service: User profile updated for user_id: 3765
+2025-08-25 21:05:07 [INFO] payment-service: Refund processed: transaction_id 990938
+2025-08-25 21:05:07 [INFO] payment-service: Payment authorization successful: transaction_id 241296
+2025-08-25 21:13:07 [ERROR] payment-service: Refund processed: transaction_id 706424
+2025-08-25 21:16:07 [INFO] auth-service: Token refresh for user_id: 2842
+2025-08-25 21:20:07 [INFO] payment-service: Refund processed: transaction_id 292478
+2025-08-25 21:29:07 [INFO] user-service: User profile updated for user_id: 6546
+2025-08-25 21:38:07 [INFO] auth-service: Token refresh for user_id: 6901
+2025-08-25 21:46:07 [INFO] user-service: Failed to load user profile for user_id: 3019
+2025-08-25 21:49:07 [INFO] order-service: Order status updated: order_id 59778
+2025-08-25 21:54:07 [WARN] auth-service: Invalid login attempt for user_id: 6132
+2025-08-25 21:54:07 [INFO] user-service: User profile updated for user_id: 5864
+2025-08-25 21:55:07 [INFO] payment-service: Refund processed: transaction_id 631567
+2025-08-25 21:56:07 [INFO] order-service: Payment processed for order_id: 48629
+2025-08-25 21:57:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-25 21:59:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 22:04:07 [WARN] user-service: New user registration: user_id 1985
+2025-08-25 22:21:07 [INFO] user-service: New user registration: user_id 2252
+2025-08-25 22:26:07 [INFO] user-service: Failed to load user profile for user_id: 5664
+2025-08-25 22:33:07 [INFO] order-service: Order created: order_id 90909
+2025-08-25 22:33:07 [INFO] user-service: User profile updated for user_id: 8564
+2025-08-25 22:34:07 [ERROR] auth-service: Token refresh for user_id: 7022
+2025-08-25 22:39:07 [INFO] order-service: Payment processed for order_id: 19101
+2025-08-25 22:41:07 [INFO] auth-service: Token refresh for user_id: 9981
+2025-08-25 22:44:07 [INFO] payment-service: Payment authorization successful: transaction_id 661187
+2025-08-25 22:47:07 [INFO] user-service: Failed to load user profile for user_id: 7474
+2025-08-25 22:54:07 [INFO] auth-service: Token refresh for user_id: 1742
+2025-08-25 22:59:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-25 22:59:07 [ERROR] order-service: Order created: order_id 49666
+2025-08-25 23:08:07 [WARN] auth-service: User authentication successful for user_id: 7460
+2025-08-25 23:09:07 [INFO] payment-service: Payment authorization successful: transaction_id 985635
+2025-08-25 23:12:07 [WARN] order-service: Order status updated: order_id 48151
+2025-08-25 23:21:07 [INFO] payment-service: Payment authorization successful: transaction_id 291594
+2025-08-25 23:22:07 [INFO] auth-service: User authentication successful for user_id: 2252
+2025-08-25 23:32:07 [INFO] order-service: Order status updated: order_id 76311
+2025-08-25 23:44:07 [INFO] auth-service: Invalid login attempt for user_id: 8402
+2025-08-25 23:49:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-25 23:56:07 [WARN] order-service: Order created: order_id 59981
+2025-08-25 23:56:07 [INFO] order-service: Order created: order_id 28708
+2025-08-25 23:59:07 [INFO] auth-service: Invalid login attempt for user_id: 6862
+2025-08-26 00:27:07 [INFO] auth-service: Token refresh for user_id: 9822
+2025-08-26 00:29:07 [INFO] order-service: Payment processed for order_id: 82868
+2025-08-26 00:31:07 [INFO] user-service: New user registration: user_id 8854
+2025-08-26 00:39:07 [INFO] payment-service: Refund processed: transaction_id 507840
+2025-08-26 00:42:07 [WARN] user-service: User profile updated for user_id: 1424
+2025-08-26 00:46:07 [WARN] auth-service: Token refresh for user_id: 4534
+2025-08-26 00:50:07 [WARN] user-service: User profile updated for user_id: 9902
+2025-08-26 00:50:07 [INFO] user-service: New user registration: user_id 8516
+2025-08-26 00:52:07 [INFO] user-service: Failed to load user profile for user_id: 1994
+2025-08-26 00:54:07 [INFO] payment-service: Refund processed: transaction_id 628824
+2025-08-26 01:05:07 [INFO] order-service: Payment processed for order_id: 74608
+2025-08-26 01:08:07 [WARN] auth-service: Token refresh for user_id: 1474
+2025-08-26 01:13:07 [INFO] user-service: New user registration: user_id 5960
+2025-08-26 01:18:07 [INFO] payment-service: Refund processed: transaction_id 825637
+2025-08-26 01:29:07 [INFO] auth-service: Invalid login attempt for user_id: 7763
+2025-08-26 01:30:07 [FATAL] user-service: User profile updated for user_id: 5223
+2025-08-26 01:38:07 [INFO] auth-service: Token refresh for user_id: 5292
+2025-08-26 01:39:07 [INFO] auth-service: Token refresh for user_id: 3954
+2025-08-26 01:49:07 [INFO] user-service: User profile updated for user_id: 6166
+2025-08-26 01:53:07 [INFO] auth-service: Invalid login attempt for user_id: 1588
+2025-08-26 01:56:07 [INFO] user-service: New user registration: user_id 4303
+2025-08-26 02:03:07 [INFO] user-service: New user registration: user_id 4630
+2025-08-26 02:04:07 [INFO] user-service: User profile updated for user_id: 6864
+2025-08-26 02:07:07 [INFO] auth-service: Token refresh for user_id: 9728
+2025-08-26 02:19:07 [WARN] auth-service: Token refresh for user_id: 1420
+2025-08-26 02:22:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 02:26:07 [INFO] payment-service: Refund processed: transaction_id 393557
+2025-08-26 02:33:07 [WARN] user-service: Failed to load user profile for user_id: 3891
+2025-08-26 02:38:07 [WARN] order-service: Payment processed for order_id: 34614
+2025-08-26 02:53:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-26 02:54:07 [INFO] order-service: Payment processed for order_id: 65371
+2025-08-26 02:56:07 [WARN] user-service: Failed to load user profile for user_id: 6779
+2025-08-26 02:56:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 02:58:07 [INFO] order-service: Order status updated: order_id 20342
+2025-08-26 03:12:07 [INFO] auth-service: Token refresh for user_id: 9567
+2025-08-26 03:16:07 [INFO] auth-service: User authentication successful for user_id: 7617
+2025-08-26 03:17:07 [INFO] order-service: Order created: order_id 32530
+2025-08-26 03:19:07 [INFO] order-service: Payment processed for order_id: 10619
+2025-08-26 03:20:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 03:33:07 [ERROR] order-service: Payment processed for order_id: 95025
+2025-08-26 03:38:07 [WARN] auth-service: Invalid login attempt for user_id: 1770
+2025-08-26 03:42:07 [INFO] user-service: New user registration: user_id 8333
+2025-08-26 03:44:07 [INFO] auth-service: User authentication successful for user_id: 1120
+2025-08-26 03:51:07 [INFO] user-service: Failed to load user profile for user_id: 5426
+2025-08-26 04:02:07 [FATAL] order-service: Payment processed for order_id: 14429
+2025-08-26 04:05:07 [WARN] auth-service: Invalid login attempt for user_id: 6759
+2025-08-26 04:21:07 [ERROR] user-service: New user registration: user_id 4927
+2025-08-26 04:28:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 04:31:07 [WARN] auth-service: Invalid login attempt for user_id: 8407
+2025-08-26 04:34:07 [INFO] auth-service: User authentication successful for user_id: 4515
+2025-08-26 04:35:07 [INFO] user-service: New user registration: user_id 9309
+2025-08-26 04:35:07 [WARN] order-service: Payment processed for order_id: 61072
+2025-08-26 04:47:07 [WARN] user-service: Failed to load user profile for user_id: 5398
+2025-08-26 04:55:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-26 05:00:07 [INFO] auth-service: Token refresh for user_id: 9781
+2025-08-26 05:07:07 [INFO] payment-service: Payment authorization successful: transaction_id 153450
+2025-08-26 05:16:07 [INFO] order-service: Order created: order_id 45703
+2025-08-26 05:19:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 05:24:07 [INFO] auth-service: Invalid login attempt for user_id: 5737
+2025-08-26 05:29:07 [WARN] auth-service: Invalid login attempt for user_id: 3453
+2025-08-26 05:32:07 [INFO] order-service: Payment processed for order_id: 25409
+2025-08-26 05:33:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 05:34:07 [INFO] user-service: New user registration: user_id 4737
+2025-08-26 05:38:07 [WARN] order-service: Order status updated: order_id 54150
+2025-08-26 05:52:07 [INFO] user-service: User profile updated for user_id: 7988
+2025-08-26 05:53:07 [INFO] auth-service: User authentication successful for user_id: 4651
+2025-08-26 05:56:07 [INFO] order-service: Order created: order_id 87990
+2025-08-26 06:05:07 [INFO] order-service: Order created: order_id 46281
+2025-08-26 06:07:07 [INFO] order-service: Payment processed for order_id: 84317
+2025-08-26 06:09:07 [INFO] auth-service: Token refresh for user_id: 3763
+2025-08-26 06:11:07 [WARN] auth-service: Token refresh for user_id: 2458
+2025-08-26 06:18:07 [INFO] user-service: New user registration: user_id 5068
+2025-08-26 06:21:07 [WARN] user-service: User profile updated for user_id: 3370
+2025-08-26 06:24:07 [INFO] auth-service: Invalid login attempt for user_id: 5871
+2025-08-26 06:25:07 [INFO] order-service: Order created: order_id 87830
+2025-08-26 06:41:07 [INFO] order-service: Order status updated: order_id 10432
+2025-08-26 06:41:07 [WARN] payment-service: Refund processed: transaction_id 965369
+2025-08-26 06:46:07 [WARN] order-service: Order status updated: order_id 46738
+2025-08-26 06:51:07 [INFO] auth-service: User authentication successful for user_id: 4455
+2025-08-26 06:51:07 [INFO] payment-service: Payment authorization successful: transaction_id 406576
+2025-08-26 06:56:07 [WARN] payment-service: Refund processed: transaction_id 392042
+2025-08-26 06:58:07 [INFO] order-service: Order created: order_id 30532
+2025-08-26 07:04:07 [INFO] order-service: Order created: order_id 71683
+2025-08-26 07:05:07 [INFO] auth-service: Invalid login attempt for user_id: 3701
+2025-08-26 07:08:07 [INFO] order-service: Order created: order_id 99489
+2025-08-26 07:12:07 [INFO] payment-service: Payment authorization successful: transaction_id 925121
+2025-08-26 07:14:07 [INFO] order-service: Payment processed for order_id: 36525
+2025-08-26 07:16:07 [INFO] auth-service: Token refresh for user_id: 3214
+2025-08-26 07:33:07 [WARN] payment-service: Refund processed: transaction_id 600245
+2025-08-26 07:40:07 [INFO] order-service: Order status updated: order_id 88786
+2025-08-26 07:50:07 [WARN] user-service: User profile updated for user_id: 3129
+2025-08-26 07:51:07 [INFO] auth-service: Invalid login attempt for user_id: 1453
+2025-08-26 07:52:07 [INFO] auth-service: Token refresh for user_id: 5941
+2025-08-26 08:03:07 [INFO] auth-service: Token refresh for user_id: 7303
+2025-08-26 08:09:07 [INFO] user-service: New user registration: user_id 1921
+2025-08-26 08:11:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 08:15:07 [ERROR] order-service: Order created: order_id 84757
+2025-08-26 08:22:07 [INFO] user-service: Failed to load user profile for user_id: 7401
+2025-08-26 08:45:07 [INFO] payment-service: Payment authorization successful: transaction_id 786887
+2025-08-26 08:53:07 [WARN] user-service: Failed to load user profile for user_id: 3599
+2025-08-26 08:58:07 [FATAL] payment-service: Refund processed: transaction_id 859457
+2025-08-26 09:03:07 [WARN] auth-service: Token refresh for user_id: 9571
+2025-08-26 09:08:07 [INFO] order-service: Order created: order_id 61103
+2025-08-26 09:09:07 [INFO] order-service: Payment processed for order_id: 85574
+2025-08-26 09:11:07 [INFO] auth-service: User authentication successful for user_id: 9671
+2025-08-26 09:15:07 [WARN] auth-service: User authentication successful for user_id: 3921
+2025-08-26 09:31:07 [ERROR] payment-service: Payment authorization successful: transaction_id 668564
+2025-08-26 09:33:07 [INFO] order-service: Payment processed for order_id: 83004
+2025-08-26 09:34:07 [WARN] user-service: Failed to load user profile for user_id: 6615
+2025-08-26 09:43:07 [INFO] auth-service: Invalid login attempt for user_id: 4396
+2025-08-26 09:58:07 [INFO] auth-service: Invalid login attempt for user_id: 4174
+2025-08-26 10:15:07 [WARN] user-service: User profile updated for user_id: 7773
+2025-08-26 10:36:07 [INFO] auth-service: Token refresh for user_id: 5095
+2025-08-26 10:42:07 [INFO] payment-service: Payment authorization successful: transaction_id 200612
+2025-08-26 10:52:07 [INFO] order-service: Payment processed for order_id: 46279
+2025-08-26 11:00:07 [ERROR] payment-service: Refund processed: transaction_id 332427
+2025-08-26 11:10:07 [INFO] payment-service: Refund processed: transaction_id 982949
+2025-08-26 11:18:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 11:28:07 [WARN] user-service: Failed to load user profile for user_id: 3660
+2025-08-26 11:30:07 [INFO] auth-service: Token refresh for user_id: 3501
+2025-08-26 11:31:07 [INFO] order-service: Payment processed for order_id: 57069
+2025-08-26 11:51:07 [INFO] order-service: Order created: order_id 64145
+2025-08-26 11:53:07 [INFO] user-service: User profile updated for user_id: 5144
+2025-08-26 11:56:07 [INFO] payment-service: Payment authorization successful: transaction_id 111497
+2025-08-26 11:58:07 [INFO] auth-service: User authentication successful for user_id: 1184
+2025-08-26 12:04:07 [WARN] user-service: Failed to load user profile for user_id: 5275
+2025-08-26 12:08:07 [INFO] user-service: New user registration: user_id 8427
+2025-08-26 12:17:07 [INFO] user-service: Failed to load user profile for user_id: 1245
+2025-08-26 12:20:07 [INFO] order-service: Order created: order_id 81155
+2025-08-26 12:33:07 [INFO] auth-service: Token refresh for user_id: 3161
+2025-08-26 12:34:07 [WARN] auth-service: User authentication successful for user_id: 3853
+2025-08-26 12:34:07 [INFO] order-service: Order created: order_id 68331
+2025-08-26 12:34:07 [INFO] auth-service: Invalid login attempt for user_id: 9584
+2025-08-26 12:38:07 [ERROR] payment-service: Payment authorization successful: transaction_id 674781
+2025-08-26 12:49:07 [INFO] order-service: Order status updated: order_id 90635
+2025-08-26 12:49:07 [WARN] auth-service: Token refresh for user_id: 3009
+2025-08-26 12:50:07 [INFO] payment-service: Refund processed: transaction_id 738819
+2025-08-26 12:51:07 [INFO] auth-service: User authentication successful for user_id: 7546
+2025-08-26 12:55:07 [INFO] order-service: Order status updated: order_id 51838
+2025-08-26 13:00:07 [INFO] auth-service: User authentication successful for user_id: 4826
+2025-08-26 13:07:07 [INFO] user-service: New user registration: user_id 6961
+2025-08-26 13:26:07 [INFO] payment-service: Payment authorization successful: transaction_id 146992
+2025-08-26 13:34:07 [INFO] payment-service: Refund processed: transaction_id 880535
+2025-08-26 13:38:07 [INFO] user-service: Failed to load user profile for user_id: 9660
+2025-08-26 13:55:07 [INFO] user-service: User profile updated for user_id: 9661
+2025-08-26 13:57:07 [ERROR] payment-service: Refund processed: transaction_id 585583
+2025-08-26 13:57:07 [WARN] order-service: Order status updated: order_id 52515
+2025-08-26 14:17:07 [INFO] order-service: Order created: order_id 74041
+2025-08-26 14:31:07 [INFO] auth-service: Invalid login attempt for user_id: 5633
+2025-08-26 14:34:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-26 14:35:07 [WARN] order-service: Payment processed for order_id: 71983
+2025-08-26 14:46:07 [INFO] payment-service: Refund processed: transaction_id 859106
+2025-08-26 15:09:07 [WARN] order-service: Order created: order_id 38485
+2025-08-26 15:10:07 [WARN] order-service: Payment processed for order_id: 95935
+2025-08-26 15:14:07 [INFO] user-service: New user registration: user_id 7689
+2025-08-26 15:14:07 [INFO] auth-service: Token refresh for user_id: 2893
+2025-08-26 15:17:07 [INFO] order-service: Order status updated: order_id 56048
+2025-08-26 15:19:07 [INFO] auth-service: User authentication successful for user_id: 5771
+2025-08-26 15:20:07 [INFO] auth-service: Invalid login attempt for user_id: 9933
+2025-08-26 15:24:07 [INFO] user-service: New user registration: user_id 3116
+2025-08-26 15:45:07 [INFO] auth-service: Invalid login attempt for user_id: 1756
+2025-08-26 15:47:07 [INFO] order-service: Payment processed for order_id: 68972
+2025-08-26 15:49:07 [INFO] auth-service: Invalid login attempt for user_id: 4927
+2025-08-26 15:49:07 [INFO] user-service: New user registration: user_id 7621
+2025-08-26 15:53:07 [INFO] order-service: Order created: order_id 93284
+2025-08-26 15:53:07 [WARN] auth-service: Invalid login attempt for user_id: 3618
+2025-08-26 16:06:07 [ERROR] payment-service: Payment authorization successful: transaction_id 403507
+2025-08-26 16:09:07 [WARN] user-service: User profile updated for user_id: 9620
+2025-08-26 16:10:07 [INFO] payment-service: Payment authorization successful: transaction_id 596927
+2025-08-26 16:12:07 [INFO] auth-service: User authentication successful for user_id: 8595
+2025-08-26 16:20:07 [INFO] user-service: User profile updated for user_id: 2674
+2025-08-26 16:26:07 [INFO] order-service: Payment processed for order_id: 78380
+2025-08-26 16:44:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 16:47:07 [ERROR] order-service: Order status updated: order_id 76443
+2025-08-26 16:49:07 [INFO] auth-service: Invalid login attempt for user_id: 9098
+2025-08-26 16:53:07 [INFO] auth-service: Token refresh for user_id: 5559
+2025-08-26 16:53:07 [ERROR] auth-service: User authentication successful for user_id: 4357
+2025-08-26 16:59:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 16:59:07 [ERROR] auth-service: Token refresh for user_id: 9873
+2025-08-26 17:03:07 [INFO] user-service: User profile updated for user_id: 8601
+2025-08-26 17:08:07 [WARN] payment-service: Payment authorization successful: transaction_id 564230
+2025-08-26 17:12:07 [INFO] payment-service: Payment authorization successful: transaction_id 122985
+2025-08-26 17:13:07 [INFO] order-service: Payment processed for order_id: 28445
+2025-08-26 17:28:07 [INFO] auth-service: User authentication successful for user_id: 3166
+2025-08-26 17:36:07 [INFO] user-service: User profile updated for user_id: 8674
+2025-08-26 17:36:07 [INFO] user-service: New user registration: user_id 6120
+2025-08-26 17:40:07 [INFO] user-service: New user registration: user_id 6337
+2025-08-26 17:48:07 [INFO] user-service: User profile updated for user_id: 4978
+2025-08-26 17:49:07 [INFO] auth-service: Invalid login attempt for user_id: 6603
+2025-08-26 17:54:07 [INFO] order-service: Order status updated: order_id 21840
+2025-08-26 17:56:07 [INFO] order-service: Order created: order_id 68507
+2025-08-26 18:00:07 [INFO] payment-service: Refund processed: transaction_id 688280
+2025-08-26 18:23:07 [INFO] user-service: New user registration: user_id 3440
+2025-08-26 18:36:07 [INFO] payment-service: Refund processed: transaction_id 380641
+2025-08-26 18:38:07 [INFO] user-service: Failed to load user profile for user_id: 5010
+2025-08-26 18:42:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-26 18:47:07 [WARN] user-service: User profile updated for user_id: 1660
+2025-08-26 18:47:07 [WARN] user-service: User profile updated for user_id: 2201
+2025-08-26 18:58:07 [INFO] payment-service: Payment authorization successful: transaction_id 119339
+2025-08-26 19:00:07 [INFO] order-service: Order status updated: order_id 25699
+2025-08-26 19:00:07 [INFO] order-service: Order status updated: order_id 76528
+2025-08-26 19:16:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 19:19:07 [INFO] payment-service: Payment authorization successful: transaction_id 347149
+2025-08-26 19:22:07 [ERROR] order-service: Order status updated: order_id 68645
+2025-08-26 19:29:07 [INFO] user-service: New user registration: user_id 6850
+2025-08-26 19:33:07 [INFO] user-service: Failed to load user profile for user_id: 8058
+2025-08-26 19:47:07 [INFO] auth-service: Token refresh for user_id: 4836
+2025-08-26 19:51:07 [INFO] order-service: Order status updated: order_id 60444
+2025-08-26 19:51:07 [INFO] user-service: New user registration: user_id 5151
+2025-08-26 19:52:07 [WARN] user-service: New user registration: user_id 6562
+2025-08-26 19:59:07 [WARN] auth-service: Token refresh for user_id: 1501
+2025-08-26 20:00:07 [WARN] payment-service: Refund processed: transaction_id 849319
+2025-08-26 20:06:07 [WARN] order-service: Order status updated: order_id 35991
+2025-08-26 20:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 739888
+2025-08-26 20:08:07 [INFO] user-service: User profile updated for user_id: 3221
+2025-08-26 20:08:07 [INFO] user-service: User profile updated for user_id: 7935
+2025-08-26 20:23:07 [ERROR] order-service: Order status updated: order_id 64778
+2025-08-26 20:39:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 20:46:07 [INFO] user-service: User profile updated for user_id: 4172
+2025-08-26 20:54:07 [INFO] order-service: Order status updated: order_id 50742
+2025-08-26 20:58:07 [INFO] user-service: New user registration: user_id 6943
+2025-08-26 21:04:07 [INFO] order-service: Order created: order_id 28234
+2025-08-26 21:05:07 [WARN] user-service: Failed to load user profile for user_id: 3209
+2025-08-26 21:09:07 [INFO] user-service: New user registration: user_id 5812
+2025-08-26 21:12:07 [INFO] user-service: Failed to load user profile for user_id: 3388
+2025-08-26 21:19:07 [INFO] order-service: Order created: order_id 62030
+2025-08-26 21:19:07 [INFO] payment-service: Payment authorization successful: transaction_id 764375
+2025-08-26 21:22:07 [INFO] auth-service: Invalid login attempt for user_id: 3340
+2025-08-26 21:31:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 21:33:07 [INFO] order-service: Order created: order_id 34684
+2025-08-26 21:35:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-26 21:43:07 [INFO] order-service: Order created: order_id 53398
+2025-08-26 21:50:07 [INFO] user-service: User profile updated for user_id: 3645
+2025-08-26 21:51:07 [INFO] order-service: Payment processed for order_id: 60114
+2025-08-26 21:59:07 [INFO] order-service: Payment processed for order_id: 60874
+2025-08-26 22:17:07 [INFO] user-service: User profile updated for user_id: 8188
+2025-08-26 22:20:07 [WARN] order-service: Order created: order_id 24451
+2025-08-26 22:22:07 [INFO] auth-service: User authentication successful for user_id: 3265
+2025-08-26 22:38:07 [WARN] order-service: Payment processed for order_id: 21316
+2025-08-26 22:41:07 [INFO] payment-service: Payment authorization successful: transaction_id 773277
+2025-08-26 22:53:07 [WARN] user-service: User profile updated for user_id: 5027
+2025-08-26 22:59:07 [INFO] user-service: New user registration: user_id 1200
+2025-08-26 23:01:07 [INFO] auth-service: User authentication successful for user_id: 9478
+2025-08-26 23:07:07 [WARN] user-service: New user registration: user_id 8267
+2025-08-26 23:30:07 [INFO] user-service: Failed to load user profile for user_id: 7238
+2025-08-26 23:39:07 [ERROR] payment-service: Payment authorization successful: transaction_id 333356
+2025-08-26 23:46:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-27 00:06:07 [ERROR] payment-service: Refund processed: transaction_id 491775
+2025-08-27 00:14:07 [INFO] user-service: Failed to load user profile for user_id: 2251
+2025-08-27 00:28:07 [INFO] order-service: Payment processed for order_id: 62575
+2025-08-27 00:36:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 00:57:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-27 01:00:07 [INFO] user-service: User profile updated for user_id: 9313
+2025-08-27 01:01:07 [INFO] auth-service: Invalid login attempt for user_id: 4484
+2025-08-27 01:01:07 [ERROR] order-service: Payment processed for order_id: 10881
+2025-08-27 01:09:07 [WARN] auth-service: Invalid login attempt for user_id: 5818
+2025-08-27 01:15:07 [INFO] user-service: User profile updated for user_id: 9994
+2025-08-27 01:21:07 [INFO] user-service: User profile updated for user_id: 7427
+2025-08-27 01:26:07 [WARN] auth-service: Token refresh for user_id: 6499
+2025-08-27 01:40:07 [INFO] auth-service: Invalid login attempt for user_id: 8679
+2025-08-27 01:46:07 [INFO] auth-service: Token refresh for user_id: 7985
+2025-08-27 01:49:07 [WARN] order-service: Order status updated: order_id 63234
+2025-08-27 01:52:07 [INFO] payment-service: Payment authorization successful: transaction_id 471034
+2025-08-27 01:55:07 [INFO] user-service: Failed to load user profile for user_id: 1990
+2025-08-27 01:55:07 [INFO] user-service: User profile updated for user_id: 8383
+2025-08-27 02:01:07 [INFO] payment-service: Payment authorization successful: transaction_id 877343
+2025-08-27 02:03:07 [WARN] payment-service: Refund processed: transaction_id 185718
+2025-08-27 02:27:07 [ERROR] payment-service: Payment authorization successful: transaction_id 752755
+2025-08-27 02:30:07 [ERROR] user-service: New user registration: user_id 3216
+2025-08-27 02:33:07 [INFO] order-service: Order created: order_id 21877
+2025-08-27 02:39:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 02:57:07 [WARN] auth-service: User authentication successful for user_id: 7165
+2025-08-27 02:59:07 [INFO] auth-service: Invalid login attempt for user_id: 7523
+2025-08-27 03:15:07 [INFO] auth-service: User authentication successful for user_id: 7588
+2025-08-27 03:26:07 [ERROR] payment-service: Payment authorization successful: transaction_id 653705
+2025-08-27 03:28:07 [INFO] order-service: Payment processed for order_id: 17273
+2025-08-27 03:30:07 [WARN] auth-service: Invalid login attempt for user_id: 1897
+2025-08-27 03:33:07 [WARN] auth-service: Invalid login attempt for user_id: 3261
+2025-08-27 03:34:07 [INFO] user-service: New user registration: user_id 9936
+2025-08-27 03:39:07 [INFO] order-service: Payment processed for order_id: 29606
+2025-08-27 03:48:07 [INFO] payment-service: Refund processed: transaction_id 158369
+2025-08-27 04:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 465676
+2025-08-27 04:26:07 [INFO] order-service: Order created: order_id 92963
+2025-08-27 04:32:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 04:34:07 [WARN] auth-service: Token refresh for user_id: 9367
+2025-08-27 04:39:07 [INFO] order-service: Order status updated: order_id 30502
+2025-08-27 04:47:07 [INFO] auth-service: User authentication successful for user_id: 7382
+2025-08-27 04:58:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 05:16:07 [INFO] auth-service: Token refresh for user_id: 5476
+2025-08-27 05:25:07 [INFO] payment-service: Refund processed: transaction_id 992536
+2025-08-27 05:25:07 [INFO] auth-service: User authentication successful for user_id: 9809
+2025-08-27 05:30:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 05:31:07 [INFO] auth-service: Token refresh for user_id: 9751
+2025-08-27 05:42:07 [ERROR] payment-service: Refund processed: transaction_id 115079
+2025-08-27 05:44:07 [INFO] user-service: New user registration: user_id 2082
+2025-08-27 05:47:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-27 05:57:07 [ERROR] auth-service: User authentication successful for user_id: 6297
+2025-08-27 05:58:07 [ERROR] payment-service: Payment authorization successful: transaction_id 576966
+2025-08-27 06:10:07 [WARN] order-service: Payment processed for order_id: 74891
+2025-08-27 06:34:07 [INFO] auth-service: Token refresh for user_id: 2554
+2025-08-27 06:42:07 [INFO] payment-service: Payment authorization successful: transaction_id 353020
+2025-08-27 06:59:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 07:15:07 [ERROR] user-service: Failed to load user profile for user_id: 3195
+2025-08-27 07:20:07 [INFO] payment-service: Refund processed: transaction_id 665926
+2025-08-27 07:26:07 [INFO] order-service: Order status updated: order_id 55502
+2025-08-27 07:40:07 [INFO] auth-service: User authentication successful for user_id: 4294
+2025-08-27 07:45:07 [INFO] user-service: New user registration: user_id 3078
+2025-08-27 07:51:07 [INFO] payment-service: Payment authorization successful: transaction_id 132701
+2025-08-27 07:55:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 08:07:07 [INFO] auth-service: Invalid login attempt for user_id: 9450
+2025-08-27 08:12:07 [INFO] user-service: New user registration: user_id 7424
+2025-08-27 08:25:07 [INFO] auth-service: Invalid login attempt for user_id: 2844
+2025-08-27 08:31:07 [INFO] order-service: Order created: order_id 68367
+2025-08-27 08:32:07 [INFO] auth-service: Token refresh for user_id: 6684
+2025-08-27 08:32:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 08:33:07 [INFO] payment-service: Refund processed: transaction_id 799717
+2025-08-27 08:35:07 [INFO] order-service: Payment processed for order_id: 91143
+2025-08-27 08:42:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-27 08:44:07 [INFO] payment-service: Payment authorization successful: transaction_id 503244
+2025-08-27 08:45:07 [INFO] order-service: Order created: order_id 36448
+2025-08-27 08:51:07 [INFO] order-service: Order created: order_id 88300
+2025-08-27 08:51:07 [INFO] user-service: User profile updated for user_id: 5302
+2025-08-27 08:53:07 [INFO] auth-service: User authentication successful for user_id: 6444
+2025-08-27 08:55:07 [WARN] auth-service: Invalid login attempt for user_id: 2753
+2025-08-27 09:04:07 [INFO] order-service: Order status updated: order_id 39014
+2025-08-27 09:06:07 [INFO] auth-service: Token refresh for user_id: 8975
+2025-08-27 09:30:07 [INFO] auth-service: Token refresh for user_id: 1729
+2025-08-27 09:31:07 [ERROR] auth-service: User authentication successful for user_id: 3903
+2025-08-27 09:33:07 [INFO] order-service: Order status updated: order_id 48755
+2025-08-27 09:35:07 [WARN] payment-service: Refund processed: transaction_id 982091
+2025-08-27 09:35:07 [INFO] user-service: User profile updated for user_id: 5523
+2025-08-27 09:41:07 [INFO] user-service: Failed to load user profile for user_id: 8808
+2025-08-27 09:41:07 [INFO] order-service: Order created: order_id 39926
+2025-08-27 09:42:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 09:47:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 09:56:07 [INFO] user-service: Failed to load user profile for user_id: 1488
+2025-08-27 10:03:07 [WARN] user-service: Failed to load user profile for user_id: 5529
+2025-08-27 10:18:07 [INFO] auth-service: Token refresh for user_id: 1222
+2025-08-27 10:19:07 [INFO] payment-service: Payment authorization successful: transaction_id 831811
+2025-08-27 10:21:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 10:30:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 10:30:07 [INFO] user-service: Failed to load user profile for user_id: 5110
+2025-08-27 10:30:07 [INFO] order-service: Order created: order_id 42344
+2025-08-27 10:39:07 [INFO] order-service: Payment processed for order_id: 93038
+2025-08-27 10:44:07 [INFO] user-service: User profile updated for user_id: 6675
+2025-08-27 10:56:07 [INFO] user-service: User profile updated for user_id: 2253
+2025-08-27 10:58:07 [INFO] auth-service: Token refresh for user_id: 6622
+2025-08-27 10:59:07 [INFO] order-service: Order status updated: order_id 45390
+2025-08-27 11:03:07 [INFO] order-service: Payment processed for order_id: 45412
+2025-08-27 11:06:07 [WARN] payment-service: Refund processed: transaction_id 651162
+2025-08-27 11:06:07 [INFO] auth-service: Invalid login attempt for user_id: 4846
+2025-08-27 11:06:07 [INFO] order-service: Payment processed for order_id: 70512
+2025-08-27 11:15:07 [INFO] auth-service: User authentication successful for user_id: 5717
+2025-08-27 11:17:07 [INFO] user-service: User profile updated for user_id: 3092
+2025-08-27 11:18:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 11:21:07 [ERROR] order-service: Order created: order_id 79951
+2025-08-27 11:22:07 [ERROR] order-service: Order created: order_id 61990
+2025-08-27 11:28:07 [FATAL] order-service: Payment processed for order_id: 26654
+2025-08-27 11:30:07 [INFO] auth-service: User authentication successful for user_id: 2844
+2025-08-27 11:30:07 [WARN] user-service: User profile updated for user_id: 4375
+2025-08-27 11:31:07 [INFO] auth-service: User authentication successful for user_id: 5108
+2025-08-27 11:37:07 [INFO] user-service: User profile updated for user_id: 3188
+2025-08-27 11:39:07 [INFO] user-service: New user registration: user_id 4053
+2025-08-27 11:42:07 [INFO] auth-service: Token refresh for user_id: 6851
+2025-08-27 11:52:07 [INFO] payment-service: Payment authorization successful: transaction_id 302333
+2025-08-27 11:59:07 [INFO] user-service: Failed to load user profile for user_id: 4618
+2025-08-27 12:09:07 [WARN] payment-service: Refund processed: transaction_id 275084
+2025-08-27 12:15:07 [INFO] payment-service: Refund processed: transaction_id 774432
+2025-08-27 12:17:07 [WARN] user-service: User profile updated for user_id: 4759
+2025-08-27 12:20:07 [INFO] order-service: Order status updated: order_id 25098
+2025-08-27 12:22:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 12:22:07 [INFO] payment-service: Payment authorization successful: transaction_id 170295
+2025-08-27 12:34:07 [WARN] payment-service: Payment authorization successful: transaction_id 707805
+2025-08-27 12:36:07 [ERROR] user-service: Failed to load user profile for user_id: 1781
+2025-08-27 12:37:07 [INFO] order-service: Order status updated: order_id 36264
+2025-08-27 12:39:07 [INFO] auth-service: User authentication successful for user_id: 5631
+2025-08-27 12:43:07 [WARN] payment-service: Refund processed: transaction_id 831002
+2025-08-27 12:52:07 [INFO] user-service: New user registration: user_id 2153
+2025-08-27 12:55:07 [WARN] auth-service: Invalid login attempt for user_id: 1675
+2025-08-27 12:56:07 [INFO] order-service: Order status updated: order_id 63700
+2025-08-27 13:12:07 [INFO] auth-service: Token refresh for user_id: 6340
+2025-08-27 13:13:07 [INFO] auth-service: Token refresh for user_id: 7198
+2025-08-27 13:13:07 [ERROR] user-service: User profile updated for user_id: 6705
+2025-08-27 13:14:07 [INFO] auth-service: Invalid login attempt for user_id: 9276
+2025-08-27 13:15:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 13:20:07 [INFO] user-service: User profile updated for user_id: 3406
+2025-08-27 13:22:07 [WARN] payment-service: Refund processed: transaction_id 643626
+2025-08-27 13:23:07 [INFO] order-service: Order created: order_id 97723
+2025-08-27 13:26:07 [INFO] auth-service: Invalid login attempt for user_id: 5460
+2025-08-27 13:27:07 [INFO] payment-service: Refund processed: transaction_id 463662
+2025-08-27 13:27:07 [INFO] payment-service: Refund processed: transaction_id 836725
+2025-08-27 13:28:07 [INFO] order-service: Order status updated: order_id 45529
+2025-08-27 13:28:07 [INFO] order-service: Order created: order_id 17684
+2025-08-27 13:29:07 [ERROR] order-service: Payment processed for order_id: 26476
+2025-08-27 13:36:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 13:38:07 [WARN] order-service: Order created: order_id 35252
+2025-08-27 13:44:07 [INFO] auth-service: Token refresh for user_id: 6735
+2025-08-27 13:49:07 [INFO] auth-service: User authentication successful for user_id: 1488
+2025-08-27 13:57:07 [INFO] auth-service: Invalid login attempt for user_id: 7428
+2025-08-27 14:00:07 [INFO] user-service: New user registration: user_id 3586
+2025-08-27 14:07:07 [ERROR] payment-service: Refund processed: transaction_id 133899
+2025-08-27 14:12:07 [INFO] order-service: Order status updated: order_id 99040
+2025-08-27 14:14:07 [INFO] auth-service: User authentication successful for user_id: 6545
+2025-08-27 14:17:07 [INFO] user-service: Failed to load user profile for user_id: 6327
+2025-08-27 14:24:07 [INFO] user-service: New user registration: user_id 5749
+2025-08-27 14:33:07 [INFO] payment-service: Payment authorization successful: transaction_id 987101
+2025-08-27 14:35:07 [ERROR] user-service: New user registration: user_id 2200
+2025-08-27 14:40:07 [INFO] payment-service: Payment authorization successful: transaction_id 277250
+2025-08-27 14:44:07 [INFO] auth-service: Token refresh for user_id: 6618
+2025-08-27 14:48:07 [INFO] order-service: Payment processed for order_id: 92272
+2025-08-27 14:48:07 [INFO] payment-service: Refund processed: transaction_id 803874
+2025-08-27 14:53:07 [WARN] auth-service: User authentication successful for user_id: 6204
+2025-08-27 14:53:07 [WARN] order-service: Order status updated: order_id 89125
+2025-08-27 14:56:07 [INFO] auth-service: User authentication successful for user_id: 8283
+2025-08-27 14:57:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 15:04:07 [INFO] order-service: Payment processed for order_id: 81295
+2025-08-27 15:07:07 [INFO] order-service: Order status updated: order_id 42768
+2025-08-27 15:09:07 [WARN] user-service: User profile updated for user_id: 4323
+2025-08-27 15:13:07 [INFO] user-service: New user registration: user_id 4881
+2025-08-27 15:13:07 [FATAL] payment-service: Payment declined: insufficient funds
+2025-08-27 15:25:07 [ERROR] auth-service: Invalid login attempt for user_id: 6390
+2025-08-27 15:29:07 [INFO] user-service: User profile updated for user_id: 3231
+2025-08-27 15:35:07 [INFO] payment-service: Payment authorization successful: transaction_id 120797
+2025-08-27 15:38:07 [INFO] user-service: New user registration: user_id 8322
+2025-08-27 15:39:07 [INFO] auth-service: User authentication successful for user_id: 1404
+2025-08-27 15:52:07 [INFO] user-service: New user registration: user_id 7848
+2025-08-27 15:53:07 [WARN] order-service: Payment processed for order_id: 11543
+2025-08-27 15:59:07 [INFO] order-service: Order status updated: order_id 91321
+2025-08-27 16:05:07 [INFO] payment-service: Refund processed: transaction_id 563375
+2025-08-27 16:09:07 [INFO] payment-service: Refund processed: transaction_id 459064
+2025-08-27 16:14:07 [INFO] payment-service: Payment authorization successful: transaction_id 794826
+2025-08-27 16:17:07 [WARN] order-service: Payment processed for order_id: 29402
+2025-08-27 16:18:07 [WARN] auth-service: Token refresh for user_id: 6650
+2025-08-27 16:24:07 [INFO] user-service: User profile updated for user_id: 3610
+2025-08-27 16:24:07 [INFO] payment-service: Payment authorization successful: transaction_id 853634
+2025-08-27 16:27:07 [WARN] auth-service: Token refresh for user_id: 1708
+2025-08-27 16:30:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 16:36:07 [ERROR] payment-service: Refund processed: transaction_id 273463
+2025-08-27 16:40:07 [INFO] auth-service: User authentication successful for user_id: 2737
+2025-08-27 16:48:07 [INFO] order-service: Payment processed for order_id: 96346
+2025-08-27 16:50:07 [WARN] user-service: Failed to load user profile for user_id: 5233
+2025-08-27 16:59:07 [INFO] user-service: New user registration: user_id 3726
+2025-08-27 17:01:07 [WARN] order-service: Order created: order_id 61442
+2025-08-27 17:09:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-27 17:10:07 [INFO] user-service: Failed to load user profile for user_id: 4748
+2025-08-27 17:16:07 [WARN] auth-service: Invalid login attempt for user_id: 5837
+2025-08-27 17:17:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 17:21:07 [INFO] order-service: Order created: order_id 43106
+2025-08-27 17:29:07 [INFO] auth-service: Token refresh for user_id: 2560
+2025-08-27 17:30:07 [INFO] auth-service: User authentication successful for user_id: 7935
+2025-08-27 17:31:07 [INFO] auth-service: Token refresh for user_id: 6884
+2025-08-27 17:47:07 [INFO] user-service: User profile updated for user_id: 4351
+2025-08-27 17:48:07 [INFO] user-service: User profile updated for user_id: 3256
+2025-08-27 17:52:07 [INFO] payment-service: Refund processed: transaction_id 968863
+2025-08-27 17:53:07 [INFO] auth-service: Token refresh for user_id: 2014
+2025-08-27 18:06:07 [WARN] order-service: Order created: order_id 71491
+2025-08-27 18:07:07 [INFO] order-service: Payment processed for order_id: 51466
+2025-08-27 18:10:07 [INFO] auth-service: Token refresh for user_id: 5326
+2025-08-27 18:10:07 [ERROR] order-service: Order created: order_id 62759
+2025-08-27 18:18:07 [INFO] user-service: New user registration: user_id 6455
+2025-08-27 18:28:07 [WARN] auth-service: Invalid login attempt for user_id: 5315
+2025-08-27 18:28:07 [INFO] payment-service: Payment authorization successful: transaction_id 724727
+2025-08-27 18:41:07 [WARN] auth-service: Token refresh for user_id: 8639
+2025-08-27 18:50:07 [INFO] user-service: New user registration: user_id 1234
+2025-08-27 19:00:07 [INFO] order-service: Order created: order_id 15200
+2025-08-27 19:02:07 [INFO] auth-service: Token refresh for user_id: 5945
+2025-08-27 19:06:07 [WARN] user-service: Failed to load user profile for user_id: 1090
+2025-08-27 19:06:07 [FATAL] order-service: Order created: order_id 18125
+2025-08-27 19:14:07 [INFO] auth-service: User authentication successful for user_id: 2047
+2025-08-27 19:16:07 [INFO] auth-service: Invalid login attempt for user_id: 6744
+2025-08-27 19:21:07 [INFO] user-service: New user registration: user_id 5544
+2025-08-27 19:28:07 [INFO] user-service: Failed to load user profile for user_id: 5796
+2025-08-27 19:32:07 [INFO] payment-service: Payment authorization successful: transaction_id 886874
+2025-08-27 19:33:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-27 19:36:07 [INFO] auth-service: Invalid login attempt for user_id: 7235
+2025-08-27 19:41:07 [INFO] order-service: Payment processed for order_id: 75150
+2025-08-27 19:48:07 [INFO] order-service: Payment processed for order_id: 59387
+2025-08-27 20:12:07 [INFO] user-service: User profile updated for user_id: 5990
+2025-08-27 20:13:07 [INFO] auth-service: Token refresh for user_id: 6403
+2025-08-27 20:14:07 [WARN] auth-service: Invalid login attempt for user_id: 6912
+2025-08-27 20:16:07 [WARN] user-service: New user registration: user_id 8707
+2025-08-27 20:45:07 [INFO] user-service: User profile updated for user_id: 2382
+2025-08-27 20:47:07 [WARN] auth-service: Invalid login attempt for user_id: 9767
+2025-08-27 20:52:07 [INFO] user-service: User profile updated for user_id: 4176
+2025-08-27 21:07:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 21:11:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 21:17:07 [INFO] order-service: Order created: order_id 79664
+2025-08-27 21:20:07 [INFO] auth-service: Invalid login attempt for user_id: 5527
+2025-08-27 21:22:07 [WARN] user-service: New user registration: user_id 9595
+2025-08-27 21:26:07 [INFO] order-service: Payment processed for order_id: 63543
+2025-08-27 21:30:07 [INFO] payment-service: Refund processed: transaction_id 832961
+2025-08-27 21:33:07 [ERROR] auth-service: Token refresh for user_id: 1813
+2025-08-27 21:40:07 [WARN] order-service: Order created: order_id 76068
+2025-08-27 21:43:07 [INFO] auth-service: User authentication successful for user_id: 8472
+2025-08-27 21:48:07 [INFO] user-service: User profile updated for user_id: 1116
+2025-08-27 21:53:07 [INFO] order-service: Payment processed for order_id: 31588
+2025-08-27 21:55:07 [INFO] auth-service: User authentication successful for user_id: 5446
+2025-08-27 22:01:07 [WARN] order-service: Order status updated: order_id 44630
+2025-08-27 22:14:07 [INFO] order-service: Order status updated: order_id 50545
+2025-08-27 22:16:07 [WARN] order-service: Order status updated: order_id 11646
+2025-08-27 22:18:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 22:27:07 [ERROR] auth-service: Invalid login attempt for user_id: 6655
+2025-08-27 22:29:07 [INFO] order-service: Order created: order_id 69659
+2025-08-27 22:34:07 [INFO] order-service: Order created: order_id 12463
+2025-08-27 22:39:07 [WARN] auth-service: Invalid login attempt for user_id: 5583
+2025-08-27 22:44:07 [INFO] auth-service: Token refresh for user_id: 6799
+2025-08-27 22:50:07 [INFO] auth-service: Token refresh for user_id: 5902
+2025-08-27 22:52:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-27 23:03:07 [WARN] auth-service: Invalid login attempt for user_id: 3791
+2025-08-27 23:14:07 [INFO] auth-service: Token refresh for user_id: 4624
+2025-08-27 23:18:07 [ERROR] auth-service: Token refresh for user_id: 5076
+2025-08-27 23:25:07 [INFO] order-service: Payment processed for order_id: 40307
+2025-08-27 23:27:07 [INFO] payment-service: Payment authorization successful: transaction_id 588764
+2025-08-27 23:28:07 [INFO] user-service: Failed to load user profile for user_id: 2745
+2025-08-27 23:31:07 [INFO] order-service: Order status updated: order_id 70759
+2025-08-27 23:34:07 [ERROR] payment-service: Payment authorization successful: transaction_id 704236
+2025-08-27 23:37:07 [INFO] order-service: Order status updated: order_id 59413
+2025-08-27 23:37:07 [INFO] user-service: Failed to load user profile for user_id: 8228
+2025-08-27 23:44:07 [INFO] order-service: Order created: order_id 24806
+2025-08-27 23:46:07 [FATAL] user-service: New user registration: user_id 1128
+2025-08-27 23:48:07 [INFO] order-service: Order created: order_id 77387
+2025-08-27 23:48:07 [INFO] auth-service: Invalid login attempt for user_id: 3441
+2025-08-27 23:58:07 [INFO] user-service: User profile updated for user_id: 1022
+2025-08-28 00:03:07 [INFO] user-service: Failed to load user profile for user_id: 6166
+2025-08-28 00:03:07 [INFO] payment-service: Payment authorization successful: transaction_id 311036
+2025-08-28 00:07:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 00:15:07 [INFO] auth-service: User authentication successful for user_id: 8670
+2025-08-28 00:25:07 [INFO] order-service: Order created: order_id 97593
+2025-08-28 00:28:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-28 00:30:07 [INFO] order-service: Order created: order_id 10117
+2025-08-28 00:30:07 [INFO] order-service: Payment processed for order_id: 23538
+2025-08-28 00:31:07 [INFO] user-service: New user registration: user_id 8860
+2025-08-28 00:34:07 [INFO] auth-service: Token refresh for user_id: 9437
+2025-08-28 00:39:07 [INFO] user-service: Failed to load user profile for user_id: 9773
+2025-08-28 00:46:07 [ERROR] user-service: User profile updated for user_id: 5332
+2025-08-28 00:54:07 [INFO] user-service: Failed to load user profile for user_id: 7430
+2025-08-28 00:54:07 [ERROR] user-service: User profile updated for user_id: 8493
+2025-08-28 00:55:07 [INFO] auth-service: Invalid login attempt for user_id: 2960
+2025-08-28 01:04:07 [INFO] payment-service: Refund processed: transaction_id 672177
+2025-08-28 01:07:07 [WARN] user-service: New user registration: user_id 6126
+2025-08-28 01:25:07 [INFO] payment-service: Payment authorization successful: transaction_id 658535
+2025-08-28 01:33:07 [WARN] order-service: Order created: order_id 14466
+2025-08-28 01:36:07 [INFO] user-service: Failed to load user profile for user_id: 5365
+2025-08-28 01:37:07 [INFO] payment-service: Refund processed: transaction_id 542434
+2025-08-28 01:39:07 [INFO] auth-service: User authentication successful for user_id: 2559
+2025-08-28 01:43:07 [WARN] order-service: Payment processed for order_id: 92353
+2025-08-28 01:43:07 [ERROR] payment-service: Payment authorization successful: transaction_id 828018
+2025-08-28 01:44:07 [INFO] auth-service: Invalid login attempt for user_id: 8922
+2025-08-28 01:49:07 [INFO] auth-service: User authentication successful for user_id: 6090
+2025-08-28 01:49:07 [WARN] payment-service: Refund processed: transaction_id 584984
+2025-08-28 01:50:07 [INFO] order-service: Payment processed for order_id: 97009
+2025-08-28 01:52:07 [INFO] auth-service: User authentication successful for user_id: 7348
+2025-08-28 01:53:07 [WARN] auth-service: Token refresh for user_id: 3721
+2025-08-28 01:55:07 [INFO] payment-service: Payment authorization successful: transaction_id 716240
+2025-08-28 01:58:07 [INFO] auth-service: User authentication successful for user_id: 2632
+2025-08-28 02:03:07 [WARN] user-service: User profile updated for user_id: 7652
+2025-08-28 02:10:07 [INFO] order-service: Order created: order_id 53864
+2025-08-28 02:14:07 [INFO] user-service: Failed to load user profile for user_id: 4739
+2025-08-28 02:22:07 [INFO] user-service: User profile updated for user_id: 1706
+2025-08-28 02:25:07 [INFO] user-service: User profile updated for user_id: 5677
+2025-08-28 02:26:07 [INFO] order-service: Order status updated: order_id 25608
+2025-08-28 02:28:07 [WARN] order-service: Order created: order_id 86572
+2025-08-28 02:30:07 [INFO] auth-service: Token refresh for user_id: 4537
+2025-08-28 02:33:07 [INFO] order-service: Order status updated: order_id 75059
+2025-08-28 02:46:07 [ERROR] auth-service: Invalid login attempt for user_id: 8257
+2025-08-28 02:49:07 [ERROR] order-service: Payment processed for order_id: 69274
+2025-08-28 02:54:07 [INFO] order-service: Order status updated: order_id 82337
+2025-08-28 02:55:07 [INFO] user-service: Failed to load user profile for user_id: 3037
+2025-08-28 03:02:07 [INFO] order-service: Order created: order_id 57647
+2025-08-28 03:05:07 [INFO] user-service: New user registration: user_id 6219
+2025-08-28 03:10:07 [INFO] auth-service: Invalid login attempt for user_id: 6519
+2025-08-28 03:15:07 [INFO] payment-service: Refund processed: transaction_id 352085
+2025-08-28 03:16:07 [INFO] user-service: User profile updated for user_id: 9349
+2025-08-28 03:16:07 [INFO] order-service: Payment processed for order_id: 54592
+2025-08-28 03:25:07 [ERROR] payment-service: Payment authorization successful: transaction_id 262963
+2025-08-28 03:26:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 03:34:07 [ERROR] auth-service: User authentication successful for user_id: 4660
+2025-08-28 03:36:07 [INFO] payment-service: Refund processed: transaction_id 145646
+2025-08-28 03:40:07 [INFO] auth-service: Token refresh for user_id: 9917
+2025-08-28 03:44:07 [INFO] auth-service: Invalid login attempt for user_id: 3760
+2025-08-28 03:49:07 [INFO] payment-service: Refund processed: transaction_id 881712
+2025-08-28 03:50:07 [INFO] order-service: Order created: order_id 77054
+2025-08-28 03:52:07 [INFO] order-service: Order created: order_id 49017
+2025-08-28 04:06:07 [INFO] user-service: User profile updated for user_id: 1835
+2025-08-28 04:07:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 04:10:07 [INFO] payment-service: Refund processed: transaction_id 964442
+2025-08-28 04:11:07 [WARN] payment-service: Refund processed: transaction_id 783260
+2025-08-28 04:11:07 [INFO] auth-service: Token refresh for user_id: 2043
+2025-08-28 04:18:07 [INFO] order-service: Payment processed for order_id: 18556
+2025-08-28 04:30:07 [INFO] payment-service: Payment authorization successful: transaction_id 203104
+2025-08-28 04:34:07 [WARN] order-service: Payment processed for order_id: 16124
+2025-08-28 04:34:07 [INFO] auth-service: Invalid login attempt for user_id: 7791
+2025-08-28 04:44:07 [INFO] auth-service: User authentication successful for user_id: 8121
+2025-08-28 04:44:07 [INFO] payment-service: Refund processed: transaction_id 989604
+2025-08-28 04:47:07 [WARN] auth-service: Token refresh for user_id: 1027
+2025-08-28 04:53:07 [ERROR] user-service: Failed to load user profile for user_id: 9325
+2025-08-28 04:54:07 [INFO] auth-service: Invalid login attempt for user_id: 2979
+2025-08-28 05:02:07 [INFO] payment-service: Refund processed: transaction_id 412138
+2025-08-28 05:04:07 [INFO] user-service: New user registration: user_id 3390
+2025-08-28 05:10:07 [INFO] user-service: User profile updated for user_id: 6987
+2025-08-28 05:22:07 [ERROR] user-service: User profile updated for user_id: 1555
+2025-08-28 05:25:07 [WARN] order-service: Order status updated: order_id 88848
+2025-08-28 05:30:07 [INFO] auth-service: Token refresh for user_id: 6346
+2025-08-28 05:30:07 [INFO] payment-service: Payment authorization successful: transaction_id 132234
+2025-08-28 05:35:07 [ERROR] payment-service: Payment authorization successful: transaction_id 552947
+2025-08-28 05:38:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-28 05:38:07 [WARN] payment-service: Refund processed: transaction_id 859110
+2025-08-28 05:39:07 [INFO] order-service: Payment processed for order_id: 29957
+2025-08-28 05:42:07 [ERROR] user-service: User profile updated for user_id: 7365
+2025-08-28 05:57:07 [FATAL] user-service: User profile updated for user_id: 3174
+2025-08-28 05:57:07 [INFO] order-service: Payment processed for order_id: 46435
+2025-08-28 06:03:07 [WARN] user-service: New user registration: user_id 1875
+2025-08-28 06:07:07 [WARN] auth-service: Token refresh for user_id: 3270
+2025-08-28 06:14:07 [WARN] order-service: Order status updated: order_id 21628
+2025-08-28 06:15:07 [INFO] user-service: User profile updated for user_id: 3573
+2025-08-28 06:25:07 [INFO] payment-service: Refund processed: transaction_id 933377
+2025-08-28 06:25:07 [WARN] order-service: Order created: order_id 97771
+2025-08-28 06:29:07 [INFO] user-service: Failed to load user profile for user_id: 4406
+2025-08-28 06:31:07 [INFO] order-service: Order status updated: order_id 58292
+2025-08-28 06:31:07 [INFO] order-service: Payment processed for order_id: 75017
+2025-08-28 06:32:07 [FATAL] payment-service: Payment authorization successful: transaction_id 423818
+2025-08-28 06:35:07 [INFO] order-service: Order status updated: order_id 81705
+2025-08-28 06:36:07 [WARN] user-service: Failed to load user profile for user_id: 1704
+2025-08-28 06:36:07 [INFO] auth-service: Token refresh for user_id: 7397
+2025-08-28 06:37:07 [INFO] user-service: User profile updated for user_id: 7809
+2025-08-28 06:38:07 [INFO] order-service: Order created: order_id 45472
+2025-08-28 06:56:07 [ERROR] auth-service: User authentication successful for user_id: 9654
+2025-08-28 07:00:07 [INFO] auth-service: User authentication successful for user_id: 7139
+2025-08-28 07:13:07 [INFO] auth-service: Token refresh for user_id: 8522
+2025-08-28 07:19:07 [INFO] order-service: Order created: order_id 54332
+2025-08-28 07:20:07 [INFO] user-service: New user registration: user_id 8567
+2025-08-28 07:31:07 [INFO] payment-service: Refund processed: transaction_id 764631
+2025-08-28 07:31:07 [INFO] order-service: Order status updated: order_id 64768
+2025-08-28 07:37:07 [WARN] order-service: Order status updated: order_id 15167
+2025-08-28 07:39:07 [ERROR] payment-service: Payment authorization successful: transaction_id 352533
+2025-08-28 07:45:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 07:56:07 [INFO] user-service: User profile updated for user_id: 5910
+2025-08-28 07:58:07 [WARN] order-service: Order created: order_id 48388
+2025-08-28 08:05:07 [INFO] user-service: New user registration: user_id 2604
+2025-08-28 08:06:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 08:11:07 [INFO] user-service: User profile updated for user_id: 2545
+2025-08-28 08:20:07 [INFO] user-service: User profile updated for user_id: 7928
+2025-08-28 08:23:07 [ERROR] order-service: Order status updated: order_id 39724
+2025-08-28 08:23:07 [INFO] user-service: New user registration: user_id 7613
+2025-08-28 08:24:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 08:27:07 [INFO] auth-service: Token refresh for user_id: 1914
+2025-08-28 08:28:07 [INFO] order-service: Payment processed for order_id: 93028
+2025-08-28 08:30:07 [WARN] payment-service: Payment authorization successful: transaction_id 209064
+2025-08-28 08:35:07 [INFO] auth-service: User authentication successful for user_id: 5313
+2025-08-28 08:39:07 [INFO] order-service: Order status updated: order_id 12829
+2025-08-28 08:40:07 [ERROR] user-service: New user registration: user_id 5145
+2025-08-28 08:46:07 [WARN] user-service: User profile updated for user_id: 2369
+2025-08-28 08:46:07 [WARN] auth-service: Token refresh for user_id: 1373
+2025-08-28 08:58:07 [ERROR] auth-service: User authentication successful for user_id: 4894
+2025-08-28 09:04:07 [WARN] payment-service: Refund processed: transaction_id 264799
+2025-08-28 09:10:07 [INFO] auth-service: User authentication successful for user_id: 2537
+2025-08-28 09:17:07 [INFO] payment-service: Refund processed: transaction_id 837766
+2025-08-28 09:20:07 [FATAL] order-service: Order status updated: order_id 52285
+2025-08-28 09:23:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 09:29:07 [INFO] auth-service: User authentication successful for user_id: 9054
+2025-08-28 09:30:07 [WARN] order-service: Order created: order_id 26685
+2025-08-28 09:31:07 [INFO] payment-service: Refund processed: transaction_id 914809
+2025-08-28 09:38:07 [INFO] user-service: User profile updated for user_id: 2616
+2025-08-28 09:40:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 09:41:07 [INFO] auth-service: Token refresh for user_id: 1666
+2025-08-28 09:41:07 [WARN] auth-service: User authentication successful for user_id: 5416
+2025-08-28 09:42:07 [INFO] user-service: Failed to load user profile for user_id: 5834
+2025-08-28 09:45:07 [WARN] auth-service: User authentication successful for user_id: 5947
+2025-08-28 09:56:07 [INFO] order-service: Order status updated: order_id 23998
+2025-08-28 09:56:07 [WARN] order-service: Order created: order_id 23826
+2025-08-28 09:57:07 [WARN] auth-service: Invalid login attempt for user_id: 7108
+2025-08-28 10:01:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 10:05:07 [FATAL] auth-service: Invalid login attempt for user_id: 4685
+2025-08-28 10:25:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 10:29:07 [WARN] user-service: Failed to load user profile for user_id: 5160
+2025-08-28 10:31:07 [ERROR] user-service: New user registration: user_id 4661
+2025-08-28 10:31:07 [INFO] auth-service: Invalid login attempt for user_id: 4120
+2025-08-28 10:34:07 [WARN] user-service: User profile updated for user_id: 1974
+2025-08-28 10:36:07 [INFO] order-service: Payment processed for order_id: 14750
+2025-08-28 10:44:07 [INFO] order-service: Payment processed for order_id: 25247
+2025-08-28 10:45:07 [INFO] payment-service: Refund processed: transaction_id 713099
+2025-08-28 10:51:07 [ERROR] payment-service: Payment authorization successful: transaction_id 362683
+2025-08-28 10:55:07 [INFO] order-service: Order status updated: order_id 78415
+2025-08-28 10:56:07 [WARN] order-service: Order created: order_id 97380
+2025-08-28 10:57:07 [WARN] order-service: Payment processed for order_id: 70921
+2025-08-28 11:02:07 [ERROR] auth-service: Token refresh for user_id: 3965
+2025-08-28 11:03:07 [WARN] auth-service: Invalid login attempt for user_id: 3992
+2025-08-28 11:07:07 [WARN] payment-service: Refund processed: transaction_id 676019
+2025-08-28 11:11:07 [INFO] user-service: New user registration: user_id 7563
+2025-08-28 11:13:07 [INFO] auth-service: Invalid login attempt for user_id: 3279
+2025-08-28 11:27:07 [INFO] auth-service: User authentication successful for user_id: 7586
+2025-08-28 11:28:07 [INFO] auth-service: Invalid login attempt for user_id: 4934
+2025-08-28 11:30:07 [INFO] order-service: Order status updated: order_id 51621
+2025-08-28 11:32:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 11:33:07 [INFO] payment-service: Payment authorization successful: transaction_id 904103
+2025-08-28 11:45:07 [FATAL] auth-service: Token refresh for user_id: 4074
+2025-08-28 11:48:07 [INFO] order-service: Payment processed for order_id: 59885
+2025-08-28 11:51:07 [INFO] auth-service: Invalid login attempt for user_id: 3115
+2025-08-28 11:58:07 [INFO] order-service: Order created: order_id 92957
+2025-08-28 12:18:07 [INFO] auth-service: Invalid login attempt for user_id: 8516
+2025-08-28 12:21:07 [WARN] user-service: User profile updated for user_id: 5938
+2025-08-28 12:23:07 [INFO] auth-service: User authentication successful for user_id: 9840
+2025-08-28 12:26:07 [WARN] auth-service: User authentication successful for user_id: 2991
+2025-08-28 12:30:07 [WARN] payment-service: Refund processed: transaction_id 174061
+2025-08-28 12:34:07 [INFO] auth-service: Token refresh for user_id: 4535
+2025-08-28 12:35:07 [WARN] order-service: Payment processed for order_id: 75384
+2025-08-28 12:40:07 [INFO] payment-service: Refund processed: transaction_id 642386
+2025-08-28 12:42:07 [INFO] payment-service: Payment authorization successful: transaction_id 386314
+2025-08-28 12:43:07 [INFO] user-service: New user registration: user_id 2195
+2025-08-28 12:45:07 [WARN] order-service: Payment processed for order_id: 36872
+2025-08-28 12:48:07 [INFO] auth-service: User authentication successful for user_id: 2943
+2025-08-28 12:49:07 [INFO] auth-service: Invalid login attempt for user_id: 4310
+2025-08-28 12:56:07 [INFO] payment-service: Refund processed: transaction_id 877126
+2025-08-28 13:07:07 [INFO] user-service: Failed to load user profile for user_id: 3391
+2025-08-28 13:07:07 [WARN] auth-service: User authentication successful for user_id: 4128
+2025-08-28 13:12:07 [WARN] user-service: Failed to load user profile for user_id: 3293
+2025-08-28 13:13:07 [INFO] order-service: Payment processed for order_id: 77042
+2025-08-28 13:24:07 [INFO] order-service: Order created: order_id 11519
+2025-08-28 13:24:07 [INFO] auth-service: Token refresh for user_id: 4836
+2025-08-28 13:25:07 [INFO] order-service: Order created: order_id 64695
+2025-08-28 13:26:07 [ERROR] user-service: Failed to load user profile for user_id: 6113
+2025-08-28 13:27:07 [WARN] user-service: New user registration: user_id 2885
+2025-08-28 13:41:07 [INFO] order-service: Order created: order_id 25594
+2025-08-28 13:50:07 [FATAL] user-service: User profile updated for user_id: 8904
+2025-08-28 13:53:07 [INFO] user-service: User profile updated for user_id: 7797
+2025-08-28 13:55:07 [INFO] payment-service: Refund processed: transaction_id 520536
+2025-08-28 13:57:07 [INFO] order-service: Payment processed for order_id: 43486
+2025-08-28 14:04:07 [WARN] user-service: New user registration: user_id 8976
+2025-08-28 14:08:07 [WARN] order-service: Order status updated: order_id 94782
+2025-08-28 14:09:07 [INFO] order-service: Payment processed for order_id: 51590
+2025-08-28 14:22:07 [INFO] order-service: Order status updated: order_id 51744
+2025-08-28 14:33:07 [INFO] user-service: User profile updated for user_id: 8003
+2025-08-28 14:40:07 [INFO] user-service: Failed to load user profile for user_id: 1638
+2025-08-28 14:45:07 [ERROR] payment-service: Payment authorization successful: transaction_id 380645
+2025-08-28 14:45:07 [INFO] user-service: User profile updated for user_id: 3684
+2025-08-28 14:50:07 [INFO] user-service: User profile updated for user_id: 3986
+2025-08-28 14:52:07 [INFO] auth-service: Token refresh for user_id: 3381
+2025-08-28 14:54:07 [WARN] auth-service: User authentication successful for user_id: 6950
+2025-08-28 14:54:07 [INFO] user-service: Failed to load user profile for user_id: 8933
+2025-08-28 14:59:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 15:01:07 [INFO] user-service: User profile updated for user_id: 7822
+2025-08-28 15:04:07 [INFO] auth-service: Token refresh for user_id: 4612
+2025-08-28 15:05:07 [INFO] payment-service: Payment authorization successful: transaction_id 264611
+2025-08-28 15:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 701809
+2025-08-28 15:14:07 [INFO] auth-service: User authentication successful for user_id: 2627
+2025-08-28 15:15:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-28 15:19:07 [INFO] payment-service: Refund processed: transaction_id 532604
+2025-08-28 15:21:07 [INFO] user-service: Failed to load user profile for user_id: 1481
+2025-08-28 15:27:07 [WARN] user-service: Failed to load user profile for user_id: 4876
+2025-08-28 15:27:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 15:29:07 [FATAL] order-service: Order created: order_id 35762
+2025-08-28 15:36:07 [INFO] auth-service: Invalid login attempt for user_id: 3803
+2025-08-28 15:38:07 [INFO] payment-service: Refund processed: transaction_id 541569
+2025-08-28 15:38:07 [ERROR] payment-service: Payment authorization successful: transaction_id 767748
+2025-08-28 15:48:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 15:52:07 [INFO] user-service: User profile updated for user_id: 8240
+2025-08-28 15:52:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 15:53:07 [INFO] user-service: Failed to load user profile for user_id: 8279
+2025-08-28 16:15:07 [INFO] auth-service: Invalid login attempt for user_id: 6955
+2025-08-28 16:15:07 [INFO] payment-service: Payment authorization successful: transaction_id 921887
+2025-08-28 16:17:07 [INFO] user-service: Failed to load user profile for user_id: 6687
+2025-08-28 16:24:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 16:26:07 [INFO] user-service: User profile updated for user_id: 9741
+2025-08-28 16:26:07 [ERROR] user-service: Failed to load user profile for user_id: 4954
+2025-08-28 16:29:07 [INFO] payment-service: Payment authorization successful: transaction_id 682924
+2025-08-28 16:30:07 [INFO] auth-service: Invalid login attempt for user_id: 9306
+2025-08-28 16:32:07 [INFO] user-service: New user registration: user_id 7376
+2025-08-28 16:33:07 [INFO] user-service: User profile updated for user_id: 8846
+2025-08-28 16:33:07 [INFO] user-service: Failed to load user profile for user_id: 5825
+2025-08-28 16:38:07 [WARN] auth-service: User authentication successful for user_id: 8324
+2025-08-28 16:47:07 [INFO] payment-service: Payment authorization successful: transaction_id 888637
+2025-08-28 16:51:07 [INFO] payment-service: Refund processed: transaction_id 573079
+2025-08-28 16:53:07 [INFO] payment-service: Payment authorization successful: transaction_id 429568
+2025-08-28 16:54:07 [INFO] payment-service: Payment authorization successful: transaction_id 232999
+2025-08-28 17:07:07 [INFO] auth-service: Token refresh for user_id: 3517
+2025-08-28 17:11:07 [INFO] user-service: User profile updated for user_id: 9792
+2025-08-28 17:17:07 [INFO] payment-service: Refund processed: transaction_id 185026
+2025-08-28 17:18:07 [INFO] payment-service: Payment authorization successful: transaction_id 441174
+2025-08-28 17:20:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 17:25:07 [INFO] auth-service: Invalid login attempt for user_id: 5648
+2025-08-28 17:26:07 [WARN] order-service: Order created: order_id 42460
+2025-08-28 17:27:07 [INFO] user-service: User profile updated for user_id: 2926
+2025-08-28 17:34:07 [ERROR] order-service: Order status updated: order_id 66340
+2025-08-28 17:34:07 [FATAL] auth-service: Token refresh for user_id: 5598
+2025-08-28 17:38:07 [INFO] auth-service: User authentication successful for user_id: 1546
+2025-08-28 17:38:07 [INFO] auth-service: Token refresh for user_id: 9894
+2025-08-28 17:39:07 [ERROR] order-service: Order status updated: order_id 92343
+2025-08-28 17:42:07 [INFO] user-service: New user registration: user_id 5777
+2025-08-28 17:54:07 [INFO] user-service: New user registration: user_id 4241
+2025-08-28 17:55:07 [WARN] auth-service: Token refresh for user_id: 8217
+2025-08-28 17:59:07 [INFO] order-service: Order created: order_id 65720
+2025-08-28 17:59:07 [ERROR] user-service: Failed to load user profile for user_id: 2285
+2025-08-28 18:00:07 [INFO] auth-service: Invalid login attempt for user_id: 3440
+2025-08-28 18:15:07 [INFO] order-service: Payment processed for order_id: 71004
+2025-08-28 18:16:07 [WARN] user-service: User profile updated for user_id: 9849
+2025-08-28 18:16:07 [ERROR] user-service: Failed to load user profile for user_id: 2186
+2025-08-28 18:16:07 [INFO] auth-service: User authentication successful for user_id: 4756
+2025-08-28 18:17:07 [FATAL] order-service: Order created: order_id 58560
+2025-08-28 18:18:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 18:18:07 [INFO] order-service: Order status updated: order_id 12124
+2025-08-28 18:21:07 [ERROR] auth-service: Invalid login attempt for user_id: 4447
+2025-08-28 18:36:07 [WARN] payment-service: Payment authorization successful: transaction_id 431756
+2025-08-28 18:37:07 [INFO] payment-service: Refund processed: transaction_id 495540
+2025-08-28 18:41:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 18:43:07 [INFO] auth-service: Token refresh for user_id: 8438
+2025-08-28 18:45:07 [ERROR] order-service: Order created: order_id 39619
+2025-08-28 18:47:07 [INFO] order-service: Payment processed for order_id: 20706
+2025-08-28 18:48:07 [INFO] order-service: Order status updated: order_id 51070
+2025-08-28 18:48:07 [INFO] user-service: User profile updated for user_id: 5140
+2025-08-28 18:53:07 [INFO] user-service: Failed to load user profile for user_id: 1266
+2025-08-28 18:56:07 [WARN] order-service: Order created: order_id 30213
+2025-08-28 18:56:07 [INFO] order-service: Order status updated: order_id 21917
+2025-08-28 19:00:07 [INFO] payment-service: Refund processed: transaction_id 212025
+2025-08-28 19:01:07 [WARN] order-service: Payment processed for order_id: 36410
+2025-08-28 19:04:07 [INFO] auth-service: Invalid login attempt for user_id: 7523
+2025-08-28 19:04:07 [INFO] auth-service: Token refresh for user_id: 4468
+2025-08-28 19:07:07 [WARN] auth-service: Token refresh for user_id: 8191
+2025-08-28 19:07:07 [INFO] order-service: Order status updated: order_id 28565
+2025-08-28 19:16:07 [INFO] payment-service: Refund processed: transaction_id 658519
+2025-08-28 19:22:07 [WARN] auth-service: Invalid login attempt for user_id: 7723
+2025-08-28 19:24:07 [INFO] auth-service: User authentication successful for user_id: 4167
+2025-08-28 19:25:07 [INFO] payment-service: Refund processed: transaction_id 576810
+2025-08-28 19:28:07 [INFO] auth-service: User authentication successful for user_id: 8308
+2025-08-28 19:28:07 [INFO] payment-service: Payment authorization successful: transaction_id 464533
+2025-08-28 19:30:07 [INFO] user-service: New user registration: user_id 6957
+2025-08-28 19:31:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 19:32:07 [INFO] auth-service: User authentication successful for user_id: 4515
+2025-08-28 19:33:07 [INFO] user-service: New user registration: user_id 4283
+2025-08-28 19:33:07 [WARN] order-service: Payment processed for order_id: 98104
+2025-08-28 19:34:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 19:42:07 [INFO] user-service: New user registration: user_id 8387
+2025-08-28 19:43:07 [INFO] auth-service: User authentication successful for user_id: 7010
+2025-08-28 20:02:07 [INFO] payment-service: Payment authorization successful: transaction_id 948997
+2025-08-28 20:05:07 [INFO] order-service: Order created: order_id 25780
+2025-08-28 20:11:07 [INFO] payment-service: Refund processed: transaction_id 527922
+2025-08-28 20:12:07 [WARN] user-service: New user registration: user_id 2556
+2025-08-28 20:14:07 [INFO] user-service: User profile updated for user_id: 3558
+2025-08-28 20:15:07 [INFO] order-service: Payment processed for order_id: 17435
+2025-08-28 20:18:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 20:19:07 [INFO] user-service: Failed to load user profile for user_id: 4134
+2025-08-28 20:24:07 [INFO] payment-service: Payment authorization successful: transaction_id 416456
+2025-08-28 20:26:07 [INFO] order-service: Order created: order_id 86745
+2025-08-28 20:28:07 [WARN] order-service: Order status updated: order_id 57377
+2025-08-28 20:39:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 20:46:07 [INFO] user-service: Failed to load user profile for user_id: 7127
+2025-08-28 20:49:07 [INFO] auth-service: Token refresh for user_id: 6023
+2025-08-28 20:55:07 [ERROR] payment-service: Payment declined: insufficient funds
+2025-08-28 20:55:07 [INFO] order-service: Payment processed for order_id: 12023
+2025-08-28 21:03:07 [INFO] user-service: Failed to load user profile for user_id: 6384
+2025-08-28 21:05:07 [INFO] user-service: User profile updated for user_id: 2761
+2025-08-28 21:05:07 [WARN] order-service: Order status updated: order_id 25715
+2025-08-28 21:06:07 [INFO] order-service: Order created: order_id 30497
+2025-08-28 21:09:07 [INFO] auth-service: Invalid login attempt for user_id: 8124
+2025-08-28 21:10:07 [FATAL] user-service: User profile updated for user_id: 3277
+2025-08-28 21:15:07 [WARN] user-service: User profile updated for user_id: 4416
+2025-08-28 21:20:07 [WARN] payment-service: Payment authorization successful: transaction_id 190520
+2025-08-28 21:20:07 [INFO] payment-service: Payment authorization successful: transaction_id 992126
+2025-08-28 21:25:07 [INFO] payment-service: Refund processed: transaction_id 495849
+2025-08-28 21:27:07 [ERROR] user-service: New user registration: user_id 2367
+2025-08-28 21:32:07 [INFO] payment-service: Payment authorization successful: transaction_id 313139
+2025-08-28 21:45:07 [INFO] user-service: New user registration: user_id 1302
+2025-08-28 22:02:07 [INFO] user-service: Failed to load user profile for user_id: 2810
+2025-08-28 22:07:07 [WARN] user-service: User profile updated for user_id: 1170
+2025-08-28 22:15:07 [INFO] user-service: Failed to load user profile for user_id: 5006
+2025-08-28 22:16:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-28 22:22:07 [INFO] auth-service: Token refresh for user_id: 5571
+2025-08-28 22:25:07 [INFO] order-service: Order status updated: order_id 49164
+2025-08-28 22:31:07 [ERROR] order-service: Order status updated: order_id 12181
+2025-08-28 22:44:07 [INFO] order-service: Order status updated: order_id 49240
+2025-08-28 22:45:07 [WARN] payment-service: Payment authorization successful: transaction_id 176778
+2025-08-28 22:47:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:48:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:49:07 [INFO] payment-service: Refund processed: transaction_id 659810
+2025-08-28 22:49:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:50:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:51:07 [WARN] order-service: Order status updated: order_id 10273
+2025-08-28 22:51:07 [WARN] auth-service: Invalid login attempt for user_id: 5588
+2025-08-28 22:51:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:52:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:53:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:54:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:55:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:56:07 [ERROR] payment-service: Connection timeout to payment gateway
+2025-08-28 22:57:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 22:58:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 22:59:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:00:07 [INFO] auth-service: User authentication successful for user_id: 2556
+2025-08-28 23:00:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:01:07 [INFO] auth-service: Invalid login attempt for user_id: 8296
+2025-08-28 23:01:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:02:07 [WARN] order-service: Payment processed for order_id: 54223
+2025-08-28 23:02:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:03:07 [INFO] order-service: Payment processed for order_id: 43851
+2025-08-28 23:03:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:04:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:05:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:06:07 [FATAL] payment-service: Service unavailable - circuit breaker open
+2025-08-28 23:07:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:08:07 [INFO] user-service: Failed to load user profile for user_id: 1009
+2025-08-28 23:08:07 [INFO] auth-service: Invalid login attempt for user_id: 5188
+2025-08-28 23:08:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:09:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:10:07 [INFO] payment-service: Refund processed: transaction_id 469587
+2025-08-28 23:10:07 [INFO] auth-service: Token refresh for user_id: 5795
+2025-08-28 23:10:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:11:07 [INFO] auth-service: Token refresh for user_id: 4820
+2025-08-28 23:11:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:12:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:13:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:14:07 [ERROR] payment-service: Refund processed: transaction_id 728319
+2025-08-28 23:14:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:15:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:16:07 [INFO] payment-service: Payment authorization successful: transaction_id 542233
+2025-08-28 23:16:07 [INFO] payment-service: Service restored - circuit breaker closed
+2025-08-28 23:21:07 [INFO] order-service: Order status updated: order_id 26045
+2025-08-28 23:25:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-28 23:28:07 [INFO] auth-service: Token refresh for user_id: 2237
+2025-08-28 23:30:07 [WARN] payment-service: Payment authorization successful: transaction_id 243468
+2025-08-28 23:32:07 [ERROR] user-service: New user registration: user_id 7499
+2025-08-28 23:38:07 [INFO] order-service: Payment processed for order_id: 74459
+2025-08-28 23:40:07 [INFO] auth-service: Token refresh for user_id: 2569
+2025-08-28 23:42:07 [INFO] auth-service: User authentication successful for user_id: 5855
+2025-08-28 23:43:07 [INFO] order-service: Payment processed for order_id: 19272
+2025-08-28 23:44:07 [INFO] order-service: Order status updated: order_id 44231
+2025-08-28 23:51:07 [INFO] user-service: User profile updated for user_id: 5687
+2025-08-28 23:52:07 [INFO] auth-service: Token refresh for user_id: 4152
+2025-08-29 00:02:07 [INFO] order-service: Order created: order_id 11103
+2025-08-29 00:03:07 [WARN] auth-service: Invalid login attempt for user_id: 7596
+2025-08-29 00:04:07 [INFO] auth-service: Invalid login attempt for user_id: 7005
+2025-08-29 00:06:07 [INFO] auth-service: Invalid login attempt for user_id: 5014
+2025-08-29 00:15:07 [WARN] payment-service: Refund processed: transaction_id 407941
+2025-08-29 00:18:07 [INFO] order-service: Order created: order_id 39971
+2025-08-29 00:18:07 [INFO] order-service: Payment processed for order_id: 50803
+2025-08-29 00:20:07 [INFO] auth-service: User authentication successful for user_id: 2995
+2025-08-29 00:21:07 [WARN] user-service: Failed to load user profile for user_id: 8140
+2025-08-29 00:21:07 [WARN] auth-service: Token refresh for user_id: 9072
+2025-08-29 00:23:07 [WARN] auth-service: Token refresh for user_id: 1223
+2025-08-29 00:25:07 [FATAL] payment-service: Payment declined: insufficient funds
+2025-08-29 00:28:07 [WARN] user-service: User profile updated for user_id: 8382
+2025-08-29 00:28:07 [INFO] payment-service: Payment authorization successful: transaction_id 618377
+2025-08-29 00:32:07 [INFO] user-service: Failed to load user profile for user_id: 4335
+2025-08-29 00:39:07 [INFO] user-service: New user registration: user_id 3111
+2025-08-29 00:40:07 [WARN] order-service: Payment processed for order_id: 18686
+2025-08-29 00:42:07 [ERROR] order-service: Order created: order_id 22545
+2025-08-29 00:47:07 [INFO] user-service: User profile updated for user_id: 9894
+2025-08-29 00:49:07 [WARN] payment-service: Payment authorization successful: transaction_id 332657
+2025-08-29 01:02:07 [WARN] auth-service: Invalid login attempt for user_id: 6140
+2025-08-29 01:10:07 [INFO] order-service: Order status updated: order_id 78909
+2025-08-29 01:16:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 01:18:07 [INFO] payment-service: Refund processed: transaction_id 944034
+2025-08-29 01:26:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 01:30:07 [ERROR] user-service: Failed to load user profile for user_id: 8881
+2025-08-29 01:31:07 [WARN] order-service: Order created: order_id 42293
+2025-08-29 01:34:07 [INFO] payment-service: Payment authorization successful: transaction_id 860474
+2025-08-29 01:37:07 [ERROR] payment-service: Payment authorization successful: transaction_id 861345
+2025-08-29 01:37:07 [ERROR] user-service: User profile updated for user_id: 5589
+2025-08-29 01:42:07 [INFO] auth-service: User authentication successful for user_id: 3167
+2025-08-29 01:53:07 [INFO] order-service: Order created: order_id 42376
+2025-08-29 01:53:07 [ERROR] order-service: Order status updated: order_id 38724
+2025-08-29 01:54:07 [INFO] order-service: Order status updated: order_id 18770
+2025-08-29 01:59:07 [INFO] payment-service: Payment authorization successful: transaction_id 607780
+2025-08-29 01:59:07 [INFO] order-service: Order created: order_id 18597
+2025-08-29 02:02:07 [INFO] user-service: New user registration: user_id 7477
+2025-08-29 02:03:07 [ERROR] payment-service: Refund processed: transaction_id 590736
+2025-08-29 02:05:07 [INFO] auth-service: User authentication successful for user_id: 5454
+2025-08-29 02:08:07 [INFO] user-service: Failed to load user profile for user_id: 4026
+2025-08-29 02:08:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 02:09:07 [WARN] payment-service: Refund processed: transaction_id 445594
+2025-08-29 02:11:07 [INFO] auth-service: Invalid login attempt for user_id: 9288
+2025-08-29 02:12:07 [INFO] user-service: New user registration: user_id 4070
+2025-08-29 02:16:07 [INFO] payment-service: Refund processed: transaction_id 526267
+2025-08-29 02:17:07 [INFO] payment-service: Payment authorization successful: transaction_id 325968
+2025-08-29 02:23:07 [INFO] auth-service: Invalid login attempt for user_id: 8939
+2025-08-29 02:25:07 [WARN] order-service: Order created: order_id 24397
+2025-08-29 02:28:07 [INFO] user-service: Failed to load user profile for user_id: 4896
+2025-08-29 02:35:07 [ERROR] order-service: Payment processed for order_id: 90509
+2025-08-29 02:35:07 [WARN] auth-service: User authentication successful for user_id: 6906
+2025-08-29 02:36:07 [INFO] payment-service: Payment authorization successful: transaction_id 276096
+2025-08-29 02:42:07 [INFO] user-service: User profile updated for user_id: 6987
+2025-08-29 02:50:07 [INFO] auth-service: Token refresh for user_id: 9604
+2025-08-29 02:55:07 [WARN] auth-service: User authentication successful for user_id: 9695
+2025-08-29 02:56:07 [INFO] auth-service: Token refresh for user_id: 1412
+2025-08-29 03:07:07 [INFO] order-service: Order created: order_id 33437
+2025-08-29 03:12:07 [INFO] order-service: Order created: order_id 44856
+2025-08-29 03:17:07 [INFO] auth-service: Token refresh for user_id: 9969
+2025-08-29 03:17:07 [INFO] user-service: New user registration: user_id 9552
+2025-08-29 03:19:07 [INFO] order-service: Order status updated: order_id 12181
+2025-08-29 03:23:07 [INFO] order-service: Order created: order_id 60176
+2025-08-29 03:33:07 [WARN] auth-service: Invalid login attempt for user_id: 4400
+2025-08-29 03:36:07 [WARN] payment-service: Payment authorization successful: transaction_id 427828
+2025-08-29 03:37:07 [INFO] user-service: User profile updated for user_id: 9319
+2025-08-29 03:56:07 [INFO] payment-service: Refund processed: transaction_id 282381
+2025-08-29 03:59:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 04:05:07 [INFO] auth-service: Invalid login attempt for user_id: 9386
+2025-08-29 04:10:07 [INFO] order-service: Payment processed for order_id: 52255
+2025-08-29 04:14:07 [INFO] order-service: Payment processed for order_id: 66227
+2025-08-29 04:17:07 [WARN] auth-service: User authentication successful for user_id: 7165
+2025-08-29 04:17:07 [INFO] payment-service: Refund processed: transaction_id 887640
+2025-08-29 04:19:07 [INFO] user-service: New user registration: user_id 1871
+2025-08-29 04:20:07 [ERROR] auth-service: Token refresh for user_id: 5477
+2025-08-29 04:21:07 [WARN] auth-service: Invalid login attempt for user_id: 5895
+2025-08-29 04:26:07 [WARN] auth-service: Invalid login attempt for user_id: 1039
+2025-08-29 04:31:07 [INFO] payment-service: Payment authorization successful: transaction_id 705070
+2025-08-29 04:40:07 [INFO] user-service: Failed to load user profile for user_id: 1039
+2025-08-29 04:42:07 [INFO] user-service: Failed to load user profile for user_id: 7304
+2025-08-29 04:43:07 [INFO] auth-service: User authentication successful for user_id: 2344
+2025-08-29 04:44:07 [INFO] payment-service: Refund processed: transaction_id 920570
+2025-08-29 04:46:07 [INFO] order-service: Order status updated: order_id 10874
+2025-08-29 04:53:07 [INFO] user-service: New user registration: user_id 9518
+2025-08-29 04:55:07 [INFO] auth-service: Token refresh for user_id: 4487
+2025-08-29 05:01:07 [WARN] order-service: Payment processed for order_id: 64369
+2025-08-29 05:01:07 [INFO] user-service: Failed to load user profile for user_id: 6744
+2025-08-29 05:07:07 [INFO] user-service: Failed to load user profile for user_id: 1365
+2025-08-29 05:07:07 [INFO] user-service: New user registration: user_id 8612
+2025-08-29 05:15:07 [WARN] user-service: Failed to load user profile for user_id: 2504
+2025-08-29 05:16:07 [ERROR] order-service: Payment processed for order_id: 18392
+2025-08-29 05:19:07 [INFO] payment-service: Refund processed: transaction_id 663648
+2025-08-29 05:27:07 [INFO] user-service: Failed to load user profile for user_id: 8728
+2025-08-29 05:30:07 [WARN] order-service: Order created: order_id 59613
+2025-08-29 05:33:07 [WARN] auth-service: Invalid login attempt for user_id: 4049
+2025-08-29 05:34:07 [FATAL] user-service: New user registration: user_id 3714
+2025-08-29 05:35:07 [ERROR] order-service: Order status updated: order_id 66514
+2025-08-29 05:39:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 05:39:07 [INFO] order-service: Order status updated: order_id 33759
+2025-08-29 05:40:07 [WARN] auth-service: Invalid login attempt for user_id: 7117
+2025-08-29 05:40:07 [WARN] auth-service: User authentication successful for user_id: 7740
+2025-08-29 05:43:07 [INFO] user-service: New user registration: user_id 3848
+2025-08-29 05:44:07 [INFO] auth-service: User authentication successful for user_id: 3145
+2025-08-29 05:57:07 [INFO] payment-service: Payment authorization successful: transaction_id 559810
+2025-08-29 05:58:07 [INFO] user-service: New user registration: user_id 4014
+2025-08-29 06:07:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 06:14:07 [INFO] user-service: Failed to load user profile for user_id: 9953
+2025-08-29 06:34:07 [ERROR] user-service: Failed to load user profile for user_id: 6271
+2025-08-29 06:35:07 [ERROR] auth-service: User authentication successful for user_id: 6163
+2025-08-29 06:38:07 [INFO] order-service: Order status updated: order_id 15086
+2025-08-29 06:40:07 [INFO] payment-service: Refund processed: transaction_id 380402
+2025-08-29 06:41:07 [INFO] user-service: Failed to load user profile for user_id: 1058
+2025-08-29 06:50:07 [INFO] auth-service: Token refresh for user_id: 6649
+2025-08-29 07:00:07 [INFO] auth-service: Token refresh for user_id: 2843
+2025-08-29 07:05:07 [INFO] auth-service: Invalid login attempt for user_id: 8106
+2025-08-29 07:20:07 [INFO] order-service: Order created: order_id 97947
+2025-08-29 07:29:07 [INFO] payment-service: Refund processed: transaction_id 337706
+2025-08-29 07:34:07 [INFO] order-service: Order status updated: order_id 27401
+2025-08-29 07:38:07 [INFO] user-service: New user registration: user_id 5994
+2025-08-29 07:43:07 [INFO] payment-service: Refund processed: transaction_id 265497
+2025-08-29 07:45:07 [INFO] payment-service: Payment authorization successful: transaction_id 133279
+2025-08-29 07:47:07 [INFO] auth-service: Invalid login attempt for user_id: 2724
+2025-08-29 07:49:07 [INFO] auth-service: Token refresh for user_id: 9345
+2025-08-29 07:58:07 [INFO] payment-service: Payment authorization successful: transaction_id 417288
+2025-08-29 08:01:07 [FATAL] payment-service: Payment declined: insufficient funds
+2025-08-29 08:05:07 [INFO] payment-service: Refund processed: transaction_id 843950
+2025-08-29 08:16:07 [INFO] order-service: Order status updated: order_id 71234
+2025-08-29 08:20:07 [WARN] auth-service: Invalid login attempt for user_id: 3040
+2025-08-29 08:25:07 [INFO] auth-service: Token refresh for user_id: 4807
+2025-08-29 08:28:07 [INFO] auth-service: User authentication successful for user_id: 6985
+2025-08-29 08:29:07 [INFO] order-service: Order status updated: order_id 35985
+2025-08-29 08:30:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-29 08:57:07 [INFO] auth-service: User authentication successful for user_id: 3986
+2025-08-29 08:57:07 [WARN] order-service: Payment processed for order_id: 72204
+2025-08-29 09:14:07 [INFO] order-service: Payment processed for order_id: 50952
+2025-08-29 09:23:07 [INFO] auth-service: Token refresh for user_id: 4836
+2025-08-29 09:27:07 [INFO] order-service: Order status updated: order_id 46659
+2025-08-29 09:41:07 [INFO] auth-service: User authentication successful for user_id: 3798
+2025-08-29 09:42:07 [INFO] auth-service: Token refresh for user_id: 9412
+2025-08-29 09:48:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 09:50:07 [INFO] user-service: User profile updated for user_id: 5658
+2025-08-29 10:09:07 [INFO] user-service: Failed to load user profile for user_id: 1472
+2025-08-29 10:14:07 [INFO] auth-service: Token refresh for user_id: 5378
+2025-08-29 10:17:07 [INFO] payment-service: Refund processed: transaction_id 939617
+2025-08-29 10:26:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 10:27:07 [INFO] auth-service: Invalid login attempt for user_id: 8118
+2025-08-29 10:29:07 [WARN] auth-service: User authentication successful for user_id: 5441
+2025-08-29 10:31:07 [INFO] auth-service: Token refresh for user_id: 2035
+2025-08-29 10:35:07 [WARN] auth-service: Token refresh for user_id: 9063
+2025-08-29 10:45:07 [INFO] order-service: Order created: order_id 52034
+2025-08-29 10:46:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-29 10:47:07 [INFO] payment-service: Payment authorization successful: transaction_id 704553
+2025-08-29 10:47:07 [INFO] auth-service: User authentication successful for user_id: 3762
+2025-08-29 10:48:07 [WARN] user-service: User profile updated for user_id: 4518
+2025-08-29 10:49:07 [INFO] user-service: New user registration: user_id 7621
+2025-08-29 11:00:07 [INFO] user-service: User profile updated for user_id: 2853
+2025-08-29 11:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 378280
+2025-08-29 11:10:07 [INFO] order-service: Order status updated: order_id 51520
+2025-08-29 11:15:07 [INFO] order-service: Order status updated: order_id 28246
+2025-08-29 11:15:07 [INFO] user-service: User profile updated for user_id: 3100
+2025-08-29 11:18:07 [INFO] payment-service: Refund processed: transaction_id 228879
+2025-08-29 11:30:07 [INFO] order-service: Order created: order_id 58769
+2025-08-29 11:32:07 [WARN] user-service: User profile updated for user_id: 6319
+2025-08-29 11:38:07 [INFO] payment-service: Payment authorization successful: transaction_id 725576
+2025-08-29 11:53:07 [WARN] user-service: Failed to load user profile for user_id: 5784
+2025-08-29 11:53:07 [INFO] payment-service: Payment authorization successful: transaction_id 276724
+2025-08-29 11:55:07 [WARN] auth-service: Token refresh for user_id: 6198
+2025-08-29 11:55:07 [ERROR] user-service: User profile updated for user_id: 7302
+2025-08-29 12:00:07 [INFO] user-service: User profile updated for user_id: 5978
+2025-08-29 12:02:07 [INFO] order-service: Order status updated: order_id 94325
+2025-08-29 12:07:07 [INFO] payment-service: Payment authorization successful: transaction_id 762152
+2025-08-29 12:08:07 [INFO] payment-service: Refund processed: transaction_id 370826
+2025-08-29 12:10:07 [INFO] user-service: New user registration: user_id 9632
+2025-08-29 12:34:07 [WARN] order-service: Order status updated: order_id 97987
+2025-08-29 12:41:07 [INFO] payment-service: Payment authorization successful: transaction_id 934070
+2025-08-29 12:42:07 [FATAL] payment-service: Payment declined: insufficient funds
+2025-08-29 12:50:07 [INFO] auth-service: Invalid login attempt for user_id: 7948
+2025-08-29 12:59:07 [INFO] order-service: Payment processed for order_id: 55581
+2025-08-29 13:06:07 [INFO] payment-service: Payment authorization successful: transaction_id 218125
+2025-08-29 13:11:07 [INFO] user-service: New user registration: user_id 6399
+2025-08-29 13:29:07 [INFO] user-service: User profile updated for user_id: 3708
+2025-08-29 13:30:07 [ERROR] order-service: Order created: order_id 13791
+2025-08-29 13:32:07 [INFO] auth-service: Invalid login attempt for user_id: 5767
+2025-08-29 13:34:07 [WARN] order-service: Payment processed for order_id: 60560
+2025-08-29 13:36:07 [INFO] user-service: User profile updated for user_id: 8822
+2025-08-29 13:43:07 [INFO] auth-service: Token refresh for user_id: 4870
+2025-08-29 13:55:07 [WARN] auth-service: Token refresh for user_id: 2849
+2025-08-29 13:56:07 [WARN] auth-service: Invalid login attempt for user_id: 1258
+2025-08-29 13:59:07 [INFO] order-service: Order created: order_id 87768
+2025-08-29 14:05:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 14:06:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 14:13:07 [ERROR] user-service: User profile updated for user_id: 3825
+2025-08-29 14:22:07 [INFO] order-service: Payment processed for order_id: 76809
+2025-08-29 14:23:07 [INFO] payment-service: Payment authorization successful: transaction_id 618991
+2025-08-29 14:24:07 [INFO] user-service: User profile updated for user_id: 3436
+2025-08-29 14:25:07 [INFO] user-service: Failed to load user profile for user_id: 4334
+2025-08-29 14:25:07 [INFO] auth-service: Token refresh for user_id: 8791
+2025-08-29 14:29:07 [INFO] user-service: User profile updated for user_id: 3542
+2025-08-29 14:32:07 [WARN] order-service: Payment processed for order_id: 80577
+2025-08-29 14:32:07 [WARN] payment-service: Payment authorization successful: transaction_id 328632
+2025-08-29 14:35:07 [INFO] order-service: Order status updated: order_id 68670
+2025-08-29 14:39:07 [WARN] order-service: Order status updated: order_id 39228
+2025-08-29 14:40:07 [INFO] user-service: User profile updated for user_id: 4384
+2025-08-29 14:44:07 [WARN] auth-service: Token refresh for user_id: 4782
+2025-08-29 14:51:07 [WARN] order-service: Order created: order_id 56043
+2025-08-29 14:54:07 [WARN] order-service: Order status updated: order_id 35088
+2025-08-29 14:56:07 [WARN] payment-service: Payment authorization successful: transaction_id 479557
+2025-08-29 14:57:07 [WARN] order-service: Order created: order_id 58602
+2025-08-29 14:58:07 [WARN] user-service: User profile updated for user_id: 8132
+2025-08-29 15:01:07 [INFO] order-service: Order created: order_id 50508
+2025-08-29 15:04:07 [INFO] order-service: Order status updated: order_id 47188
+2025-08-29 15:06:07 [INFO] user-service: New user registration: user_id 8896
+2025-08-29 15:08:07 [WARN] user-service: New user registration: user_id 6802
+2025-08-29 15:12:07 [ERROR] auth-service: Token refresh for user_id: 3196
+2025-08-29 15:15:07 [INFO] order-service: Order status updated: order_id 62922
+2025-08-29 15:17:07 [INFO] auth-service: User authentication successful for user_id: 6592
+2025-08-29 15:19:07 [INFO] auth-service: User authentication successful for user_id: 4943
+2025-08-29 15:32:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 15:32:07 [INFO] user-service: New user registration: user_id 7115
+2025-08-29 15:33:07 [ERROR] order-service: Order created: order_id 95343
+2025-08-29 15:33:07 [ERROR] auth-service: User authentication successful for user_id: 5999
+2025-08-29 15:34:07 [INFO] payment-service: Refund processed: transaction_id 296192
+2025-08-29 15:39:07 [WARN] order-service: Payment processed for order_id: 81350
+2025-08-29 15:43:07 [WARN] auth-service: Token refresh for user_id: 3975
+2025-08-29 15:44:07 [INFO] auth-service: User authentication successful for user_id: 3711
+2025-08-29 15:47:07 [INFO] auth-service: Invalid login attempt for user_id: 5581
+2025-08-29 15:55:07 [INFO] user-service: New user registration: user_id 1256
+2025-08-29 15:59:07 [INFO] payment-service: Payment authorization successful: transaction_id 424873
+2025-08-29 16:01:07 [INFO] user-service: New user registration: user_id 1104
+2025-08-29 16:04:07 [INFO] user-service: Failed to load user profile for user_id: 1242
+2025-08-29 16:07:07 [INFO] user-service: Failed to load user profile for user_id: 7690
+2025-08-29 16:13:07 [INFO] order-service: Order created: order_id 54532
+2025-08-29 16:14:07 [INFO] payment-service: Payment authorization successful: transaction_id 769062
+2025-08-29 16:16:07 [WARN] order-service: Payment processed for order_id: 35683
+2025-08-29 16:20:07 [INFO] user-service: New user registration: user_id 2399
+2025-08-29 16:23:07 [INFO] auth-service: Token refresh for user_id: 8430
+2025-08-29 16:24:07 [WARN] user-service: Failed to load user profile for user_id: 8817
+2025-08-29 16:29:07 [INFO] order-service: Order status updated: order_id 48794
+2025-08-29 16:29:07 [INFO] payment-service: Refund processed: transaction_id 394153
+2025-08-29 16:45:07 [INFO] auth-service: Token refresh for user_id: 4919
+2025-08-29 16:46:07 [WARN] auth-service: Token refresh for user_id: 1599
+2025-08-29 16:47:07 [INFO] payment-service: Refund processed: transaction_id 837770
+2025-08-29 16:47:07 [INFO] order-service: Order status updated: order_id 81112
+2025-08-29 16:56:07 [WARN] user-service: New user registration: user_id 5707
+2025-08-29 16:59:07 [INFO] payment-service: Refund processed: transaction_id 346345
+2025-08-29 17:01:07 [WARN] auth-service: Invalid login attempt for user_id: 7908
+2025-08-29 17:03:07 [ERROR] order-service: Payment processed for order_id: 37709
+2025-08-29 17:03:07 [INFO] payment-service: Refund processed: transaction_id 872480
+2025-08-29 17:05:07 [INFO] payment-service: Payment authorization successful: transaction_id 112510
+2025-08-29 17:06:07 [INFO] auth-service: User authentication successful for user_id: 9026
+2025-08-29 17:07:07 [INFO] auth-service: Invalid login attempt for user_id: 3936
+2025-08-29 17:08:07 [INFO] user-service: User profile updated for user_id: 5434
+2025-08-29 17:09:07 [ERROR] auth-service: Invalid login attempt for user_id: 4305
+2025-08-29 17:13:07 [INFO] auth-service: User authentication successful for user_id: 9928
+2025-08-29 17:14:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 17:21:07 [INFO] user-service: User profile updated for user_id: 2530
+2025-08-29 17:37:07 [INFO] order-service: Order created: order_id 10553
+2025-08-29 17:46:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 17:53:07 [WARN] auth-service: Invalid login attempt for user_id: 4025
+2025-08-29 18:03:07 [ERROR] order-service: Payment processed for order_id: 49908
+2025-08-29 18:09:07 [INFO] user-service: New user registration: user_id 6800
+2025-08-29 18:22:07 [INFO] user-service: New user registration: user_id 7834
+2025-08-29 18:23:07 [INFO] order-service: Order status updated: order_id 45550
+2025-08-29 18:26:07 [WARN] auth-service: Invalid login attempt for user_id: 7975
+2025-08-29 18:27:07 [ERROR] auth-service: Invalid login attempt for user_id: 5468
+2025-08-29 18:28:07 [INFO] user-service: New user registration: user_id 7421
+2025-08-29 18:30:07 [WARN] auth-service: User authentication successful for user_id: 4926
+2025-08-29 18:31:07 [INFO] user-service: New user registration: user_id 4279
+2025-08-29 18:42:07 [INFO] user-service: User profile updated for user_id: 2134
+2025-08-29 18:46:07 [INFO] order-service: Order status updated: order_id 30409
+2025-08-29 18:47:07 [INFO] payment-service: Refund processed: transaction_id 223674
+2025-08-29 18:48:07 [INFO] payment-service: Payment authorization successful: transaction_id 218244
+2025-08-29 18:53:07 [INFO] payment-service: Payment authorization successful: transaction_id 221423
+2025-08-29 18:58:07 [WARN] payment-service: Payment authorization successful: transaction_id 383021
+2025-08-29 19:09:07 [INFO] payment-service: Payment authorization successful: transaction_id 305449
+2025-08-29 19:15:07 [ERROR] user-service: User profile updated for user_id: 4311
+2025-08-29 19:20:07 [INFO] payment-service: Refund processed: transaction_id 346069
+2025-08-29 19:25:07 [INFO] auth-service: Invalid login attempt for user_id: 8894
+2025-08-29 19:26:07 [INFO] user-service: User profile updated for user_id: 4383
+2025-08-29 19:32:07 [INFO] auth-service: Token refresh for user_id: 9373
+2025-08-29 19:32:07 [INFO] order-service: Order status updated: order_id 57478
+2025-08-29 19:38:07 [INFO] user-service: Failed to load user profile for user_id: 4729
+2025-08-29 19:40:07 [INFO] user-service: Failed to load user profile for user_id: 8604
+2025-08-29 19:43:07 [INFO] auth-service: Invalid login attempt for user_id: 9897
+2025-08-29 19:54:07 [INFO] auth-service: Token refresh for user_id: 3706
+2025-08-29 19:57:07 [ERROR] payment-service: Payment authorization successful: transaction_id 121754
+2025-08-29 20:04:07 [INFO] payment-service: Payment authorization successful: transaction_id 765388
+2025-08-29 20:06:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 20:12:07 [INFO] user-service: Failed to load user profile for user_id: 5292
+2025-08-29 20:16:07 [INFO] user-service: New user registration: user_id 1585
+2025-08-29 20:20:07 [WARN] user-service: Failed to load user profile for user_id: 4741
+2025-08-29 20:22:07 [INFO] order-service: Order status updated: order_id 56111
+2025-08-29 20:25:07 [INFO] payment-service: Refund processed: transaction_id 935742
+2025-08-29 20:26:07 [INFO] user-service: Failed to load user profile for user_id: 8084
+2025-08-29 20:32:07 [INFO] order-service: Order created: order_id 61906
+2025-08-29 20:37:07 [INFO] order-service: Order status updated: order_id 49826
+2025-08-29 21:26:07 [WARN] auth-service: Token refresh for user_id: 7224
+2025-08-29 21:26:07 [ERROR] user-service: Failed to load user profile for user_id: 4835
+2025-08-29 21:28:07 [ERROR] payment-service: Payment authorization successful: transaction_id 471237
+2025-08-29 21:39:07 [INFO] auth-service: Invalid login attempt for user_id: 8217
+2025-08-29 21:44:07 [INFO] auth-service: Invalid login attempt for user_id: 3631
+2025-08-29 21:47:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 21:50:07 [INFO] user-service: Failed to load user profile for user_id: 1599
+2025-08-29 21:55:07 [INFO] order-service: Order created: order_id 57741
+2025-08-29 21:56:07 [INFO] order-service: Order status updated: order_id 58927
+2025-08-29 21:59:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 22:03:07 [WARN] order-service: Order created: order_id 13542
+2025-08-29 22:11:07 [INFO] payment-service: Refund processed: transaction_id 780126
+2025-08-29 22:14:07 [ERROR] user-service: Failed to load user profile for user_id: 1772
+2025-08-29 22:14:07 [WARN] user-service: Failed to load user profile for user_id: 5597
+2025-08-29 22:14:07 [WARN] payment-service: Payment authorization successful: transaction_id 315321
+2025-08-29 22:29:07 [WARN] auth-service: Token refresh for user_id: 5593
+2025-08-29 22:37:07 [INFO] auth-service: Invalid login attempt for user_id: 4467
+2025-08-29 22:38:07 [INFO] order-service: Payment processed for order_id: 11052
+2025-08-29 22:52:07 [WARN] user-service: New user registration: user_id 2020
+2025-08-29 22:58:07 [ERROR] order-service: Payment processed for order_id: 22136
+2025-08-29 23:02:07 [INFO] order-service: Order status updated: order_id 41424
+2025-08-29 23:03:07 [INFO] auth-service: Invalid login attempt for user_id: 8520
+2025-08-29 23:03:07 [INFO] auth-service: Invalid login attempt for user_id: 3740
+2025-08-29 23:12:07 [INFO] payment-service: Refund processed: transaction_id 618821
+2025-08-29 23:14:07 [INFO] order-service: Payment processed for order_id: 80295
+2025-08-29 23:18:07 [FATAL] order-service: Order status updated: order_id 59239
+2025-08-29 23:24:07 [WARN] order-service: Payment processed for order_id: 12237
+2025-08-29 23:35:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-29 23:35:07 [INFO] order-service: Order created: order_id 51544
+2025-08-29 23:37:07 [WARN] user-service: New user registration: user_id 3494
+2025-08-29 23:45:07 [INFO] user-service: Failed to load user profile for user_id: 2049
+2025-08-29 23:46:07 [WARN] user-service: User profile updated for user_id: 6692
+2025-08-29 23:46:07 [WARN] order-service: Order created: order_id 92064
+2025-08-29 23:47:07 [INFO] auth-service: User authentication successful for user_id: 8012
+2025-08-29 23:53:07 [INFO] auth-service: Token refresh for user_id: 3567
+2025-08-30 00:07:07 [ERROR] user-service: Failed to load user profile for user_id: 6478
+2025-08-30 00:09:07 [ERROR] order-service: Order status updated: order_id 56426
+2025-08-30 00:11:07 [INFO] user-service: Failed to load user profile for user_id: 5773
+2025-08-30 00:11:07 [INFO] auth-service: Invalid login attempt for user_id: 9896
+2025-08-30 00:12:07 [INFO] auth-service: Token refresh for user_id: 9414
+2025-08-30 00:18:07 [INFO] order-service: Order created: order_id 42975
+2025-08-30 00:24:07 [INFO] auth-service: Invalid login attempt for user_id: 7842
+2025-08-30 00:26:07 [ERROR] auth-service: Invalid login attempt for user_id: 3886
+2025-08-30 00:26:07 [INFO] user-service: User profile updated for user_id: 3379
+2025-08-30 00:28:07 [WARN] payment-service: Payment authorization successful: transaction_id 431200
+2025-08-30 00:37:07 [INFO] user-service: User profile updated for user_id: 1220
+2025-08-30 00:41:07 [INFO] auth-service: Invalid login attempt for user_id: 1552
+2025-08-30 00:44:07 [INFO] order-service: Order status updated: order_id 64079
+2025-08-30 00:45:07 [WARN] payment-service: Payment authorization successful: transaction_id 990839
+2025-08-30 00:49:07 [INFO] order-service: Order status updated: order_id 36819
+2025-08-30 00:52:07 [ERROR] auth-service: Token refresh for user_id: 7216
+2025-08-30 00:59:07 [INFO] order-service: Order status updated: order_id 78444
+2025-08-30 01:02:07 [INFO] payment-service: Refund processed: transaction_id 718954
+2025-08-30 01:13:07 [INFO] payment-service: Payment authorization successful: transaction_id 171366
+2025-08-30 01:17:07 [WARN] auth-service: Token refresh for user_id: 4593
+2025-08-30 01:24:07 [INFO] order-service: Order status updated: order_id 80468
+2025-08-30 01:27:07 [WARN] payment-service: Payment authorization successful: transaction_id 490569
+2025-08-30 01:27:07 [INFO] payment-service: Refund processed: transaction_id 911899
+2025-08-30 01:29:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 01:38:07 [INFO] user-service: Failed to load user profile for user_id: 6153
+2025-08-30 01:41:07 [INFO] user-service: Failed to load user profile for user_id: 1659
+2025-08-30 01:46:07 [INFO] auth-service: Invalid login attempt for user_id: 3722
+2025-08-30 01:47:07 [INFO] auth-service: Token refresh for user_id: 9618
+2025-08-30 01:47:07 [WARN] user-service: New user registration: user_id 6709
+2025-08-30 01:48:07 [INFO] order-service: Payment processed for order_id: 49176
+2025-08-30 01:55:07 [WARN] user-service: Failed to load user profile for user_id: 8848
+2025-08-30 01:56:07 [WARN] auth-service: Token refresh for user_id: 3659
+2025-08-30 02:02:07 [INFO] auth-service: Token refresh for user_id: 9506
+2025-08-30 02:06:07 [INFO] order-service: Order created: order_id 89497
+2025-08-30 02:10:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 02:12:07 [INFO] auth-service: Invalid login attempt for user_id: 2785
+2025-08-30 02:12:07 [INFO] order-service: Order created: order_id 18506
+2025-08-30 02:25:07 [INFO] auth-service: Invalid login attempt for user_id: 8303
+2025-08-30 02:30:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-30 02:36:07 [INFO] user-service: User profile updated for user_id: 2658
+2025-08-30 02:42:07 [INFO] user-service: User profile updated for user_id: 6595
+2025-08-30 02:56:07 [INFO] order-service: Order created: order_id 83311
+2025-08-30 03:18:07 [INFO] user-service: User profile updated for user_id: 1360
+2025-08-30 03:34:07 [INFO] order-service: Payment processed for order_id: 67860
+2025-08-30 03:34:07 [INFO] payment-service: Payment authorization successful: transaction_id 198056
+2025-08-30 03:37:07 [INFO] payment-service: Payment authorization successful: transaction_id 221676
+2025-08-30 03:49:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 03:56:07 [INFO] order-service: Payment processed for order_id: 17211
+2025-08-30 04:02:07 [INFO] auth-service: User authentication successful for user_id: 7687
+2025-08-30 04:05:07 [INFO] user-service: User profile updated for user_id: 2314
+2025-08-30 04:06:07 [INFO] payment-service: Refund processed: transaction_id 109176
+2025-08-30 04:10:07 [WARN] auth-service: User authentication successful for user_id: 1404
+2025-08-30 04:10:07 [INFO] auth-service: User authentication successful for user_id: 2469
+2025-08-30 04:13:07 [WARN] auth-service: Token refresh for user_id: 9555
+2025-08-30 04:15:07 [INFO] user-service: User profile updated for user_id: 8955
+2025-08-30 04:27:07 [INFO] user-service: New user registration: user_id 6869
+2025-08-30 04:38:07 [INFO] auth-service: Token refresh for user_id: 2954
+2025-08-30 04:45:07 [WARN] order-service: Order status updated: order_id 19068
+2025-08-30 04:54:07 [INFO] user-service: New user registration: user_id 5256
+2025-08-30 05:00:07 [INFO] order-service: Payment processed for order_id: 68143
+2025-08-30 05:04:07 [INFO] payment-service: Refund processed: transaction_id 112144
+2025-08-30 05:06:07 [INFO] auth-service: User authentication successful for user_id: 5913
+2025-08-30 05:06:07 [FATAL] payment-service: Payment authorization successful: transaction_id 136939
+2025-08-30 05:07:07 [ERROR] order-service: Order created: order_id 26815
+2025-08-30 05:07:07 [INFO] user-service: Failed to load user profile for user_id: 5741
+2025-08-30 05:08:07 [ERROR] auth-service: Invalid login attempt for user_id: 5062
+2025-08-30 05:09:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 05:12:07 [WARN] order-service: Order status updated: order_id 85863
+2025-08-30 05:15:07 [INFO] auth-service: Token refresh for user_id: 6634
+2025-08-30 05:20:07 [INFO] auth-service: Invalid login attempt for user_id: 1204
+2025-08-30 05:31:07 [INFO] order-service: Order created: order_id 84160
+2025-08-30 05:33:07 [ERROR] user-service: User profile updated for user_id: 1419
+2025-08-30 05:37:07 [INFO] auth-service: Token refresh for user_id: 9973
+2025-08-30 05:41:07 [INFO] order-service: Payment processed for order_id: 23312
+2025-08-30 05:50:07 [INFO] user-service: New user registration: user_id 7262
+2025-08-30 05:54:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 05:55:07 [INFO] auth-service: Invalid login attempt for user_id: 9526
+2025-08-30 05:59:07 [INFO] auth-service: Invalid login attempt for user_id: 5905
+2025-08-30 06:09:07 [INFO] user-service: Failed to load user profile for user_id: 5649
+2025-08-30 06:11:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 06:16:07 [INFO] payment-service: Refund processed: transaction_id 315685
+2025-08-30 06:16:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 06:21:07 [WARN] auth-service: Token refresh for user_id: 5291
+2025-08-30 06:25:07 [WARN] payment-service: Refund processed: transaction_id 104916
+2025-08-30 06:26:07 [WARN] payment-service: Refund processed: transaction_id 745258
+2025-08-30 06:30:07 [INFO] user-service: New user registration: user_id 6172
+2025-08-30 06:32:07 [WARN] user-service: Failed to load user profile for user_id: 4911
+2025-08-30 06:38:07 [INFO] order-service: Payment processed for order_id: 30274
+2025-08-30 06:42:07 [INFO] user-service: New user registration: user_id 9080
+2025-08-30 06:45:07 [WARN] order-service: Payment processed for order_id: 98746
+2025-08-30 06:46:07 [INFO] order-service: Order created: order_id 78051
+2025-08-30 07:04:07 [INFO] user-service: New user registration: user_id 6278
+2025-08-30 07:07:07 [INFO] user-service: User profile updated for user_id: 2162
+2025-08-30 07:08:07 [ERROR] order-service: Order created: order_id 52785
+2025-08-30 07:18:07 [INFO] payment-service: Refund processed: transaction_id 160037
+2025-08-30 07:20:07 [INFO] auth-service: Invalid login attempt for user_id: 2455
+2025-08-30 07:33:07 [WARN] auth-service: User authentication successful for user_id: 5218
+2025-08-30 07:39:07 [WARN] user-service: User profile updated for user_id: 3100
+2025-08-30 07:42:07 [FATAL] payment-service: Refund processed: transaction_id 402578
+2025-08-30 07:50:07 [ERROR] user-service: Failed to load user profile for user_id: 7102
+2025-08-30 07:52:07 [WARN] auth-service: Invalid login attempt for user_id: 2827
+2025-08-30 07:53:07 [WARN] payment-service: Payment authorization successful: transaction_id 672656
+2025-08-30 07:57:07 [WARN] payment-service: Payment authorization successful: transaction_id 979110
+2025-08-30 08:08:07 [INFO] payment-service: Refund processed: transaction_id 516694
+2025-08-30 08:14:07 [INFO] payment-service: Payment authorization successful: transaction_id 994368
+2025-08-30 08:14:07 [INFO] order-service: Order status updated: order_id 40030
+2025-08-30 08:21:07 [INFO] auth-service: User authentication successful for user_id: 8796
+2025-08-30 08:25:07 [INFO] payment-service: Refund processed: transaction_id 152762
+2025-08-30 08:27:07 [WARN] auth-service: User authentication successful for user_id: 7853
+2025-08-30 08:34:07 [INFO] order-service: Order status updated: order_id 98496
+2025-08-30 08:39:07 [INFO] auth-service: Token refresh for user_id: 2919
+2025-08-30 08:43:07 [INFO] order-service: Payment processed for order_id: 35078
+2025-08-30 08:54:07 [INFO] user-service: Failed to load user profile for user_id: 4775
+2025-08-30 08:55:07 [WARN] order-service: Order created: order_id 84832
+2025-08-30 08:55:07 [WARN] auth-service: User authentication successful for user_id: 2099
+2025-08-30 09:03:07 [INFO] order-service: Payment processed for order_id: 12559
+2025-08-30 09:04:07 [ERROR] payment-service: Payment authorization successful: transaction_id 831013
+2025-08-30 09:18:07 [INFO] user-service: New user registration: user_id 7581
+2025-08-30 09:21:07 [WARN] payment-service: Payment authorization successful: transaction_id 177072
+2025-08-30 09:26:07 [INFO] auth-service: User authentication successful for user_id: 9647
+2025-08-30 09:27:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 09:31:07 [INFO] payment-service: Payment authorization successful: transaction_id 919428
+2025-08-30 09:42:07 [INFO] order-service: Order created: order_id 66885
+2025-08-30 09:43:07 [INFO] user-service: User profile updated for user_id: 8368
+2025-08-30 09:58:07 [INFO] user-service: User profile updated for user_id: 6597
+2025-08-30 10:05:07 [INFO] payment-service: Refund processed: transaction_id 365386
+2025-08-30 10:16:07 [INFO] auth-service: Token refresh for user_id: 9529
+2025-08-30 10:17:07 [WARN] payment-service: Refund processed: transaction_id 430906
+2025-08-30 10:23:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 10:29:07 [INFO] user-service: New user registration: user_id 4145
+2025-08-30 10:33:07 [WARN] auth-service: Invalid login attempt for user_id: 9572
+2025-08-30 10:35:07 [INFO] user-service: Failed to load user profile for user_id: 8464
+2025-08-30 10:37:07 [WARN] user-service: User profile updated for user_id: 4360
+2025-08-30 10:43:07 [ERROR] payment-service: Payment authorization successful: transaction_id 969488
+2025-08-30 10:43:07 [ERROR] user-service: New user registration: user_id 6514
+2025-08-30 10:57:07 [INFO] payment-service: Refund processed: transaction_id 912916
+2025-08-30 11:02:07 [INFO] auth-service: Invalid login attempt for user_id: 7948
+2025-08-30 11:11:07 [INFO] order-service: Order created: order_id 22720
+2025-08-30 11:17:07 [INFO] user-service: New user registration: user_id 5814
+2025-08-30 11:32:07 [WARN] order-service: Order status updated: order_id 67509
+2025-08-30 11:36:07 [WARN] user-service: User profile updated for user_id: 1259
+2025-08-30 11:37:07 [INFO] order-service: Order status updated: order_id 96252
+2025-08-30 11:37:07 [INFO] order-service: Payment processed for order_id: 57550
+2025-08-30 11:43:07 [INFO] order-service: Order status updated: order_id 28059
+2025-08-30 11:45:07 [WARN] user-service: User profile updated for user_id: 4497
+2025-08-30 11:50:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 11:51:07 [INFO] order-service: Payment processed for order_id: 51335
+2025-08-30 11:55:07 [WARN] user-service: Failed to load user profile for user_id: 4732
+2025-08-30 11:57:07 [INFO] payment-service: Payment authorization successful: transaction_id 804568
+2025-08-30 12:23:07 [INFO] payment-service: Payment authorization successful: transaction_id 701575
+2025-08-30 12:27:07 [INFO] order-service: Payment processed for order_id: 69877
+2025-08-30 12:29:07 [ERROR] auth-service: Token refresh for user_id: 6657
+2025-08-30 12:47:07 [INFO] payment-service: Payment authorization successful: transaction_id 507641
+2025-08-30 12:53:07 [WARN] auth-service: Invalid login attempt for user_id: 3538
+2025-08-30 12:57:07 [INFO] order-service: Order status updated: order_id 22192
+2025-08-30 13:02:07 [INFO] order-service: Order created: order_id 36230
+2025-08-30 13:12:07 [INFO] user-service: New user registration: user_id 2276
+2025-08-30 13:12:07 [WARN] order-service: Order created: order_id 18125
+2025-08-30 13:12:07 [INFO] user-service: Failed to load user profile for user_id: 8192
+2025-08-30 13:21:07 [INFO] order-service: Order created: order_id 99340
+2025-08-30 13:23:07 [FATAL] payment-service: Payment declined: insufficient funds
+2025-08-30 13:24:07 [WARN] order-service: Payment processed for order_id: 72485
+2025-08-30 13:32:07 [INFO] auth-service: Invalid login attempt for user_id: 9899
+2025-08-30 13:38:07 [WARN] payment-service: Refund processed: transaction_id 895263
+2025-08-30 13:38:07 [INFO] auth-service: Token refresh for user_id: 5770
+2025-08-30 13:43:07 [INFO] order-service: Order status updated: order_id 73054
+2025-08-30 13:44:07 [ERROR] user-service: Failed to load user profile for user_id: 9452
+2025-08-30 13:47:07 [INFO] order-service: Payment processed for order_id: 98498
+2025-08-30 13:48:07 [FATAL] user-service: Failed to load user profile for user_id: 9368
+2025-08-30 13:49:07 [INFO] user-service: User profile updated for user_id: 4129
+2025-08-30 14:01:07 [INFO] auth-service: User authentication successful for user_id: 9882
+2025-08-30 14:08:07 [INFO] order-service: Order status updated: order_id 16392
+2025-08-30 14:16:07 [INFO] auth-service: Invalid login attempt for user_id: 8430
+2025-08-30 14:30:07 [INFO] order-service: Order status updated: order_id 11232
+2025-08-30 14:38:07 [INFO] auth-service: Invalid login attempt for user_id: 7003
+2025-08-30 14:49:07 [INFO] order-service: Order status updated: order_id 34542
+2025-08-30 15:01:07 [INFO] payment-service: Refund processed: transaction_id 940151
+2025-08-30 15:05:07 [INFO] user-service: Failed to load user profile for user_id: 9961
+2025-08-30 15:07:07 [INFO] user-service: User profile updated for user_id: 6227
+2025-08-30 15:13:07 [WARN] order-service: Payment processed for order_id: 25376
+2025-08-30 15:15:07 [WARN] user-service: New user registration: user_id 3774
+2025-08-30 15:23:07 [INFO] user-service: New user registration: user_id 4286
+2025-08-30 15:25:07 [WARN] user-service: Failed to load user profile for user_id: 4519
+2025-08-30 15:28:07 [WARN] user-service: Failed to load user profile for user_id: 9693
+2025-08-30 15:31:07 [INFO] auth-service: Token refresh for user_id: 6589
+2025-08-30 15:33:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 15:38:07 [WARN] user-service: Failed to load user profile for user_id: 7321
+2025-08-30 15:47:07 [INFO] payment-service: Refund processed: transaction_id 607999
+2025-08-30 15:48:07 [INFO] payment-service: Refund processed: transaction_id 553297
+2025-08-30 15:49:07 [INFO] auth-service: Invalid login attempt for user_id: 3349
+2025-08-30 16:01:07 [INFO] payment-service: Payment authorization successful: transaction_id 974451
+2025-08-30 16:06:07 [WARN] payment-service: Refund processed: transaction_id 542905
+2025-08-30 16:08:07 [INFO] order-service: Payment processed for order_id: 38728
+2025-08-30 16:12:07 [FATAL] user-service: Failed to load user profile for user_id: 6753
+2025-08-30 16:14:07 [INFO] user-service: Failed to load user profile for user_id: 5114
+2025-08-30 16:14:07 [INFO] payment-service: Refund processed: transaction_id 925951
+2025-08-30 16:23:07 [INFO] user-service: New user registration: user_id 6541
+2025-08-30 16:24:07 [ERROR] auth-service: User authentication successful for user_id: 4571
+2025-08-30 16:26:07 [ERROR] auth-service: User authentication successful for user_id: 9092
+2025-08-30 16:31:07 [INFO] auth-service: Invalid login attempt for user_id: 1369
+2025-08-30 16:34:07 [ERROR] user-service: User profile updated for user_id: 3507
+2025-08-30 16:36:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 16:36:07 [INFO] user-service: New user registration: user_id 4711
+2025-08-30 16:42:07 [INFO] auth-service: User authentication successful for user_id: 6705
+2025-08-30 16:50:07 [WARN] payment-service: Payment authorization successful: transaction_id 915213
+2025-08-30 16:54:07 [INFO] user-service: New user registration: user_id 5374
+2025-08-30 17:01:07 [INFO] auth-service: Token refresh for user_id: 8152
+2025-08-30 17:01:07 [INFO] user-service: Failed to load user profile for user_id: 2966
+2025-08-30 17:04:07 [WARN] payment-service: Refund processed: transaction_id 255898
+2025-08-30 17:07:07 [INFO] order-service: Order created: order_id 19377
+2025-08-30 17:11:07 [WARN] payment-service: Payment declined: insufficient funds
+2025-08-30 17:14:07 [ERROR] payment-service: Refund processed: transaction_id 679981
+2025-08-30 17:15:07 [INFO] order-service: Order status updated: order_id 10371
+2025-08-30 17:26:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 17:38:07 [INFO] user-service: New user registration: user_id 2085
+2025-08-30 17:38:07 [INFO] user-service: Failed to load user profile for user_id: 3132
+2025-08-30 17:40:07 [WARN] order-service: Order status updated: order_id 10684
+2025-08-30 17:42:07 [INFO] user-service: New user registration: user_id 8215
+2025-08-30 17:48:07 [WARN] order-service: Order created: order_id 64430
+2025-08-30 17:56:07 [INFO] order-service: Order created: order_id 46783
+2025-08-30 18:03:07 [INFO] payment-service: Payment authorization successful: transaction_id 847400
+2025-08-30 18:09:07 [ERROR] auth-service: User authentication successful for user_id: 2155
+2025-08-30 18:28:07 [INFO] payment-service: Payment authorization successful: transaction_id 866388
+2025-08-30 18:29:07 [INFO] auth-service: Token refresh for user_id: 5432
+2025-08-30 18:32:07 [INFO] user-service: User profile updated for user_id: 1301
+2025-08-30 18:48:07 [ERROR] user-service: New user registration: user_id 8008
+2025-08-30 18:52:07 [INFO] payment-service: Payment authorization successful: transaction_id 269142
+2025-08-30 18:55:07 [INFO] order-service: Order created: order_id 47069
+2025-08-30 19:12:07 [INFO] auth-service: Token refresh for user_id: 8228
+2025-08-30 19:12:07 [INFO] payment-service: Refund processed: transaction_id 318580
+2025-08-30 19:18:07 [WARN] order-service: Payment processed for order_id: 41064
+2025-08-30 19:24:07 [WARN] auth-service: Invalid login attempt for user_id: 2458
+2025-08-30 19:34:07 [INFO] auth-service: Invalid login attempt for user_id: 1264
+2025-08-30 19:38:07 [WARN] order-service: Order status updated: order_id 12096
+2025-08-30 19:38:07 [INFO] payment-service: Refund processed: transaction_id 186169
+2025-08-30 19:39:07 [INFO] user-service: New user registration: user_id 2621
+2025-08-30 19:40:07 [ERROR] payment-service: Refund processed: transaction_id 282867
+2025-08-30 19:44:07 [INFO] user-service: User profile updated for user_id: 2156
+2025-08-30 19:46:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 19:48:07 [WARN] auth-service: User authentication successful for user_id: 3872
+2025-08-30 19:56:07 [INFO] auth-service: Token refresh for user_id: 7743
+2025-08-30 19:57:07 [ERROR] user-service: New user registration: user_id 2435
+2025-08-30 19:58:07 [INFO] order-service: Order status updated: order_id 36186
+2025-08-30 20:00:07 [WARN] user-service: User profile updated for user_id: 6491
+2025-08-30 20:04:07 [INFO] payment-service: Payment authorization successful: transaction_id 369686
+2025-08-30 20:09:07 [INFO] order-service: Order created: order_id 55487
+2025-08-30 20:09:07 [INFO] user-service: Failed to load user profile for user_id: 4952
+2025-08-30 20:10:07 [WARN] auth-service: User authentication successful for user_id: 8736
+2025-08-30 20:11:07 [INFO] user-service: Failed to load user profile for user_id: 7845
+2025-08-30 20:18:07 [FATAL] auth-service: Token refresh for user_id: 9114
+2025-08-30 20:24:07 [INFO] auth-service: User authentication successful for user_id: 5909
+2025-08-30 20:41:07 [WARN] order-service: Payment processed for order_id: 33358
+2025-08-30 20:58:07 [INFO] auth-service: Invalid login attempt for user_id: 1569
+2025-08-30 21:08:07 [INFO] user-service: User profile updated for user_id: 9505
+2025-08-30 21:28:07 [INFO] user-service: New user registration: user_id 7778
+2025-08-30 21:32:07 [WARN] user-service: User profile updated for user_id: 5134
+2025-08-30 21:40:07 [INFO] auth-service: User authentication successful for user_id: 3258
+2025-08-30 21:44:07 [INFO] user-service: User profile updated for user_id: 8717
+2025-08-30 21:46:07 [INFO] auth-service: User authentication successful for user_id: 1799
+2025-08-30 22:02:07 [WARN] auth-service: Invalid login attempt for user_id: 4187
+2025-08-30 22:08:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 22:11:07 [INFO] payment-service: Refund processed: transaction_id 415813
+2025-08-30 22:14:07 [INFO] payment-service: Refund processed: transaction_id 903607
+2025-08-30 22:15:07 [INFO] payment-service: Payment authorization successful: transaction_id 515247
+2025-08-30 22:20:07 [INFO] order-service: Order created: order_id 79580
+2025-08-30 22:25:07 [INFO] auth-service: Invalid login attempt for user_id: 4417
+2025-08-30 22:26:07 [INFO] user-service: Failed to load user profile for user_id: 6026
+2025-08-30 22:30:07 [INFO] order-service: Payment processed for order_id: 78960
+2025-08-30 22:37:07 [ERROR] user-service: User profile updated for user_id: 9172
+2025-08-30 22:40:07 [ERROR] order-service: Payment processed for order_id: 15065
+2025-08-30 22:43:07 [INFO] user-service: User profile updated for user_id: 3840
+2025-08-30 22:45:07 [WARN] payment-service: Refund processed: transaction_id 938563
+2025-08-30 22:46:07 [INFO] auth-service: Token refresh for user_id: 1567
+2025-08-30 22:56:07 [INFO] payment-service: Refund processed: transaction_id 951816
+2025-08-30 22:59:07 [INFO] user-service: Failed to load user profile for user_id: 1706
+2025-08-30 23:00:07 [WARN] order-service: Order created: order_id 11035
+2025-08-30 23:14:07 [INFO] user-service: New user registration: user_id 9956
+2025-08-30 23:14:07 [WARN] auth-service: Token refresh for user_id: 2834
+2025-08-30 23:23:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-30 23:24:07 [WARN] user-service: User profile updated for user_id: 6377
+2025-08-30 23:39:07 [INFO] user-service: Failed to load user profile for user_id: 8633
+2025-08-30 23:48:07 [INFO] payment-service: Payment authorization successful: transaction_id 821589
+2025-08-30 23:55:07 [WARN] order-service: Payment processed for order_id: 95406
+2025-08-31 00:13:07 [ERROR] auth-service: Invalid login attempt for user_id: 6947
+2025-08-31 00:14:07 [INFO] auth-service: User authentication successful for user_id: 7563
+2025-08-31 00:17:07 [WARN] user-service: New user registration: user_id 5534
+2025-08-31 00:22:07 [INFO] auth-service: Invalid login attempt for user_id: 3143
+2025-08-31 00:28:07 [WARN] order-service: Order created: order_id 88327
+2025-08-31 00:36:07 [WARN] payment-service: Payment authorization successful: transaction_id 513023
+2025-08-31 00:36:07 [INFO] payment-service: Payment authorization successful: transaction_id 203625
+2025-08-31 00:40:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 00:42:07 [INFO] user-service: New user registration: user_id 6556
+2025-08-31 00:45:07 [FATAL] auth-service: Invalid login attempt for user_id: 4137
+2025-08-31 00:56:07 [ERROR] user-service: User profile updated for user_id: 5017
+2025-08-31 01:13:07 [INFO] auth-service: Invalid login attempt for user_id: 3856
+2025-08-31 01:24:07 [INFO] auth-service: Token refresh for user_id: 7885
+2025-08-31 01:27:07 [INFO] order-service: Payment processed for order_id: 71012
+2025-08-31 01:27:07 [INFO] auth-service: User authentication successful for user_id: 5448
+2025-08-31 01:52:07 [INFO] payment-service: Refund processed: transaction_id 139321
+2025-08-31 02:03:07 [ERROR] user-service: User profile updated for user_id: 9880
+2025-08-31 02:05:07 [INFO] user-service: Failed to load user profile for user_id: 3851
+2025-08-31 02:06:07 [INFO] user-service: Failed to load user profile for user_id: 2796
+2025-08-31 02:19:07 [INFO] auth-service: Token refresh for user_id: 1898
+2025-08-31 02:23:07 [WARN] order-service: Order created: order_id 60708
+2025-08-31 02:27:07 [WARN] user-service: Failed to load user profile for user_id: 1425
+2025-08-31 02:29:07 [INFO] auth-service: Token refresh for user_id: 6781
+2025-08-31 02:30:07 [WARN] payment-service: Payment authorization successful: transaction_id 561251
+2025-08-31 02:40:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 02:49:07 [WARN] order-service: Order status updated: order_id 58430
+2025-08-31 02:52:07 [INFO] user-service: New user registration: user_id 8789
+2025-08-31 03:02:07 [INFO] auth-service: Invalid login attempt for user_id: 3501
+2025-08-31 03:03:07 [WARN] order-service: Order created: order_id 89749
+2025-08-31 03:03:07 [INFO] user-service: User profile updated for user_id: 2019
+2025-08-31 03:12:07 [INFO] user-service: Failed to load user profile for user_id: 5092
+2025-08-31 03:12:07 [INFO] user-service: User profile updated for user_id: 6179
+2025-08-31 03:16:07 [INFO] order-service: Order status updated: order_id 37787
+2025-08-31 03:20:07 [INFO] order-service: Order status updated: order_id 16292
+2025-08-31 03:20:07 [WARN] auth-service: User authentication successful for user_id: 8522
+2025-08-31 03:23:07 [INFO] user-service: Failed to load user profile for user_id: 3010
+2025-08-31 03:26:07 [INFO] auth-service: User authentication successful for user_id: 4250
+2025-08-31 03:37:07 [INFO] auth-service: Token refresh for user_id: 3129
+2025-08-31 03:46:07 [INFO] auth-service: User authentication successful for user_id: 6463
+2025-08-31 03:47:07 [INFO] payment-service: Payment authorization successful: transaction_id 654350
+2025-08-31 03:51:07 [ERROR] user-service: User profile updated for user_id: 4332
+2025-08-31 03:54:07 [INFO] payment-service: Refund processed: transaction_id 418374
+2025-08-31 03:55:07 [INFO] user-service: Failed to load user profile for user_id: 6921
+2025-08-31 03:59:07 [INFO] order-service: Order created: order_id 28046
+2025-08-31 04:10:07 [INFO] order-service: Order status updated: order_id 78119
+2025-08-31 04:19:07 [INFO] order-service: Order status updated: order_id 16226
+2025-08-31 04:19:07 [WARN] auth-service: Token refresh for user_id: 3532
+2025-08-31 04:24:07 [INFO] payment-service: Payment authorization successful: transaction_id 157914
+2025-08-31 04:38:07 [INFO] auth-service: User authentication successful for user_id: 5211
+2025-08-31 04:53:07 [INFO] user-service: User profile updated for user_id: 5317
+2025-08-31 04:58:07 [ERROR] user-service: User profile updated for user_id: 2005
+2025-08-31 05:00:07 [INFO] payment-service: Refund processed: transaction_id 532813
+2025-08-31 05:25:07 [WARN] user-service: Failed to load user profile for user_id: 6381
+2025-08-31 05:31:07 [ERROR] order-service: Payment processed for order_id: 75013
+2025-08-31 05:36:07 [ERROR] order-service: Payment processed for order_id: 92098
+2025-08-31 05:37:07 [INFO] auth-service: Invalid login attempt for user_id: 5863
+2025-08-31 06:03:07 [INFO] payment-service: Payment authorization successful: transaction_id 916834
+2025-08-31 06:03:07 [INFO] user-service: New user registration: user_id 6122
+2025-08-31 06:04:07 [INFO] payment-service: Refund processed: transaction_id 120726
+2025-08-31 06:12:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 06:12:07 [INFO] user-service: New user registration: user_id 3572
+2025-08-31 06:18:07 [INFO] user-service: User profile updated for user_id: 8986
+2025-08-31 06:20:07 [INFO] order-service: Payment processed for order_id: 24555
+2025-08-31 06:36:07 [INFO] user-service: User profile updated for user_id: 2500
+2025-08-31 06:36:07 [WARN] user-service: New user registration: user_id 6146
+2025-08-31 06:37:07 [WARN] auth-service: Invalid login attempt for user_id: 7702
+2025-08-31 06:41:07 [INFO] user-service: New user registration: user_id 4588
+2025-08-31 06:43:07 [INFO] user-service: User profile updated for user_id: 8672
+2025-08-31 06:44:07 [ERROR] auth-service: Token refresh for user_id: 7321
+2025-08-31 06:47:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 06:56:07 [WARN] order-service: Payment processed for order_id: 64374
+2025-08-31 07:02:07 [INFO] order-service: Order created: order_id 62223
+2025-08-31 07:03:07 [INFO] user-service: New user registration: user_id 9451
+2025-08-31 07:16:07 [INFO] auth-service: Token refresh for user_id: 9958
+2025-08-31 07:17:07 [INFO] auth-service: User authentication successful for user_id: 9420
+2025-08-31 07:17:07 [INFO] order-service: Order created: order_id 69048
+2025-08-31 07:22:07 [INFO] auth-service: Invalid login attempt for user_id: 7124
+2025-08-31 07:22:07 [WARN] user-service: New user registration: user_id 2355
+2025-08-31 07:27:07 [WARN] auth-service: Invalid login attempt for user_id: 9668
+2025-08-31 07:29:07 [INFO] user-service: Failed to load user profile for user_id: 4050
+2025-08-31 07:34:07 [INFO] user-service: Failed to load user profile for user_id: 9752
+2025-08-31 07:36:07 [WARN] auth-service: Invalid login attempt for user_id: 9097
+2025-08-31 07:38:07 [INFO] order-service: Payment processed for order_id: 74844
+2025-08-31 07:41:07 [ERROR] payment-service: Payment authorization successful: transaction_id 771551
+2025-08-31 07:43:07 [INFO] payment-service: Payment authorization successful: transaction_id 581677
+2025-08-31 07:44:07 [INFO] order-service: Payment processed for order_id: 44477
+2025-08-31 07:46:07 [INFO] order-service: Payment processed for order_id: 69439
+2025-08-31 07:56:07 [INFO] auth-service: Token refresh for user_id: 2003
+2025-08-31 07:57:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 07:57:07 [WARN] payment-service: Refund processed: transaction_id 633069
+2025-08-31 07:59:07 [INFO] user-service: User profile updated for user_id: 8824
+2025-08-31 08:03:07 [INFO] order-service: Order created: order_id 61339
+2025-08-31 08:12:07 [INFO] user-service: User profile updated for user_id: 4894
+2025-08-31 08:15:07 [INFO] user-service: Failed to load user profile for user_id: 5692
+2025-08-31 08:18:07 [INFO] order-service: Order status updated: order_id 14997
+2025-08-31 08:19:07 [INFO] payment-service: Payment authorization successful: transaction_id 972335
+2025-08-31 08:26:07 [INFO] payment-service: Payment authorization successful: transaction_id 704566
+2025-08-31 08:27:07 [INFO] order-service: Order created: order_id 12080
+2025-08-31 08:30:07 [WARN] auth-service: Invalid login attempt for user_id: 5336
+2025-08-31 08:30:07 [INFO] user-service: Failed to load user profile for user_id: 1521
+2025-08-31 08:34:07 [INFO] auth-service: User authentication successful for user_id: 9632
+2025-08-31 08:34:07 [INFO] auth-service: User authentication successful for user_id: 2117
+2025-08-31 08:36:07 [INFO] user-service: Failed to load user profile for user_id: 3784
+2025-08-31 08:43:07 [INFO] auth-service: Token refresh for user_id: 2651
+2025-08-31 08:43:07 [INFO] user-service: Failed to load user profile for user_id: 6992
+2025-08-31 08:46:07 [FATAL] auth-service: User authentication successful for user_id: 5076
+2025-08-31 08:47:07 [WARN] order-service: Order created: order_id 42989
+2025-08-31 08:52:07 [ERROR] order-service: Order created: order_id 81232
+2025-08-31 09:02:07 [ERROR] user-service: User profile updated for user_id: 6913
+2025-08-31 09:07:07 [WARN] auth-service: User authentication successful for user_id: 9521
+2025-08-31 09:25:07 [WARN] user-service: New user registration: user_id 1690
+2025-08-31 09:31:07 [WARN] user-service: User profile updated for user_id: 4823
+2025-08-31 09:36:07 [INFO] order-service: Payment processed for order_id: 43145
+2025-08-31 09:55:07 [INFO] auth-service: User authentication successful for user_id: 9443
+2025-08-31 10:11:07 [INFO] user-service: New user registration: user_id 9018
+2025-08-31 10:16:07 [INFO] user-service: Failed to load user profile for user_id: 4971
+2025-08-31 10:31:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 10:38:07 [ERROR] auth-service: Invalid login attempt for user_id: 2845
+2025-08-31 10:38:07 [WARN] order-service: Order status updated: order_id 85988
+2025-08-31 10:38:07 [INFO] auth-service: Token refresh for user_id: 3010
+2025-08-31 10:44:07 [INFO] user-service: Failed to load user profile for user_id: 4780
+2025-08-31 10:45:07 [INFO] user-service: Failed to load user profile for user_id: 3691
+2025-08-31 10:47:07 [INFO] auth-service: Invalid login attempt for user_id: 3425
+2025-08-31 11:01:07 [INFO] payment-service: Refund processed: transaction_id 866826
+2025-08-31 11:12:07 [WARN] order-service: Order status updated: order_id 91119
+2025-08-31 11:12:07 [INFO] order-service: Order status updated: order_id 85272
+2025-08-31 11:21:07 [INFO] order-service: Order created: order_id 69850
+2025-08-31 11:29:07 [INFO] user-service: New user registration: user_id 9292
+2025-08-31 11:37:07 [INFO] payment-service: Refund processed: transaction_id 756352
+2025-08-31 11:43:07 [INFO] payment-service: Payment authorization successful: transaction_id 153979
+2025-08-31 11:44:07 [INFO] order-service: Order status updated: order_id 60175
+2025-08-31 11:45:07 [INFO] auth-service: Token refresh for user_id: 5544
+2025-08-31 11:46:07 [INFO] auth-service: Token refresh for user_id: 7255
+2025-08-31 11:50:07 [INFO] order-service: Payment processed for order_id: 34408
+2025-08-31 11:52:07 [INFO] auth-service: Token refresh for user_id: 8103
+2025-08-31 11:52:07 [INFO] order-service: Payment processed for order_id: 43355
+2025-08-31 12:13:07 [INFO] auth-service: User authentication successful for user_id: 7914
+2025-08-31 12:24:07 [INFO] auth-service: Token refresh for user_id: 7003
+2025-08-31 12:32:07 [INFO] user-service: Failed to load user profile for user_id: 5761
+2025-08-31 12:32:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 12:34:07 [INFO] auth-service: Invalid login attempt for user_id: 6859
+2025-08-31 12:50:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 12:51:07 [INFO] user-service: Failed to load user profile for user_id: 7793
+2025-08-31 12:55:07 [INFO] order-service: Order created: order_id 86441
+2025-08-31 12:57:07 [INFO] payment-service: Refund processed: transaction_id 564986
+2025-08-31 12:59:07 [INFO] order-service: Order status updated: order_id 26104
+2025-08-31 13:00:07 [INFO] order-service: Payment processed for order_id: 27540
+2025-08-31 13:09:07 [INFO] order-service: Order created: order_id 89062
+2025-08-31 13:13:07 [INFO] payment-service: Refund processed: transaction_id 912606
+2025-08-31 13:16:07 [INFO] payment-service: Payment authorization successful: transaction_id 992930
+2025-08-31 13:32:07 [INFO] order-service: Order status updated: order_id 88143
+2025-08-31 13:45:07 [INFO] user-service: User profile updated for user_id: 1649
+2025-08-31 13:49:07 [INFO] auth-service: Invalid login attempt for user_id: 7402
+2025-08-31 13:54:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 13:54:07 [INFO] order-service: Order status updated: order_id 46174
+2025-08-31 14:12:07 [INFO] auth-service: User authentication successful for user_id: 2331
+2025-08-31 14:22:07 [INFO] user-service: New user registration: user_id 3737
+2025-08-31 14:23:07 [INFO] payment-service: Refund processed: transaction_id 399913
+2025-08-31 14:23:07 [INFO] order-service: Order status updated: order_id 27813
+2025-08-31 14:29:07 [INFO] payment-service: Refund processed: transaction_id 119342
+2025-08-31 14:35:07 [ERROR] user-service: User profile updated for user_id: 6744
+2025-08-31 14:42:07 [INFO] order-service: Order status updated: order_id 62369
+2025-08-31 14:43:07 [FATAL] user-service: New user registration: user_id 8143
+2025-08-31 14:45:07 [WARN] user-service: User profile updated for user_id: 4430
+2025-08-31 14:50:07 [WARN] user-service: Failed to load user profile for user_id: 7723
+2025-08-31 14:51:07 [WARN] payment-service: Refund processed: transaction_id 996582
+2025-08-31 14:57:07 [INFO] auth-service: Token refresh for user_id: 2500
+2025-08-31 15:00:07 [INFO] auth-service: User authentication successful for user_id: 5057
+2025-08-31 15:04:07 [INFO] order-service: Order created: order_id 86896
+2025-08-31 15:05:07 [ERROR] order-service: Payment processed for order_id: 44778
+2025-08-31 15:08:07 [INFO] order-service: Payment processed for order_id: 94662
+2025-08-31 15:08:07 [WARN] auth-service: User authentication successful for user_id: 3922
+2025-08-31 15:40:07 [INFO] user-service: New user registration: user_id 8000
+2025-08-31 15:49:07 [INFO] auth-service: User authentication successful for user_id: 4759
+2025-08-31 15:49:07 [INFO] auth-service: Token refresh for user_id: 2199
+2025-08-31 15:55:07 [INFO] payment-service: Payment authorization successful: transaction_id 533643
+2025-08-31 16:01:07 [ERROR] user-service: New user registration: user_id 5768
+2025-08-31 16:02:07 [INFO] order-service: Order status updated: order_id 85875
+2025-08-31 16:07:07 [WARN] order-service: Order created: order_id 55064
+2025-08-31 16:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 246809
+2025-08-31 16:14:07 [ERROR] order-service: Order created: order_id 22517
+2025-08-31 16:16:07 [INFO] auth-service: Token refresh for user_id: 2983
+2025-08-31 16:19:07 [INFO] auth-service: Token refresh for user_id: 7293
+2025-08-31 16:24:07 [INFO] auth-service: User authentication successful for user_id: 8186
+2025-08-31 16:28:07 [WARN] user-service: User profile updated for user_id: 4549
+2025-08-31 16:31:07 [INFO] user-service: User profile updated for user_id: 3560
+2025-08-31 16:32:07 [INFO] auth-service: Invalid login attempt for user_id: 3174
+2025-08-31 16:39:07 [INFO] user-service: New user registration: user_id 6016
+2025-08-31 16:40:07 [WARN] payment-service: Payment authorization successful: transaction_id 832309
+2025-08-31 16:43:07 [INFO] auth-service: User authentication successful for user_id: 3326
+2025-08-31 16:45:07 [INFO] user-service: Failed to load user profile for user_id: 3096
+2025-08-31 16:48:07 [INFO] user-service: User profile updated for user_id: 3880
+2025-08-31 16:48:07 [INFO] auth-service: Invalid login attempt for user_id: 1500
+2025-08-31 16:55:07 [INFO] payment-service: Refund processed: transaction_id 522103
+2025-08-31 17:01:07 [WARN] user-service: User profile updated for user_id: 3752
+2025-08-31 17:25:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 17:25:07 [INFO] auth-service: Invalid login attempt for user_id: 3523
+2025-08-31 17:28:07 [WARN] auth-service: Invalid login attempt for user_id: 1381
+2025-08-31 17:30:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 17:31:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 17:44:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 17:44:07 [ERROR] auth-service: Token refresh for user_id: 9657
+2025-08-31 17:51:07 [INFO] user-service: User profile updated for user_id: 2687
+2025-08-31 17:55:07 [ERROR] user-service: User profile updated for user_id: 6994
+2025-08-31 18:07:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 18:12:07 [INFO] user-service: User profile updated for user_id: 5414
+2025-08-31 18:15:07 [WARN] payment-service: Refund processed: transaction_id 483067
+2025-08-31 18:22:07 [ERROR] payment-service: Payment authorization successful: transaction_id 258402
+2025-08-31 18:24:07 [INFO] user-service: User profile updated for user_id: 6192
+2025-08-31 18:25:07 [INFO] payment-service: Payment authorization successful: transaction_id 246796
+2025-08-31 18:43:07 [WARN] auth-service: Invalid login attempt for user_id: 7570
+2025-08-31 18:44:07 [INFO] user-service: Failed to load user profile for user_id: 2270
+2025-08-31 18:51:07 [WARN] auth-service: Invalid login attempt for user_id: 9567
+2025-08-31 18:56:07 [INFO] auth-service: Token refresh for user_id: 4499
+2025-08-31 18:56:07 [INFO] payment-service: Refund processed: transaction_id 579170
+2025-08-31 18:59:07 [INFO] payment-service: Payment authorization successful: transaction_id 960662
+2025-08-31 19:03:07 [ERROR] auth-service: User authentication successful for user_id: 4580
+2025-08-31 19:04:07 [ERROR] payment-service: Refund processed: transaction_id 566955
+2025-08-31 19:24:07 [INFO] auth-service: Token refresh for user_id: 4609
+2025-08-31 19:27:07 [INFO] user-service: User profile updated for user_id: 2432
+2025-08-31 19:40:07 [ERROR] auth-service: Invalid login attempt for user_id: 5510
+2025-08-31 19:47:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-08-31 19:57:07 [INFO] user-service: New user registration: user_id 3652
+2025-08-31 20:04:07 [INFO] user-service: User profile updated for user_id: 5419
+2025-08-31 20:06:07 [INFO] user-service: User profile updated for user_id: 7585
+2025-08-31 20:13:07 [INFO] auth-service: Invalid login attempt for user_id: 2222
+2025-08-31 20:19:07 [INFO] order-service: Payment processed for order_id: 75873
+2025-08-31 20:20:07 [INFO] user-service: New user registration: user_id 8682
+2025-08-31 20:24:07 [FATAL] order-service: Payment processed for order_id: 45967
+2025-08-31 20:27:07 [WARN] order-service: Payment processed for order_id: 17024
+2025-08-31 20:44:07 [INFO] order-service: Order status updated: order_id 13193
+2025-08-31 20:49:07 [ERROR] user-service: Failed to load user profile for user_id: 1950
+2025-08-31 20:50:07 [INFO] order-service: Order status updated: order_id 89328
+2025-08-31 20:54:07 [INFO] order-service: Order status updated: order_id 61967
+2025-08-31 21:06:07 [WARN] payment-service: Payment authorization successful: transaction_id 669560
+2025-08-31 21:14:07 [WARN] auth-service: Token refresh for user_id: 2572
+2025-08-31 21:17:07 [INFO] payment-service: Refund processed: transaction_id 650742
+2025-08-31 21:22:07 [INFO] auth-service: Token refresh for user_id: 5784
+2025-08-31 21:25:07 [INFO] order-service: Order created: order_id 71061
+2025-08-31 21:58:07 [INFO] auth-service: User authentication successful for user_id: 6874
+2025-08-31 21:59:07 [INFO] auth-service: Invalid login attempt for user_id: 4523
+2025-08-31 22:07:07 [INFO] user-service: Failed to load user profile for user_id: 8429
+2025-08-31 22:22:07 [WARN] user-service: User profile updated for user_id: 1769
+2025-08-31 22:26:07 [ERROR] auth-service: User authentication successful for user_id: 3884
+2025-08-31 22:32:07 [INFO] user-service: Failed to load user profile for user_id: 2376
+2025-08-31 22:34:07 [INFO] order-service: Order status updated: order_id 43962
+2025-08-31 22:34:07 [WARN] auth-service: User authentication successful for user_id: 3885
+2025-08-31 22:42:07 [WARN] order-service: Order status updated: order_id 59122
+2025-08-31 22:44:07 [INFO] order-service: Order created: order_id 54199
+2025-08-31 22:46:07 [INFO] order-service: Payment processed for order_id: 76696
+2025-08-31 22:56:07 [INFO] user-service: User profile updated for user_id: 4538
+2025-08-31 23:12:07 [INFO] auth-service: User authentication successful for user_id: 3193
+2025-08-31 23:13:07 [INFO] payment-service: Refund processed: transaction_id 420029
+2025-08-31 23:15:07 [INFO] auth-service: Token refresh for user_id: 4157
+2025-08-31 23:22:07 [WARN] payment-service: Payment authorization successful: transaction_id 756337
+2025-08-31 23:29:07 [WARN] user-service: User profile updated for user_id: 8602
+2025-08-31 23:37:07 [INFO] order-service: Order status updated: order_id 10064
+2025-08-31 23:38:07 [INFO] user-service: User profile updated for user_id: 3774
+2025-08-31 23:40:07 [INFO] auth-service: User authentication successful for user_id: 7504
+2025-08-31 23:42:07 [INFO] user-service: New user registration: user_id 5092
+2025-08-31 23:52:07 [INFO] user-service: Failed to load user profile for user_id: 9269
+2025-09-01 00:02:07 [INFO] order-service: Order created: order_id 29246
+2025-09-01 00:03:07 [WARN] order-service: Payment processed for order_id: 83872
+2025-09-01 00:03:07 [INFO] user-service: User profile updated for user_id: 7140
+2025-09-01 00:04:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 00:07:07 [INFO] auth-service: User authentication successful for user_id: 7142
+2025-09-01 00:08:07 [INFO] user-service: Failed to load user profile for user_id: 6759
+2025-09-01 00:19:07 [WARN] order-service: Payment processed for order_id: 88183
+2025-09-01 00:21:07 [INFO] auth-service: Invalid login attempt for user_id: 8117
+2025-09-01 00:21:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 00:23:07 [INFO] payment-service: Refund processed: transaction_id 296809
+2025-09-01 00:24:07 [INFO] payment-service: Refund processed: transaction_id 106501
+2025-09-01 00:29:07 [WARN] order-service: Payment processed for order_id: 68336
+2025-09-01 00:41:07 [ERROR] order-service: Payment processed for order_id: 49421
+2025-09-01 00:44:07 [INFO] payment-service: Refund processed: transaction_id 859140
+2025-09-01 00:58:07 [INFO] auth-service: User authentication successful for user_id: 2405
+2025-09-01 01:01:07 [ERROR] user-service: New user registration: user_id 8584
+2025-09-01 01:02:07 [WARN] auth-service: Failed login attempt for user_id: 1090 from IP: 203.0.113.10
+2025-09-01 01:04:07 [FATAL] payment-service: Refund processed: transaction_id 700067
+2025-09-01 01:04:07 [WARN] auth-service: Failed login attempt for user_id: 1079 from IP: 203.0.113.10
+2025-09-01 01:06:07 [INFO] order-service: Payment processed for order_id: 23118
+2025-09-01 01:06:07 [WARN] auth-service: Failed login attempt for user_id: 1405 from IP: 203.0.113.10
+2025-09-01 01:08:07 [WARN] auth-service: Failed login attempt for user_id: 1344 from IP: 203.0.113.10
+2025-09-01 01:09:07 [INFO] auth-service: Invalid login attempt for user_id: 7909
+2025-09-01 01:10:07 [WARN] auth-service: Failed login attempt for user_id: 1321 from IP: 203.0.113.10
+2025-09-01 01:11:07 [ERROR] auth-service: Invalid login attempt for user_id: 6507
+2025-09-01 01:12:07 [WARN] auth-service: Failed login attempt for user_id: 1096 from IP: 203.0.113.10
+2025-09-01 01:13:07 [FATAL] user-service: New user registration: user_id 7092
+2025-09-01 01:14:07 [WARN] auth-service: Failed login attempt for user_id: 1460 from IP: 203.0.113.10
+2025-09-01 01:16:07 [WARN] auth-service: Failed login attempt for user_id: 1428 from IP: 203.0.113.10
+2025-09-01 01:18:07 [WARN] auth-service: Failed login attempt for user_id: 1383 from IP: 203.0.113.10
+2025-09-01 01:20:07 [WARN] auth-service: Failed login attempt for user_id: 1382 from IP: 203.0.113.10
+2025-09-01 01:22:07 [WARN] auth-service: Failed login attempt for user_id: 1105 from IP: 203.0.113.10
+2025-09-01 01:23:07 [INFO] payment-service: Payment authorization successful: transaction_id 752539
+2025-09-01 01:24:07 [WARN] auth-service: Failed login attempt for user_id: 1028 from IP: 203.0.113.10
+2025-09-01 01:26:07 [WARN] auth-service: Failed login attempt for user_id: 1139 from IP: 203.0.113.10
+2025-09-01 01:28:07 [WARN] auth-service: User authentication successful for user_id: 7914
+2025-09-01 01:28:07 [WARN] auth-service: Failed login attempt for user_id: 1203 from IP: 203.0.113.10
+2025-09-01 01:29:07 [FATAL] auth-service: User authentication successful for user_id: 2091
+2025-09-01 01:30:07 [WARN] auth-service: Failed login attempt for user_id: 1199 from IP: 203.0.113.10
+2025-09-01 01:31:07 [INFO] auth-service: User authentication successful for user_id: 5382
+2025-09-01 01:32:07 [INFO] user-service: New user registration: user_id 5880
+2025-09-01 01:37:07 [ERROR] auth-service: Successful login for admin user from unauthorized IP: 203.0.113.10
+2025-09-01 01:44:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 01:47:07 [CRITICAL] user-service: Bulk user data access from compromised session
+2025-09-01 01:51:07 [INFO] auth-service: Invalid login attempt for user_id: 6318
+2025-09-01 01:52:07 [INFO] auth-service: Emergency session termination for suspicious activity
+2025-09-01 01:54:07 [INFO] user-service: Failed to load user profile for user_id: 5496
+2025-09-01 01:55:07 [INFO] auth-service: Invalid login attempt for user_id: 3850
+2025-09-01 01:58:07 [INFO] payment-service: Payment authorization successful: transaction_id 677519
+2025-09-01 01:59:07 [INFO] auth-service: Token refresh for user_id: 5662
+2025-09-01 02:04:07 [INFO] order-service: Order created: order_id 75169
+2025-09-01 02:13:07 [INFO] order-service: Order created: order_id 13610
+2025-09-01 02:15:07 [INFO] user-service: Failed to load user profile for user_id: 6328
+2025-09-01 02:23:07 [INFO] order-service: Payment processed for order_id: 43343
+2025-09-01 02:28:07 [WARN] user-service: Failed to load user profile for user_id: 4934
+2025-09-01 02:28:07 [INFO] order-service: Order status updated: order_id 14286
+2025-09-01 02:29:07 [WARN] order-service: Payment processed for order_id: 24447
+2025-09-01 02:36:07 [ERROR] auth-service: User authentication successful for user_id: 2907
+2025-09-01 02:37:07 [INFO] order-service: Order status updated: order_id 47688
+2025-09-01 02:51:07 [INFO] order-service: Order status updated: order_id 35882
+2025-09-01 02:59:07 [INFO] order-service: Payment processed for order_id: 54028
+2025-09-01 03:03:07 [INFO] user-service: Failed to load user profile for user_id: 4804
+2025-09-01 03:05:07 [INFO] order-service: Order created: order_id 68418
+2025-09-01 03:05:07 [INFO] auth-service: Token refresh for user_id: 9297
+2025-09-01 03:06:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 03:08:07 [INFO] payment-service: Payment authorization successful: transaction_id 706323
+2025-09-01 03:13:07 [INFO] auth-service: Token refresh for user_id: 1912
+2025-09-01 03:20:07 [ERROR] user-service: User profile updated for user_id: 3977
+2025-09-01 03:27:07 [INFO] payment-service: Refund processed: transaction_id 503103
+2025-09-01 03:30:07 [ERROR] payment-service: Payment authorization successful: transaction_id 397219
+2025-09-01 03:39:07 [WARN] user-service: Failed to load user profile for user_id: 3158
+2025-09-01 03:46:07 [INFO] user-service: User profile updated for user_id: 1057
+2025-09-01 03:55:07 [INFO] auth-service: User authentication successful for user_id: 6347
+2025-09-01 03:56:07 [WARN] order-service: Order status updated: order_id 26912
+2025-09-01 03:58:07 [ERROR] user-service: New user registration: user_id 3476
+2025-09-01 04:12:07 [WARN] user-service: User profile updated for user_id: 7049
+2025-09-01 04:16:07 [FATAL] user-service: Failed to load user profile for user_id: 4962
+2025-09-01 04:23:07 [INFO] auth-service: User authentication successful for user_id: 2709
+2025-09-01 04:27:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 04:32:07 [INFO] user-service: User profile updated for user_id: 6930
+2025-09-01 04:40:07 [WARN] auth-service: Token refresh for user_id: 1972
+2025-09-01 04:47:07 [INFO] user-service: Failed to load user profile for user_id: 8494
+2025-09-01 04:47:07 [WARN] auth-service: Invalid login attempt for user_id: 8625
+2025-09-01 05:03:07 [INFO] auth-service: User authentication successful for user_id: 1461
+2025-09-01 05:05:07 [WARN] order-service: Order status updated: order_id 26581
+2025-09-01 05:21:07 [INFO] payment-service: Refund processed: transaction_id 136372
+2025-09-01 05:23:07 [INFO] user-service: User profile updated for user_id: 4935
+2025-09-01 05:30:07 [INFO] payment-service: Payment declined: insufficient funds
+2025-09-01 05:35:07 [INFO] user-service: Failed to load user profile for user_id: 3669
+2025-09-01 05:38:07 [WARN] auth-service: Token refresh for user_id: 7467
+2025-09-01 05:39:07 [INFO] user-service: Failed to load user profile for user_id: 8861
+2025-09-01 05:44:07 [WARN] user-service: User profile updated for user_id: 3420
+2025-09-01 05:54:07 [INFO] order-service: Order created: order_id 22091
+2025-09-01 06:11:07 [INFO] user-service: Failed to load user profile for user_id: 9798
+2025-09-01 06:13:07 [INFO] payment-service: Refund processed: transaction_id 301003
+2025-09-01 06:17:07 [WARN] order-service: Payment processed for order_id: 49259
+2025-09-01 06:21:07 [INFO] user-service: User profile updated for user_id: 8129
+2025-09-01 06:21:07 [FATAL] user-service: User profile updated for user_id: 5523
+2025-09-01 06:23:07 [INFO] order-service: Order created: order_id 29483
+2025-09-01 06:27:07 [INFO] auth-service: User authentication successful for user_id: 2213
+2025-09-01 06:27:07 [INFO] order-service: Order status updated: order_id 40103
+2025-09-01 06:33:07 [INFO] payment-service: Refund processed: transaction_id 562211
+2025-09-01 06:46:07 [INFO] payment-service: Refund processed: transaction_id 892902
+2025-09-01 06:47:07 [WARN] order-service: Payment processed for order_id: 30895
+2025-09-01 06:49:07 [ERROR] user-service: New user registration: user_id 6529
+2025-09-01 06:51:07 [INFO] order-service: Order status updated: order_id 84161
+2025-09-01 07:05:07 [WARN] payment-service: Refund processed: transaction_id 225982
+2025-09-01 07:10:07 [INFO] payment-service: Payment authorization successful: transaction_id 133825
+2025-09-01 07:21:07 [INFO] user-service: Failed to load user profile for user_id: 5419
+2025-09-01 07:25:07 [INFO] order-service: Payment processed for order_id: 93568
+2025-09-01 07:26:07 [INFO] auth-service: Invalid login attempt for user_id: 4233
+2025-09-01 07:33:07 [INFO] user-service: Failed to load user profile for user_id: 3455
+2025-09-01 07:46:07 [INFO] auth-service: Invalid login attempt for user_id: 2931
+2025-09-01 07:50:07 [INFO] auth-service: Token refresh for user_id: 5215
+2025-09-01 07:57:07 [INFO] auth-service: Token refresh for user_id: 1299
+2025-09-01 08:01:07 [INFO] order-service: Order created: order_id 81667
+2025-09-01 08:08:07 [ERROR] user-service: New user registration: user_id 1496
+2025-09-01 08:09:07 [WARN] order-service: Order status updated: order_id 20836
+2025-09-01 08:14:07 [INFO] auth-service: Token refresh for user_id: 1213
+2025-09-01 08:17:07 [INFO] user-service: User profile updated for user_id: 2573

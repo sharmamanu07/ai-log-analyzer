@@ -1,0 +1,1011 @@
+Aug 25 08:17:07 web-server-01 systemd: Stopped mysql.service
+Aug 25 08:29:07 app-server-01 systemd: Started redis.service
+Aug 25 08:41:07 app-server-01 systemd: Started redis.service
+Aug 25 08:55:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 09:05:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 25 09:16:07 web-server-01 systemd: Stopped redis.service
+Aug 25 09:21:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 09:31:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.161
+Aug 25 09:39:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 25 09:47:07 app-server-01 NetworkManager: Connection established
+Aug 25 09:50:07 db-server-01 NetworkManager: Connection established
+Aug 25 10:03:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 10:28:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 10:35:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 10:38:07 app-server-01 kernel: Out of memory: Kill process 8842
+Aug 25 11:00:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 25 11:03:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 11:04:07 web-server-01 kernel: Out of memory: Kill process 2207
+Aug 25 11:07:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 25 11:08:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 11:14:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 25 11:22:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 11:33:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 11:36:07 db-server-01 kernel: Out of memory: Kill process 3780
+Aug 25 11:46:07 db-server-01 sshd: Starting session for root
+Aug 25 12:07:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 25 12:22:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 12:26:07 app-server-01 systemd: Stopped mysql.service
+Aug 25 12:32:07 web-server-01 systemd: Started nginx.service
+Aug 25 12:46:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 25 12:49:07 db-server-01 sshd: Connection closed by 192.168.1.166
+Aug 25 12:58:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 13:06:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 13:22:07 db-server-01 systemd: Stopped nginx.service
+Aug 25 13:24:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 13:26:07 web-server-01 sshd: Connection closed by 192.168.1.176
+Aug 25 13:34:07 app-server-01 NetworkManager: Connection established
+Aug 25 13:51:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 13:55:07 web-server-01 kernel: Out of memory: Kill process 8772
+Aug 25 14:08:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 14:17:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 14:18:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 25 14:22:07 web-server-01 NetworkManager: Connection established
+Aug 25 14:37:07 app-server-01 sshd: Connection closed by 192.168.1.144
+Aug 25 14:37:07 db-server-01 systemd: Reloading configuration
+Aug 25 14:56:07 app-server-01 NetworkManager: Connection established
+Aug 25 14:59:07 web-server-01 kernel: Out of memory: Kill process 5043
+Aug 25 15:01:07 app-server-01 sshd: Starting session for admin
+Aug 25 15:17:07 db-server-01 sshd: Connection closed by 192.168.1.150
+Aug 25 15:20:07 app-server-01 NetworkManager: Connection established
+Aug 25 15:32:07 web-server-01 systemd: Started mysql.service
+Aug 25 15:50:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 16:02:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 25 16:10:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 16:17:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 25 16:23:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 16:33:07 app-server-01 sshd: Starting session for root
+Aug 25 16:58:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.188
+Aug 25 17:01:07 db-server-01 sshd: Connection closed by 192.168.1.114
+Aug 25 17:40:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 25 17:41:07 web-server-01 kernel: Out of memory: Kill process 3043
+Aug 25 17:45:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 25 17:57:07 web-server-01 systemd: Stopped redis.service
+Aug 25 18:10:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 18:12:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.107
+Aug 25 18:22:07 app-server-01 kernel: Out of memory: Kill process 2927
+Aug 25 18:34:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 18:37:07 app-server-01 NetworkManager: Connection established
+Aug 25 18:39:07 web-server-01 sshd: Connection closed by 192.168.1.189
+Aug 25 18:43:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 18:50:07 web-server-01 sshd: Starting session for root
+Aug 25 18:54:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 25 19:23:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 19:25:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.190
+Aug 25 19:45:07 app-server-01 NetworkManager: Connection established
+Aug 25 19:56:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 20:22:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.188
+Aug 25 20:30:07 web-server-01 NetworkManager: Connection established
+Aug 25 20:31:07 app-server-01 systemd: Reloading configuration
+Aug 25 20:40:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 25 20:54:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 25 20:54:07 db-server-01 kernel: Out of memory: Kill process 2484
+Aug 25 21:38:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.156
+Aug 25 21:41:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 25 21:49:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 25 22:00:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 25 22:07:07 web-server-01 NetworkManager: Connection established
+Aug 25 22:16:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 22:23:07 app-server-01 NetworkManager: Connection established
+Aug 25 22:30:07 db-server-01 sshd: Connection closed by 192.168.1.112
+Aug 25 22:36:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 25 22:44:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 25 22:46:07 web-server-01 sshd: Connection closed by 192.168.1.139
+Aug 25 22:52:07 web-server-01 systemd: Stopped mysql.service
+Aug 25 23:17:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 25 23:21:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 25 23:40:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 25 23:47:07 db-server-01 systemd: Stopped nginx.service
+Aug 25 23:48:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 25 23:59:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 00:38:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.186
+Aug 26 00:43:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 00:54:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 26 01:22:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 01:27:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 26 01:43:07 web-server-01 sshd: Starting session for service
+Aug 26 02:22:07 db-server-01 kernel: Out of memory: Kill process 6326
+Aug 26 02:25:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.105
+Aug 26 02:35:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 26 03:11:07 db-server-01 NetworkManager: Connection established
+Aug 26 03:14:07 app-server-01 NetworkManager: Connection established
+Aug 26 03:28:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 03:31:07 db-server-01 systemd: Started redis.service
+Aug 26 03:42:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.129
+Aug 26 03:50:07 web-server-01 sshd: Starting session for root
+Aug 26 04:00:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 04:01:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.183
+Aug 26 04:01:07 web-server-01 kernel: Out of memory: Kill process 2579
+Aug 26 04:18:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 26 04:21:07 db-server-01 systemd: Stopped mysql.service
+Aug 26 04:35:07 db-server-01 NetworkManager: Connection established
+Aug 26 04:39:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 04:39:07 db-server-01 systemd: Started redis.service
+Aug 26 04:50:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 05:13:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 26 05:19:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 26 05:50:07 web-server-01 systemd: Stopped redis.service
+Aug 26 05:57:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.190
+Aug 26 06:20:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 26 06:21:07 db-server-01 systemd: Started mysql.service
+Aug 26 06:26:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 06:34:07 app-server-01 systemd: Reloading configuration
+Aug 26 06:38:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 06:43:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.121
+Aug 26 06:50:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 06:55:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.167
+Aug 26 07:01:07 app-server-01 systemd: redis.service: Main process exited successfully
+Aug 26 07:18:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 26 07:27:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 07:51:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 08:22:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 26 08:23:07 db-server-01 NetworkManager: Connection established
+Aug 26 08:24:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 08:34:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.113
+Aug 26 08:36:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 26 08:39:07 db-server-01 kernel: Out of memory: Kill process 3509
+Aug 26 08:52:07 app-server-01 systemd: Started nginx.service
+Aug 26 09:07:07 db-server-01 systemd: Reloading configuration
+Aug 26 09:15:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 09:16:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 09:16:07 web-server-01 sshd: Starting session for admin
+Aug 26 09:51:07 web-server-01 systemd: Reloading configuration
+Aug 26 10:01:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 26 10:02:07 web-server-01 systemd: Started mysql.service
+Aug 26 10:34:07 web-server-01 systemd: Reloading configuration
+Aug 26 10:39:07 db-server-01 sshd: Starting session for admin
+Aug 26 10:41:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 10:51:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 11:01:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.118
+Aug 26 11:07:07 db-server-01 systemd: Reloading configuration
+Aug 26 11:28:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 11:29:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 26 11:54:07 web-server-01 kernel: Out of memory: Kill process 3502
+Aug 26 11:59:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 26 12:28:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.161
+Aug 26 12:31:07 db-server-01 sshd: Starting session for root
+Aug 26 12:45:07 web-server-01 systemd: Started redis.service
+Aug 26 13:19:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.145
+Aug 26 13:22:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 26 13:30:07 db-server-01 kernel: Out of memory: Kill process 5400
+Aug 26 13:48:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 13:52:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 13:55:07 web-server-01 systemd: Reloading configuration
+Aug 26 14:05:07 app-server-01 kernel: Out of memory: Kill process 4814
+Aug 26 14:31:07 app-server-01 sshd: Connection closed by 192.168.1.180
+Aug 26 14:35:07 web-server-01 systemd: Stopped redis.service
+Aug 26 15:12:07 web-server-01 systemd: Reloading configuration
+Aug 26 15:17:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 26 15:24:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 15:30:07 db-server-01 sshd: Starting session for root
+Aug 26 15:55:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 16:06:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 26 16:18:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 16:56:07 db-server-01 NetworkManager: Connection established
+Aug 26 16:59:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 17:09:07 web-server-01 NetworkManager: Connection established
+Aug 26 17:21:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 18:13:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 18:45:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 26 18:45:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 26 19:30:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.189
+Aug 26 20:12:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 26 20:18:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 20:26:07 db-server-01 systemd: Stopped redis.service
+Aug 26 20:28:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 26 20:32:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 26 20:34:07 db-server-01 systemd: Started mysql.service
+Aug 26 20:49:07 app-server-01 systemd: Started mysql.service
+Aug 26 21:25:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 26 21:26:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 26 21:36:07 web-server-01 sshd: Starting session for service
+Aug 26 21:38:07 web-server-01 systemd: Started mysql.service
+Aug 26 21:42:07 app-server-01 systemd: redis.service: Main process exited successfully
+Aug 26 21:49:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 26 21:52:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 26 21:54:07 db-server-01 systemd: Stopped redis.service
+Aug 26 21:58:07 db-server-01 systemd: Reloading configuration
+Aug 26 22:02:07 web-server-01 sshd: Starting session for admin
+Aug 26 22:07:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 26 22:39:07 web-server-01 sshd: Connection closed by 192.168.1.103
+Aug 26 22:58:07 web-server-01 sshd: Starting session for admin
+Aug 26 23:05:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 26 23:12:07 web-server-01 NetworkManager: Connection established
+Aug 26 23:15:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 26 23:21:07 app-server-01 systemd: Reloading configuration
+Aug 26 23:28:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 26 23:50:07 app-server-01 kernel: Out of memory: Kill process 3048
+Aug 27 00:08:07 app-server-01 kernel: Out of memory: Kill process 6383
+Aug 27 00:18:07 app-server-01 systemd: Started redis.service
+Aug 27 00:43:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 00:54:07 web-server-01 sshd: Starting session for service
+Aug 27 01:14:07 db-server-01 sshd: Connection closed by 192.168.1.129
+Aug 27 01:27:07 db-server-01 sshd: Connection closed by 192.168.1.148
+Aug 27 01:41:07 web-server-01 NetworkManager: Connection established
+Aug 27 02:06:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 02:10:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 02:25:07 web-server-01 NetworkManager: Connection established
+Aug 27 02:40:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 27 02:49:07 db-server-01 systemd: Reloading configuration
+Aug 27 03:34:07 app-server-01 sshd: Starting session for admin
+Aug 27 03:55:07 db-server-01 sshd: Connection closed by 192.168.1.108
+Aug 27 04:21:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 04:39:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 27 04:51:07 app-server-01 sshd: Starting session for service
+Aug 27 05:21:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 27 05:45:07 web-server-01 NetworkManager: Connection established
+Aug 27 05:58:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 27 06:44:07 web-server-01 sshd: Starting session for root
+Aug 27 06:47:07 db-server-01 NetworkManager: Connection established
+Aug 27 06:53:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 27 06:56:07 web-server-01 systemd: Stopped redis.service
+Aug 27 06:57:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 27 07:20:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 27 07:21:07 db-server-01 systemd: redis.service: Main process exited successfully
+Aug 27 07:24:07 app-server-01 sshd: Connection closed by 192.168.1.168
+Aug 27 07:44:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 27 08:00:07 web-server-01 systemd: Stopped redis.service
+Aug 27 08:01:07 app-server-01 kernel: Out of memory: Kill process 6471
+Aug 27 08:07:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 08:15:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.132
+Aug 27 08:19:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.125
+Aug 27 08:23:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 27 08:37:07 app-server-01 sshd: Starting session for admin
+Aug 27 08:46:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 27 09:05:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 09:10:07 app-server-01 sshd: Connection closed by 192.168.1.196
+Aug 27 09:11:07 web-server-01 systemd: Stopped redis.service
+Aug 27 09:19:07 db-server-01 NetworkManager: Connection established
+Aug 27 09:37:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 09:45:07 web-server-01 sshd: Connection closed by 192.168.1.136
+Aug 27 09:49:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 27 10:04:07 app-server-01 sshd: Connection closed by 192.168.1.187
+Aug 27 10:30:07 db-server-01 sshd: Connection closed by 192.168.1.177
+Aug 27 10:34:07 web-server-01 kernel: Out of memory: Kill process 8752
+Aug 27 10:36:07 web-server-01 sshd: Connection closed by 192.168.1.107
+Aug 27 10:37:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 27 10:37:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 11:03:07 web-server-01 kernel: Out of memory: Kill process 7422
+Aug 27 11:04:07 db-server-01 kernel: Out of memory: Kill process 6554
+Aug 27 11:11:07 db-server-01 NetworkManager: Connection established
+Aug 27 11:15:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 27 11:29:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 11:38:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 11:41:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 11:44:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 11:48:07 web-server-01 sshd: Connection closed by 192.168.1.133
+Aug 27 11:59:07 db-server-01 sshd: Starting session for admin
+Aug 27 12:01:07 app-server-01 kernel: Out of memory: Kill process 8185
+Aug 27 12:03:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 27 12:15:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 27 12:30:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 27 12:58:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 13:00:07 app-server-01 NetworkManager: Connection established
+Aug 27 13:09:07 web-server-01 kernel: Out of memory: Kill process 3687
+Aug 27 13:21:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 27 13:24:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 27 13:26:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 27 13:29:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 27 13:36:07 web-server-01 NetworkManager: Connection established
+Aug 27 13:41:07 db-server-01 systemd: Reloading configuration
+Aug 27 13:44:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 27 14:00:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 14:02:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 27 14:05:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 14:20:07 app-server-01 sshd: Connection closed by 192.168.1.168
+Aug 27 14:22:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 14:24:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.193
+Aug 27 14:26:07 app-server-01 systemd: mysql.service: Main process exited successfully
+Aug 27 14:33:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.132
+Aug 27 14:40:07 db-server-01 systemd: Reloading configuration
+Aug 27 14:54:07 web-server-01 systemd: Stopped mysql.service
+Aug 27 15:04:07 db-server-01 sshd: Starting session for admin
+Aug 27 15:06:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.138
+Aug 27 15:15:07 app-server-01 kernel: Out of memory: Kill process 5937
+Aug 27 15:18:07 web-server-01 kernel: Out of memory: Kill process 7250
+Aug 27 15:23:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 27 15:25:07 db-server-01 sshd: Starting session for root
+Aug 27 15:26:07 app-server-01 sshd: Connection closed by 192.168.1.177
+Aug 27 15:42:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 15:48:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 27 15:54:07 db-server-01 sshd: Starting session for service
+Aug 27 15:55:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 27 16:00:07 db-server-01 kernel: Out of memory: Kill process 3622
+Aug 27 16:16:07 db-server-01 sshd: Connection closed by 192.168.1.165
+Aug 27 16:17:07 db-server-01 kernel: Out of memory: Kill process 7563
+Aug 27 16:33:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 27 16:39:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 17:00:07 db-server-01 sshd: Starting session for root
+Aug 27 17:07:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.111
+Aug 27 17:24:07 db-server-01 systemd: Reloading configuration
+Aug 27 17:33:07 web-server-01 systemd: Started mysql.service
+Aug 27 17:34:07 db-server-01 systemd: Stopped mysql.service
+Aug 27 17:44:07 app-server-01 sshd: Starting session for admin
+Aug 27 18:09:07 web-server-01 sshd: Starting session for service
+Aug 27 18:15:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 27 18:24:07 web-server-01 NetworkManager: Connection established
+Aug 27 18:24:07 web-server-01 sshd: Starting session for root
+Aug 27 18:26:07 app-server-01 sshd: Connection closed by 192.168.1.126
+Aug 27 18:26:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 27 18:27:07 app-server-01 sshd: Starting session for root
+Aug 27 18:36:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 18:53:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 27 19:19:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 19:29:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 27 19:35:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 19:39:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 27 19:40:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 19:44:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 27 19:46:07 db-server-01 systemd: Started mysql.service
+Aug 27 20:09:07 app-server-01 sshd: Connection closed by 192.168.1.149
+Aug 27 20:17:07 db-server-01 systemd: redis.service: Main process exited successfully
+Aug 27 20:26:07 db-server-01 NetworkManager: Connection established
+Aug 27 20:33:07 db-server-01 kernel: Out of memory: Kill process 2718
+Aug 27 20:34:07 web-server-01 systemd: Reloading configuration
+Aug 27 20:36:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 27 21:02:07 db-server-01 systemd: Reloading configuration
+Aug 27 21:16:07 app-server-01 kernel: Out of memory: Kill process 4280
+Aug 27 21:19:07 web-server-01 kernel: Out of memory: Kill process 4421
+Aug 27 21:21:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 27 21:56:07 db-server-01 systemd: Started mysql.service
+Aug 27 22:01:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 27 22:41:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 27 23:00:07 web-server-01 systemd: Stopped redis.service
+Aug 27 23:03:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 23:07:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 27 23:10:07 db-server-01 NetworkManager: Connection established
+Aug 27 23:15:07 web-server-01 systemd: Stopped mysql.service
+Aug 27 23:29:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 27 23:38:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 27 23:45:07 db-server-01 sshd: Connection closed by 192.168.1.123
+Aug 27 23:57:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 00:33:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 00:58:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 01:01:07 app-server-01 systemd: Stopped nginx.service
+Aug 28 01:20:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 28 01:23:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.133
+Aug 28 01:27:07 db-server-01 kernel: Out of memory: Kill process 7648
+Aug 28 01:48:07 db-server-01 sshd: Connection closed by 192.168.1.147
+Aug 28 01:52:07 web-server-01 sshd: Connection closed by 192.168.1.157
+Aug 28 01:56:07 web-server-01 sshd: Connection closed by 192.168.1.133
+Aug 28 01:57:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 02:02:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 02:21:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 02:28:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 28 02:37:07 web-server-01 sshd: Connection closed by 192.168.1.103
+Aug 28 02:39:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 02:50:07 web-server-01 systemd: Stopped nginx.service
+Aug 28 02:53:07 db-server-01 systemd: Started mysql.service
+Aug 28 02:55:07 db-server-01 systemd: Stopped mysql.service
+Aug 28 02:56:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 03:09:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 28 03:11:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 28 03:13:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 03:13:07 web-server-01 systemd: Started nginx.service
+Aug 28 03:30:07 web-server-01 systemd: Reloading configuration
+Aug 28 03:45:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 28 03:55:07 web-server-01 sshd: Connection closed by 192.168.1.187
+Aug 28 04:00:07 app-server-01 NetworkManager: Connection established
+Aug 28 04:02:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 28 04:03:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 04:04:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 04:15:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.124
+Aug 28 04:16:07 db-server-01 systemd: Stopped redis.service
+Aug 28 04:18:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 28 04:34:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 04:52:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 04:53:07 web-server-01 sshd: Connection closed by 192.168.1.102
+Aug 28 04:55:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 05:02:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 05:30:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 05:34:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 28 05:54:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 06:20:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.134
+Aug 28 06:21:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 06:22:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.104
+Aug 28 06:28:07 app-server-01 systemd: Started nginx.service
+Aug 28 06:30:07 app-server-01 kernel: Out of memory: Kill process 3106
+Aug 28 06:52:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 06:54:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 06:55:07 web-server-01 systemd: Reloading configuration
+Aug 28 07:03:07 web-server-01 kernel: Out of memory: Kill process 9083
+Aug 28 07:27:07 db-server-01 sshd: Connection closed by 192.168.1.117
+Aug 28 07:36:07 app-server-01 systemd: Started nginx.service
+Aug 28 07:38:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.182
+Aug 28 07:39:07 db-server-01 sshd: Connection closed by 192.168.1.172
+Aug 28 07:39:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 28 07:53:07 web-server-01 kernel: Out of memory: Kill process 7827
+Aug 28 07:54:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 08:29:07 app-server-01 sshd: Connection closed by 192.168.1.158
+Aug 28 08:31:07 db-server-01 sshd: Starting session for root
+Aug 28 08:34:07 db-server-01 systemd: Stopped nginx.service
+Aug 28 08:40:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 08:43:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 28 08:54:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.140
+Aug 28 08:54:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 09:14:07 web-server-01 sshd: Connection closed by 192.168.1.113
+Aug 28 09:26:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 28 09:37:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 09:52:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 10:17:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 28 10:27:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 10:41:07 db-server-01 sshd: Connection closed by 192.168.1.133
+Aug 28 11:14:07 app-server-01 systemd: Stopped mysql.service
+Aug 28 11:29:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 11:50:07 app-server-01 systemd: Stopped nginx.service
+Aug 28 11:54:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 28 12:12:07 web-server-01 NetworkManager: Connection established
+Aug 28 12:53:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 12:55:07 app-server-01 sshd: Starting session for admin
+Aug 28 12:56:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 28 12:56:07 db-server-01 NetworkManager: Connection established
+Aug 28 12:59:07 db-server-01 sshd: Accepted publickey for service from 192.168.1.191
+Aug 28 13:09:07 app-server-01 systemd: Reloading configuration
+Aug 28 13:22:07 db-server-01 sshd: Starting session for admin
+Aug 28 13:42:07 app-server-01 NetworkManager: Connection established
+Aug 28 13:45:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 28 14:04:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 28 14:11:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 28 14:13:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 28 14:19:07 db-server-01 systemd: Stopped nginx.service
+Aug 28 14:35:07 app-server-01 systemd: Reloading configuration
+Aug 28 14:51:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 28 14:54:07 db-server-01 sshd: Connection closed by 192.168.1.134
+Aug 28 15:07:07 web-server-01 sshd: Connection closed by 192.168.1.130
+Aug 28 15:09:07 db-server-01 sshd: Starting session for admin
+Aug 28 15:18:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 28 15:31:07 web-server-01 systemd: Stopped nginx.service
+Aug 28 15:42:07 app-server-01 sshd: Starting session for admin
+Aug 28 15:58:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 28 16:09:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 28 16:25:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 16:27:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 16:38:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 28 16:51:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 28 17:12:07 db-server-01 sshd: Starting session for admin
+Aug 28 17:50:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 28 18:08:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 28 18:26:07 db-server-01 sshd: Accepted publickey for service from 192.168.1.121
+Aug 28 18:27:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 18:30:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 18:32:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 18:32:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 18:32:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 18:42:07 app-server-01 systemd: Cleaned up 2.1GB of temporary files
+Aug 28 18:42:07 db-server-01 systemd: Cleaned up 2.1GB of temporary files
+Aug 28 18:42:07 web-server-01 systemd: Cleaned up 2.1GB of temporary files
+Aug 28 19:09:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 19:24:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 19:31:07 app-server-01 sshd: Connection closed by 192.168.1.163
+Aug 28 19:33:07 web-server-01 sshd: Starting session for admin
+Aug 28 19:40:07 db-server-01 kernel: Out of memory: Kill process 6214
+Aug 28 20:05:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 20:25:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 28 20:30:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 28 20:31:07 db-server-01 systemd: Stopped mysql.service
+Aug 28 20:35:07 db-server-01 systemd: Reloading configuration
+Aug 28 20:38:07 db-server-01 kernel: Out of memory: Kill process 8002
+Aug 28 20:41:07 app-server-01 sshd: Connection closed by 192.168.1.151
+Aug 28 20:45:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 21:11:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 21:19:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 28 21:44:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 21:45:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 28 21:46:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 28 21:49:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 22:10:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 28 22:12:07 app-server-01 NetworkManager: Connection established
+Aug 28 22:14:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 22:32:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 28 22:33:07 web-server-01 sshd: Connection closed by 192.168.1.101
+Aug 28 22:47:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 28 22:52:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.111
+Aug 28 23:08:07 db-server-01 sshd: Starting session for admin
+Aug 28 23:16:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.103
+Aug 28 23:32:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 28 23:34:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 28 23:52:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 00:04:07 db-server-01 sshd: Connection closed by 192.168.1.196
+Aug 29 00:13:07 app-server-01 sshd: Starting session for service
+Aug 29 00:15:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 29 00:32:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 29 00:37:07 app-server-01 systemd: Started redis.service
+Aug 29 00:56:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 29 00:58:07 app-server-01 systemd: Stopped mysql.service
+Aug 29 01:05:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 01:21:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 29 01:23:07 app-server-01 NetworkManager: Connection established
+Aug 29 01:25:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 29 01:26:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 29 01:27:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 29 01:28:07 db-server-01 NetworkManager: Connection established
+Aug 29 01:29:07 web-server-01 sshd: Starting session for service
+Aug 29 01:41:07 web-server-01 kernel: Out of memory: Kill process 9930
+Aug 29 01:43:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 29 02:03:07 app-server-01 sshd: Connection closed by 192.168.1.182
+Aug 29 02:43:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 29 02:53:07 web-server-01 NetworkManager: Connection established
+Aug 29 02:55:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 29 02:56:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 03:00:07 app-server-01 NetworkManager: Connection established
+Aug 29 03:01:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 29 03:04:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 29 03:38:07 db-server-01 sshd: Starting session for root
+Aug 29 03:43:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 03:51:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.137
+Aug 29 03:54:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 04:16:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 04:24:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 04:46:07 web-server-01 sshd: Connection closed by 192.168.1.181
+Aug 29 04:53:07 db-server-01 sshd: Connection closed by 192.168.1.183
+Aug 29 05:21:07 db-server-01 NetworkManager: Connection established
+Aug 29 05:25:07 app-server-01 systemd: Started nginx.service
+Aug 29 05:30:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 05:31:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 05:54:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 05:54:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 05:59:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 06:09:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 06:40:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 06:51:07 web-server-01 sshd: Starting session for service
+Aug 29 06:58:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 29 07:00:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 07:04:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 07:37:07 app-server-01 sshd: Connection closed by 192.168.1.123
+Aug 29 07:46:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 29 07:50:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 29 07:51:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 08:00:07 db-server-01 NetworkManager: Connection established
+Aug 29 08:20:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 08:31:07 web-server-01 NetworkManager: Connection established
+Aug 29 08:39:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 08:45:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 08:47:07 app-server-01 sshd: Connection closed by 192.168.1.164
+Aug 29 09:11:07 db-server-01 sshd: Connection closed by 192.168.1.126
+Aug 29 09:20:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 09:29:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 09:51:07 db-server-01 kernel: Out of memory: Kill process 3763
+Aug 29 09:52:07 web-server-01 systemd: Reloading configuration
+Aug 29 09:56:07 web-server-01 sshd: Starting session for admin
+Aug 29 10:03:07 app-server-01 NetworkManager: Connection established
+Aug 29 10:40:07 db-server-01 NetworkManager: Connection established
+Aug 29 10:56:07 web-server-01 sshd: Starting session for admin
+Aug 29 11:27:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 29 11:53:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 12:06:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 12:12:07 app-server-01 systemd: Stopped mysql.service
+Aug 29 12:47:07 db-server-01 systemd: Reloading configuration
+Aug 29 13:00:07 app-server-01 kernel: Out of memory: Kill process 6124
+Aug 29 13:19:07 web-server-01 systemd: Reloading configuration
+Aug 29 13:22:07 web-server-01 systemd: Started nginx.service
+Aug 29 13:25:07 web-server-01 kernel: Out of memory: Kill process 2697
+Aug 29 13:35:07 web-server-01 NetworkManager: Connection established
+Aug 29 13:41:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 13:51:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 13:52:07 web-server-01 systemd: mysql.service: Main process exited successfully
+Aug 29 14:01:07 db-server-01 sshd: Accepted publickey for service from 192.168.1.122
+Aug 29 14:03:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 14:13:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 29 14:18:07 db-server-01 systemd: Started mysql.service
+Aug 29 14:30:07 app-server-01 NetworkManager: Connection established
+Aug 29 14:30:07 app-server-01 sshd: Starting session for service
+Aug 29 14:30:07 web-server-01 sshd: Starting session for admin
+Aug 29 14:37:07 app-server-01 systemd: Reloading configuration
+Aug 29 14:37:07 db-server-01 NetworkManager: Connection established
+Aug 29 14:47:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 29 14:49:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 14:58:07 app-server-01 systemd: redis.service: Main process exited successfully
+Aug 29 15:11:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 29 15:13:07 db-server-01 systemd: Reloading configuration
+Aug 29 15:16:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 15:20:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 15:31:07 app-server-01 sshd: Connection closed by 192.168.1.173
+Aug 29 15:36:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 15:50:07 app-server-01 systemd: Stopped nginx.service
+Aug 29 15:56:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 29 16:10:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 29 16:16:07 app-server-01 systemd: Started nginx.service
+Aug 29 16:38:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 16:40:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 29 17:22:07 db-server-01 kernel: Out of memory: Kill process 1566
+Aug 29 17:40:07 app-server-01 sshd: Connection closed by 192.168.1.165
+Aug 29 18:42:07 web-server-01 NetworkManager: Connection established
+Aug 29 19:05:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 29 19:09:07 app-server-01 kernel: Out of memory: Kill process 2575
+Aug 29 19:25:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 29 19:29:07 web-server-01 systemd: Reloading configuration
+Aug 29 19:32:07 app-server-01 sshd: Connection closed by 192.168.1.152
+Aug 29 19:38:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.169
+Aug 29 19:49:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 19:56:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 29 19:56:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 29 20:11:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.152
+Aug 29 20:44:07 app-server-01 sshd: Connection closed by 192.168.1.135
+Aug 29 21:02:07 app-server-01 NetworkManager: Connection established
+Aug 29 21:07:07 db-server-01 sshd: Connection closed by 192.168.1.147
+Aug 29 21:15:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 21:16:07 web-server-01 systemd: Stopped mysql.service
+Aug 29 21:18:07 web-server-01 systemd: Stopped redis.service
+Aug 29 21:38:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 29 21:46:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 29 22:47:07 app-server-01 kernel: Out of memory: Kill process 3221 (python3)
+Aug 29 22:49:07 app-server-01 kernel: Out of memory: Kill process 3236 (mysqld)
+Aug 29 22:51:07 app-server-01 kernel: Out of memory: Kill process 7739 (apache2)
+Aug 29 22:52:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 29 22:53:07 app-server-01 NetworkManager: Connection established
+Aug 29 22:53:07 app-server-01 kernel: Out of memory: Kill process 8259 (python3)
+Aug 29 22:54:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.143
+Aug 29 22:55:07 app-server-01 kernel: Out of memory: Kill process 9366 (apache2)
+Aug 29 23:07:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 23:07:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 29 23:25:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 29 23:51:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 00:17:07 app-server-01 systemd: Started nginx.service
+Aug 30 00:32:07 app-server-01 kernel: Out of memory: Kill process 4732
+Aug 30 00:35:07 db-server-01 systemd: redis.service: Main process exited successfully
+Aug 30 00:38:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 30 01:02:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 30 01:17:07 db-server-01 NetworkManager: Connection established
+Aug 30 01:27:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 30 02:08:07 web-server-01 kernel: Out of memory: Kill process 2866
+Aug 30 02:10:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 02:22:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 30 02:40:07 web-server-01 sshd: Connection closed by 192.168.1.171
+Aug 30 02:58:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 03:09:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 03:45:07 db-server-01 systemd: Started redis.service
+Aug 30 04:03:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.165
+Aug 30 04:11:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 30 04:29:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 04:30:07 app-server-01 systemd: Stopped nginx.service
+Aug 30 05:04:07 db-server-01 kernel: Out of memory: Kill process 2492
+Aug 30 05:22:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 05:37:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 06:21:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 30 06:26:07 app-server-01 systemd: Started redis.service
+Aug 30 07:04:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 30 07:12:07 web-server-01 sshd: Connection closed by 192.168.1.144
+Aug 30 07:16:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.113
+Aug 30 07:53:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 07:56:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 30 08:03:07 app-server-01 systemd: Stopped nginx.service
+Aug 30 08:06:07 app-server-01 sshd: Connection closed by 192.168.1.128
+Aug 30 08:15:07 db-server-01 NetworkManager: Connection established
+Aug 30 08:17:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 30 08:20:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 08:20:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 30 08:38:07 db-server-01 kernel: Out of memory: Kill process 7232
+Aug 30 08:45:07 db-server-01 sshd: Connection closed by 192.168.1.177
+Aug 30 08:55:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 08:56:07 db-server-01 kernel: Out of memory: Kill process 7613
+Aug 30 08:59:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 09:01:07 app-server-01 systemd: Reloading configuration
+Aug 30 09:18:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 09:47:07 db-server-01 systemd: Stopped nginx.service
+Aug 30 09:53:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 30 09:53:07 db-server-01 systemd: Stopped nginx.service
+Aug 30 09:57:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 10:07:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 30 10:20:07 app-server-01 sshd: Starting session for admin
+Aug 30 10:20:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 30 10:22:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 10:28:07 web-server-01 systemd: Stopped redis.service
+Aug 30 10:38:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 10:43:07 db-server-01 systemd: Started mysql.service
+Aug 30 10:44:07 app-server-01 sshd: Starting session for root
+Aug 30 10:50:07 web-server-01 systemd: Started redis.service
+Aug 30 11:01:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 30 11:02:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 11:19:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 30 11:23:07 db-server-01 NetworkManager: Connection established
+Aug 30 11:27:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 11:40:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 11:45:07 db-server-01 sshd: Connection closed by 192.168.1.102
+Aug 30 11:49:07 db-server-01 kernel: Out of memory: Kill process 3328
+Aug 30 12:03:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 12:08:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 12:16:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 30 12:26:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.162
+Aug 30 12:29:07 web-server-01 sshd: Connection closed by 192.168.1.164
+Aug 30 12:34:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 30 12:35:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 30 12:39:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.108
+Aug 30 12:44:07 db-server-01 NetworkManager: Connection established
+Aug 30 12:48:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.189
+Aug 30 12:51:07 web-server-01 sshd: Starting session for service
+Aug 30 12:52:07 db-server-01 NetworkManager: Connection established
+Aug 30 12:57:07 app-server-01 kernel: Out of memory: Kill process 1609
+Aug 30 12:58:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 13:08:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 13:12:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 13:21:07 web-server-01 kernel: Out of memory: Kill process 3302
+Aug 30 13:28:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 30 13:29:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 13:40:07 web-server-01 systemd: redis.service: Main process exited successfully
+Aug 30 14:16:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 14:19:07 web-server-01 sshd: Starting session for root
+Aug 30 14:37:07 db-server-01 sshd: Starting session for root
+Aug 30 14:39:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 14:40:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.173
+Aug 30 15:09:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 15:09:07 web-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 30 15:12:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 30 15:21:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 30 15:34:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 15:37:07 db-server-01 systemd: Stopped nginx.service
+Aug 30 15:40:07 app-server-01 kernel: Out of memory: Kill process 8951
+Aug 30 15:47:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 30 15:49:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.120
+Aug 30 15:52:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 30 16:00:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 30 16:07:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.148
+Aug 30 16:29:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 30 16:34:07 app-server-01 systemd: Reloading configuration
+Aug 30 16:34:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 30 16:39:07 web-server-01 kernel: Out of memory: Kill process 6040
+Aug 30 16:45:07 web-server-01 sshd: Connection closed by 192.168.1.152
+Aug 30 16:59:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 17:00:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 17:10:07 db-server-01 systemd: Started redis.service
+Aug 30 17:11:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 30 17:17:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 17:23:07 web-server-01 systemd: Stopped redis.service
+Aug 30 17:32:07 app-server-01 kernel: Out of memory: Kill process 5235
+Aug 30 18:22:07 web-server-01 sshd: Starting session for root
+Aug 30 18:23:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 18:39:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 18:41:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 18:53:07 app-server-01 sshd: Starting session for service
+Aug 30 18:56:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 19:05:07 app-server-01 systemd: Started nginx.service
+Aug 30 19:16:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 30 19:43:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 30 19:49:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 20:02:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 20:08:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 30 20:12:07 app-server-01 systemd: Stopped nginx.service
+Aug 30 20:16:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 30 20:17:07 db-server-01 systemd: Started mysql.service
+Aug 30 20:38:07 db-server-01 systemd: Stopped nginx.service
+Aug 30 20:38:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 20:48:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 20:49:07 db-server-01 sshd: Starting session for service
+Aug 30 20:58:07 web-server-01 sshd: Connection closed by 192.168.1.139
+Aug 30 21:14:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 30 21:49:07 db-server-01 NetworkManager: Connection established
+Aug 30 22:01:07 db-server-01 sshd: Starting session for admin
+Aug 30 22:03:07 db-server-01 sshd: Connection closed by 192.168.1.129
+Aug 30 22:22:07 web-server-01 kernel: Out of memory: Kill process 3939
+Aug 30 22:23:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.138
+Aug 30 22:53:07 app-server-01 systemd: Started redis.service
+Aug 30 22:58:07 web-server-01 systemd: Reloading configuration
+Aug 30 23:10:07 web-server-01 sshd: Connection closed by 192.168.1.162
+Aug 30 23:23:07 db-server-01 systemd: Stopped mysql.service
+Aug 30 23:30:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 30 23:35:07 app-server-01 systemd: Reloading configuration
+Aug 30 23:40:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 30 23:41:07 web-server-01 sshd: Starting session for service
+Aug 31 00:05:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 00:07:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 31 00:22:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 31 00:22:07 db-server-01 sshd: Starting session for root
+Aug 31 00:35:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 31 00:36:07 app-server-01 NetworkManager: Connection established
+Aug 31 00:37:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 00:43:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 00:44:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 00:55:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 00:57:07 db-server-01 systemd: Started nginx.service
+Aug 31 00:57:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 01:03:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 01:30:07 db-server-01 NetworkManager: Connection established
+Aug 31 01:44:07 app-server-01 systemd: Reloading configuration
+Aug 31 01:48:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 01:56:07 web-server-01 sshd: Connection closed by 192.168.1.157
+Aug 31 02:00:07 web-server-01 NetworkManager: Connection established
+Aug 31 02:02:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 02:03:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 31 02:06:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 02:13:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 02:21:07 db-server-01 systemd: mysql.service: Main process exited successfully
+Aug 31 02:30:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 02:39:07 app-server-01 sshd: Connection closed by 192.168.1.148
+Aug 31 02:42:07 web-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 31 02:43:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 02:57:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 03:01:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 31 03:17:07 app-server-01 systemd: nginx.service: Main process exited successfully
+Aug 31 03:25:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 03:47:07 web-server-01 systemd: Stopped nginx.service
+Aug 31 03:56:07 app-server-01 systemd: Stopped mysql.service
+Aug 31 04:04:07 db-server-01 sshd: Connection closed by 192.168.1.107
+Aug 31 04:12:07 web-server-01 sshd: Accepted publickey for service from 192.168.1.155
+Aug 31 04:18:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 04:53:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 31 04:53:07 db-server-01 sshd: Connection closed by 192.168.1.168
+Aug 31 05:16:07 web-server-01 systemd: Started nginx.service
+Aug 31 05:17:07 db-server-01 NetworkManager: Connection established
+Aug 31 05:21:07 db-server-01 systemd: Reloading configuration
+Aug 31 05:24:07 app-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 31 05:39:07 web-server-01 systemd: Reloading configuration
+Aug 31 05:43:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 05:56:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 31 06:09:07 db-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 06:13:07 app-server-01 NetworkManager: Connection established
+Aug 31 06:24:07 app-server-01 systemd: Started redis.service
+Aug 31 06:25:07 db-server-01 kernel: Out of memory: Kill process 8574
+Aug 31 06:32:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.188
+Aug 31 06:34:07 app-server-01 sshd: Connection closed by 192.168.1.129
+Aug 31 07:00:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 07:00:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 07:03:07 db-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 07:21:07 db-server-01 kernel: Out of memory: Kill process 6425
+Aug 31 07:23:07 app-server-01 systemd: Stopped nginx.service
+Aug 31 07:26:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 07:33:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 31 07:34:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 07:37:07 db-server-01 sshd: Accepted publickey for service from 192.168.1.197
+Aug 31 07:39:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 31 07:43:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 07:48:07 db-server-01 systemd: Reloading configuration
+Aug 31 07:55:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 31 07:59:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.165
+Aug 31 08:02:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 08:12:07 app-server-01 sshd: Connection closed by 192.168.1.186
+Aug 31 08:18:07 web-server-01 systemd: Stopped mysql.service
+Aug 31 08:26:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 31 08:43:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 08:48:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 31 08:53:07 app-server-01 sshd: Connection closed by 192.168.1.117
+Aug 31 08:59:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 31 09:15:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 09:25:07 web-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 31 09:26:07 app-server-01 kernel: Out of memory: Kill process 4990
+Aug 31 09:26:07 db-server-01 NetworkManager: DHCP lease renewed
+Aug 31 09:31:07 app-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 31 09:36:07 app-server-01 systemd: Reloading configuration
+Aug 31 09:36:07 db-server-01 NetworkManager: Connection established
+Aug 31 10:09:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 10:21:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 10:26:07 db-server-01 systemd: Started nginx.service
+Aug 31 10:29:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Aug 31 10:43:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 10:53:07 app-server-01 kernel: Out of memory: Kill process 5624
+Aug 31 10:57:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 11:09:07 web-server-01 sshd: Starting session for admin
+Aug 31 11:23:07 db-server-01 systemd: Reloading configuration
+Aug 31 11:31:07 web-server-01 sshd: Accepted publickey for root from 192.168.1.141
+Aug 31 11:39:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 31 11:48:07 web-server-01 sshd: Connection closed by 192.168.1.177
+Aug 31 11:51:07 db-server-01 cron: (backup) CMD (/usr/bin/backup-script)
+Aug 31 12:01:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 12:16:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 12:25:07 db-server-01 kernel: Out of memory: Kill process 7753
+Aug 31 12:29:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 12:36:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 12:40:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 12:43:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 12:51:07 db-server-01 NetworkManager: Connection established
+Aug 31 12:51:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 31 13:02:07 web-server-01 systemd: mysql.service: Main process exited successfully
+Aug 31 13:11:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.178
+Aug 31 13:16:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 13:22:07 db-server-01 systemd: redis.service: Main process exited successfully
+Aug 31 13:38:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 13:40:07 web-server-01 sshd: Starting session for admin
+Aug 31 13:49:07 app-server-01 sshd: Connection closed by 192.168.1.193
+Aug 31 14:01:07 db-server-01 systemd: redis.service: Main process exited successfully
+Aug 31 14:08:07 web-server-01 kernel: Out of memory: Kill process 4703
+Aug 31 14:16:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 14:34:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.103
+Aug 31 14:35:07 app-server-01 NetworkManager: DHCP lease renewed
+Aug 31 14:49:07 web-server-01 systemd: Stopped mysql.service
+Aug 31 15:01:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Aug 31 15:04:07 web-server-01 systemd: Reloading configuration
+Aug 31 15:13:07 app-server-01 kernel: Out of memory: Kill process 6882
+Aug 31 15:22:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.117
+Aug 31 15:24:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.121
+Aug 31 15:38:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 15:42:07 app-server-01 systemd: Reloading configuration
+Aug 31 15:48:07 app-server-01 kernel: Out of memory: Kill process 2440
+Aug 31 15:52:07 app-server-01 systemd: Stopped redis.service
+Aug 31 15:54:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 16:11:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 16:15:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 16:38:07 web-server-01 kernel: Out of memory: Kill process 2639
+Aug 31 16:43:07 app-server-01 kernel: Out of memory: Kill process 9661
+Aug 31 16:51:07 app-server-01 kernel: Out of memory: Kill process 4573
+Aug 31 16:52:07 app-server-01 sshd: Accepted publickey for root from 192.168.1.108
+Aug 31 16:54:07 web-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 17:01:07 app-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 17:04:07 web-server-01 NetworkManager: Interface eth0 up
+Aug 31 17:08:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 17:11:07 app-server-01 sshd: Starting session for admin
+Aug 31 17:53:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 31 18:06:07 app-server-01 systemd: mysql.service: Main process exited successfully
+Aug 31 19:26:07 db-server-01 sshd: Accepted publickey for admin from 192.168.1.129
+Aug 31 19:34:07 app-server-01 systemd: Started mysql.service
+Aug 31 19:44:07 app-server-01 NetworkManager: Connection established
+Aug 31 19:58:07 db-server-01 NetworkManager: Interface eth0 up
+Aug 31 20:03:07 web-server-01 kernel: Out of memory: Kill process 6866
+Aug 31 20:35:07 db-server-01 systemd: Started redis.service
+Aug 31 20:38:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 20:40:07 web-server-01 systemd: mysql.service: Main process exited successfully
+Aug 31 20:45:07 app-server-01 systemd: Reloading configuration
+Aug 31 20:54:07 app-server-01 NetworkManager: Connection established
+Aug 31 20:55:07 app-server-01 sshd: Accepted publickey for admin from 192.168.1.182
+Aug 31 21:11:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 21:14:07 db-server-01 systemd: Reloading configuration
+Aug 31 21:19:07 app-server-01 sshd: Connection closed by 192.168.1.180
+Aug 31 21:25:07 db-server-01 NetworkManager: Connection established
+Aug 31 21:31:07 web-server-01 systemd: nginx.service: Main process exited successfully
+Aug 31 21:33:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Aug 31 21:52:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 21:58:07 web-server-01 sshd: Accepted publickey for admin from 192.168.1.184
+Aug 31 22:12:07 db-server-01 systemd: Stopped nginx.service
+Aug 31 22:20:07 app-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 22:42:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Aug 31 22:57:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 22:59:07 web-server-01 NetworkManager: DHCP lease renewed
+Aug 31 23:00:07 db-server-01 systemd: nginx.service: Main process exited successfully
+Aug 31 23:06:07 app-server-01 NetworkManager: Interface eth0 up
+Aug 31 23:16:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Aug 31 23:23:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Aug 31 23:55:07 db-server-01 systemd: Reloading configuration
+Aug 31 23:56:07 app-server-01 sshd: Connection closed by 192.168.1.129
+Sep 01 00:02:07 app-server-01 sshd: Starting session for service
+Sep 01 00:16:07 web-server-01 systemd: Started mysql.service
+Sep 01 00:18:07 app-server-01 sshd: Accepted publickey for service from 192.168.1.114
+Sep 01 00:23:07 app-server-01 systemd: Reloading configuration
+Sep 01 00:37:07 db-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Sep 01 00:56:07 db-server-01 sshd: Connection closed by 192.168.1.145
+Sep 01 01:06:07 web-server-01 NetworkManager: Connection established
+Sep 01 01:20:07 app-server-01 NetworkManager: Interface eth0 up
+Sep 01 01:27:07 db-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Sep 01 01:44:07 db-server-01 sshd: Accepted publickey for root from 192.168.1.129
+Sep 01 01:46:07 db-server-01 sshd: Starting session for root
+Sep 01 01:48:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Sep 01 01:48:07 web-server-01 systemd: redis.service: Main process exited successfully
+Sep 01 01:49:07 app-server-01 cron: (root) CMD (/usr/bin/backup-script)
+Sep 01 02:07:07 db-server-01 NetworkManager: Connection established
+Sep 01 02:11:07 db-server-01 NetworkManager: DHCP lease renewed
+Sep 01 02:16:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Sep 01 02:35:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Sep 01 02:49:07 web-server-01 cron: (root) CMD (/usr/bin/system-cleanup)
+Sep 01 02:52:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Sep 01 03:29:07 web-server-01 sshd: Connection closed by 192.168.1.192
+Sep 01 03:31:07 db-server-01 kernel: Out of memory: Kill process 9498
+Sep 01 03:49:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Sep 01 04:02:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Sep 01 04:10:07 web-server-01 sshd: Starting session for root
+Sep 01 04:13:07 db-server-01 NetworkManager: Interface eth0 up
+Sep 01 04:14:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Sep 01 04:15:07 web-server-01 systemd: Reloading configuration
+Sep 01 04:20:07 web-server-01 kernel: EXT4-fs warning: running low on space
+Sep 01 04:22:07 app-server-01 NetworkManager: Interface eth0 up
+Sep 01 04:25:07 db-server-01 sshd: Starting session for admin
+Sep 01 04:26:07 app-server-01 NetworkManager: Connection established
+Sep 01 04:28:07 db-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Sep 01 04:32:07 web-server-01 systemd: Started redis.service
+Sep 01 04:42:07 web-server-01 systemd: Started nginx.service
+Sep 01 04:43:07 web-server-01 cron: (CRON) info (No MTA installed, discarding output)
+Sep 01 04:44:07 web-server-01 NetworkManager: Interface eth0 up
+Sep 01 04:47:07 app-server-01 NetworkManager: Connection established
+Sep 01 05:00:07 web-server-01 kernel: Out of memory: Kill process 4805
+Sep 01 05:12:07 web-server-01 kernel: Out of memory: Kill process 1556
+Sep 01 05:16:07 web-server-01 NetworkManager: DHCP lease renewed
+Sep 01 05:27:07 app-server-01 NetworkManager: Connection established
+Sep 01 05:42:07 db-server-01 systemd: Stopped nginx.service
+Sep 01 05:51:07 web-server-01 systemd: Reloading configuration
+Sep 01 06:08:07 db-server-01 systemd: Stopped nginx.service
+Sep 01 06:17:07 app-server-01 NetworkManager: Interface eth0 up
+Sep 01 06:42:07 app-server-01 cron: (backup) CMD (/usr/bin/system-cleanup)
+Sep 01 06:44:07 db-server-01 sshd: Connection closed by 192.168.1.122
+Sep 01 07:07:07 app-server-01 sshd: Connection closed by 192.168.1.122
+Sep 01 07:08:07 app-server-01 NetworkManager: DHCP lease renewed
+Sep 01 07:13:07 app-server-01 kernel: EXT4-fs warning: running low on space
+Sep 01 07:25:07 db-server-01 kernel: Out of memory: Kill process 4364
+Sep 01 07:39:07 db-server-01 systemd: Started redis.service
+Sep 01 07:59:07 db-server-01 kernel: TCP: request_sock_TCP: Possible SYN flooding on port 80
+Sep 01 08:08:07 db-server-01 sshd: Starting session for admin
+Sep 01 08:14:07 db-server-01 kernel: Out of memory: Kill process 8391

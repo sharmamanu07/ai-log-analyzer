@@ -1,7 +1,37 @@
-2024-01-29 02:00:00 INFO database_prod: Backup started
-2024-01-29 02:15:30 INFO database_prod: Backup completed successfully, 1.2GB in 15min
-2024-01-29 02:30:00 INFO fileserver_backup: Backup started
-2024-01-29 02:45:22 ERROR fileserver_backup: Backup failed - Cannot connect to storage backend
-2024-01-29 03:00:00 INFO user_data: Backup started
-2024-01-29 03:20:15 INFO user_data: Backup completed successfully, 850MB in 20min
-2024-01-29 03:30:00 ERROR config_backup: Backup failed - Permission denied
+2025-08-25 10:42:07 INFO fileserver_backup: Backup completed successfully, 2436MB in 62min
+2025-08-25 10:43:07 INFO vault_backup: Backup completed successfully, 76MB in 10min
+2025-08-25 10:57:07 INFO database_prod: Backup completed successfully, 1158MB in 24min
+2025-08-25 11:00:07 INFO config_backup: Backup completed successfully, 18MB in 8min
+2025-08-25 11:09:07 INFO user_data: Backup completed successfully, 944MB in 25min
+2025-08-26 10:20:07 INFO user_data: Backup completed successfully, 698MB in 22min
+2025-08-26 10:24:07 INFO fileserver_backup: Backup completed successfully, 4865MB in 33min
+2025-08-26 10:24:07 INFO vault_backup: Backup completed successfully, 80MB in 7min
+2025-08-26 10:37:07 INFO config_backup: Backup completed successfully, 35MB in 7min
+2025-08-26 11:03:07 INFO database_prod: Backup completed successfully, 1163MB in 40min
+2025-08-27 10:42:07 INFO fileserver_backup: Backup completed successfully, 4291MB in 31min
+2025-08-27 10:49:07 INFO vault_backup: Backup completed successfully, 141MB in 12min
+2025-08-27 10:51:07 ERROR database_prod: Backup failed - Permission denied on target directory
+2025-08-27 10:56:07 INFO config_backup: Backup completed successfully, 18MB in 6min
+2025-08-27 11:13:07 INFO user_data: Backup completed successfully, 861MB in 34min
+2025-08-28 10:37:07 INFO database_prod: Backup completed successfully, 1146MB in 31min
+2025-08-28 10:52:07 ERROR vault_backup: Backup failed - Permission denied on target directory
+2025-08-28 11:04:07 INFO user_data: Backup completed successfully, 744MB in 20min
+2025-08-28 11:10:07 INFO fileserver_backup: Backup completed successfully, 2382MB in 73min
+2025-08-28 11:14:07 INFO config_backup: Backup completed successfully, 13MB in 8min
+2025-08-29 10:31:07 INFO database_prod: Backup completed successfully, 1250MB in 17min
+2025-08-29 10:32:07 CRITICAL database_prod: Backup failed - Primary storage system unreachable
+2025-08-29 10:32:07 CRITICAL fileserver_backup: Backup failed - Primary storage system unreachable
+2025-08-29 10:52:07 ERROR vault_backup: Backup failed - Database connection timeout during backup
+2025-08-29 10:54:07 INFO config_backup: Backup completed successfully, 32MB in 7min
+2025-08-29 11:10:07 INFO user_data: Backup completed successfully, 778MB in 21min
+2025-08-29 11:13:07 INFO fileserver_backup: Backup completed successfully, 4637MB in 48min
+2025-08-30 10:17:07 INFO user_data: Backup completed successfully, 909MB in 35min
+2025-08-30 10:18:07 ERROR fileserver_backup: Backup failed - Backup verification failed
+2025-08-30 10:48:07 INFO config_backup: Backup completed successfully, 42MB in 6min
+2025-08-30 11:05:07 ERROR database_prod: Backup failed - Permission denied on target directory
+2025-08-30 11:05:07 INFO vault_backup: Backup completed successfully, 87MB in 13min
+2025-08-31 10:18:07 INFO database_prod: Backup completed successfully, 1474MB in 37min
+2025-08-31 10:20:07 INFO user_data: Backup completed successfully, 764MB in 35min
+2025-08-31 10:57:07 INFO config_backup: Backup completed successfully, 40MB in 2min
+2025-08-31 11:00:07 ERROR vault_backup: Backup failed - Cannot connect to storage backend
+2025-08-31 11:05:07 INFO fileserver_backup: Backup completed successfully, 2556MB in 44min

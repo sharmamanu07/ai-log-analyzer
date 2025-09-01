@@ -1,0 +1,58 @@
+{
+  "generation_time": "2025-09-01T08:17:07.629050",
+  "period_covered": "7 days",
+  "files_created": [
+    {
+      "filename": "security.log",
+      "entries": 554,
+      "size_bytes": 46465,
+      "size_human": "46,465 bytes"
+    },
+    {
+      "filename": "backup.log",
+      "entries": 37,
+      "size_bytes": 3233,
+      "size_human": "3,233 bytes"
+    },
+    {
+      "filename": "vault.log",
+      "entries": 556,
+      "size_bytes": 58577,
+      "size_human": "58,577 bytes"
+    },
+    {
+      "filename": "system.log",
+      "entries": 1011,
+      "size_bytes": 73867,
+      "size_human": "73,867 bytes"
+    },
+    {
+      "filename": "apache_access.log",
+      "entries": 1940,
+      "size_bytes": 257290,
+      "size_human": "257,290 bytes"
+    },
+    {
+      "filename": "database.log",
+      "entries": 2175,
+      "size_bytes": 179949,
+      "size_human": "179,949 bytes"
+    },
+    {
+      "filename": "application.log",
+      "entries": 2134,
+      "size_bytes": 175563,
+      "size_human": "175,563 bytes"
+    }
+  ],
+  "scenarios_included": [
+    "Brute force authentication attacks",
+    "Vault security breaches",
+    "System resource exhaustion",
+    "Backup system failures",
+    "Web application attacks (SQL injection, scanning)",
+    "Database corruption and recovery",
+    "Application service outages",
+    "Data exfiltration attempts"
+  ]
+}

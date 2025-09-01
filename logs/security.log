@@ -1,10 +1,554 @@
-2024-01-29 09:15:23 [INFO] auth: Successful login for user jdoe from 192.168.1.100
-2024-01-29 09:16:45 [INFO] auth: Successful login for user admin from 192.168.1.101
-2024-01-29 09:17:12 [WARN] auth: Failed login attempt for user admin from 203.0.113.10
-2024-01-29 09:17:15 [WARN] auth: Failed login attempt for user admin from 203.0.113.10
-2024-01-29 09:17:18 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
-2024-01-29 09:17:21 [ERROR] auth: Multiple failed login attempts detected for user admin from 203.0.113.10
-2024-01-29 09:20:30 [INFO] auth: Successful login for user ssmith from 192.168.1.102
-2024-01-29 10:05:45 [ERROR] system: Database connection timeout
-2024-01-29 10:06:12 [ERROR] system: Service restart failed
-2024-01-29 10:15:33 [INFO] auth: User admin logged out
+2025-08-25 17:22:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-25 17:29:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-25 17:29:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-25 17:38:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-25 17:41:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-25 18:02:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-25 18:08:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-25 18:31:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-25 18:49:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-25 18:50:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-25 19:02:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-25 19:11:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-25 19:19:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-25 19:24:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-25 19:28:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-25 19:30:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-25 19:37:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-25 19:40:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-25 19:43:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-25 19:44:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.102
+2025-08-25 19:44:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-25 19:57:07 [INFO] auth: Successful login for user service_account from 10.0.1.101
+2025-08-25 20:04:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-25 20:05:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.102
+2025-08-25 20:08:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-25 20:23:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-25 20:28:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-25 20:35:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.102
+2025-08-25 20:57:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-25 21:00:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.100
+2025-08-25 21:04:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-25 21:08:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-25 21:13:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-25 21:16:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-25 21:34:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-25 21:38:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-25 22:02:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.102
+2025-08-25 22:03:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-25 22:03:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-25 22:11:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-25 22:16:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-25 22:50:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-25 22:56:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.100
+2025-08-25 22:58:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-25 23:06:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.101
+2025-08-25 23:17:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-25 23:40:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-25 23:46:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-25 23:51:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-25 23:57:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 00:02:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-26 00:17:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-26 00:38:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 00:50:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 00:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-26 01:02:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-26 01:09:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-26 01:12:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.100
+2025-08-26 01:20:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-26 01:26:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-26 01:32:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-26 01:32:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-26 01:45:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.103
+2025-08-26 01:47:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-26 02:05:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 02:05:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-26 02:06:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-26 16:18:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 16:21:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 16:26:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-26 16:31:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-26 16:32:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 16:32:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-26 16:33:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-26 16:41:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-26 16:44:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-26 16:46:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-26 16:49:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-26 16:54:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 16:55:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.104
+2025-08-26 16:56:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.100
+2025-08-26 17:03:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-08-26 17:03:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-26 17:12:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-26 17:14:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 17:24:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-26 17:39:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-26 17:47:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-26 18:06:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-26 18:08:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-26 18:15:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-26 18:26:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.102
+2025-08-26 18:35:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-26 18:36:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-26 18:41:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-26 18:47:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.103
+2025-08-26 18:48:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-26 18:48:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-26 19:01:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-26 19:03:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-26 19:07:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.100
+2025-08-26 19:12:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-26 19:24:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-26 19:45:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-26 19:47:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-26 19:55:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-26 19:57:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.103
+2025-08-26 20:19:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-26 20:23:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-26 20:25:07 [INFO] auth: Successful login for user service_account from 10.0.1.101
+2025-08-26 20:30:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-26 20:44:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-26 21:02:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-26 21:13:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 21:16:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-26 21:18:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-26 21:19:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-26 21:33:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-26 21:33:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-26 21:50:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-26 22:02:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-26 22:05:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 22:20:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-26 22:26:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-26 22:31:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-26 22:36:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-26 22:40:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-26 22:44:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-26 22:47:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-26 22:55:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-26 23:02:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-26 23:05:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.100
+2025-08-26 23:07:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-26 23:10:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-26 23:14:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-26 23:26:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-26 23:29:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.102
+2025-08-26 23:40:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-26 23:50:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-26 23:51:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-27 00:09:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-27 00:14:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 00:17:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.102
+2025-08-27 00:27:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-27 00:40:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-27 00:40:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.102
+2025-08-27 00:45:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-27 00:48:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-27 00:52:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-27 00:59:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-27 01:08:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-27 01:09:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.101
+2025-08-27 01:16:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-27 01:19:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-27 01:28:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-27 01:29:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-27 01:32:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 01:33:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 01:44:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-27 02:00:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-27 02:12:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-27 02:13:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-27 16:17:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-27 16:39:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 16:39:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-27 17:01:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-27 17:03:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-27 17:05:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-27 17:08:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-27 17:08:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-27 17:34:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-27 17:52:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-27 18:01:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-27 18:09:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-27 18:14:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.104
+2025-08-27 18:20:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-08-27 18:27:07 [INFO] auth: Successful login for user service_account from 10.0.1.101
+2025-08-27 18:28:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-27 18:43:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-27 19:16:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-27 19:27:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-27 19:31:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 20:31:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-27 20:46:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-27 20:50:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.102
+2025-08-27 21:00:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-27 21:04:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-27 21:05:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-27 21:09:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-27 21:12:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-27 21:16:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-27 21:34:07 [INFO] auth: Successful login for user service_account from 10.0.1.101
+2025-08-27 21:36:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.100
+2025-08-27 21:37:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-27 21:49:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-27 22:08:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-27 22:11:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-27 22:13:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-27 22:14:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-27 22:15:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-27 22:22:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-27 22:24:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.101
+2025-08-27 22:28:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-27 22:30:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-27 22:37:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-27 22:43:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-27 22:49:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-27 22:50:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-27 22:55:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-27 23:07:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-27 23:14:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-27 23:22:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-27 23:31:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-27 23:32:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-28 00:10:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-28 00:10:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-28 00:19:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 00:36:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-28 00:40:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-28 00:49:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-28 00:59:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 01:11:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.101
+2025-08-28 01:21:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-28 01:29:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-28 01:51:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 01:56:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.100
+2025-08-28 02:12:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-28 02:13:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-28 16:22:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 16:24:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 16:30:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.103
+2025-08-28 16:33:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-28 16:48:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-28 16:53:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.101
+2025-08-28 16:56:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-28 16:59:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.103
+2025-08-28 17:04:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-28 17:21:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-28 17:26:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-28 17:27:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.100
+2025-08-28 17:28:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-28 17:38:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 18:11:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-28 18:13:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-28 18:15:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.101
+2025-08-28 18:22:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 18:31:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.102
+2025-08-28 18:41:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-28 18:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-28 19:06:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-28 19:12:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-28 19:16:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-28 19:18:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.103
+2025-08-28 19:23:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-28 19:33:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-28 19:44:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-28 19:53:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-08-28 20:05:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 20:11:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-28 20:14:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-28 20:29:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-28 20:32:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 20:33:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-28 20:33:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-28 20:41:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-28 20:46:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-28 20:50:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-28 20:51:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.103
+2025-08-28 21:00:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 21:01:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-28 21:01:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.102
+2025-08-28 21:02:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-28 21:04:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-08-28 21:18:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-28 21:22:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-28 21:28:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-28 21:31:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-28 21:41:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-28 21:41:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-28 21:51:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-28 21:54:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 21:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-28 21:59:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-28 22:09:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.104
+2025-08-28 22:11:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-28 22:21:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-28 22:21:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.100
+2025-08-28 22:25:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-28 22:27:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-28 22:28:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-28 22:30:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-28 22:47:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:47:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:48:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:48:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:49:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:49:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:50:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:50:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:51:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:51:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:52:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:52:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:53:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-28 22:53:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:53:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:54:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-28 22:54:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:54:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:55:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:55:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:56:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:56:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:57:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-28 22:57:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:57:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:58:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:58:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 22:59:07 [ERROR] auth: Failed login attempt for user admin from 203.0.113.10
+2025-08-28 23:02:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-28 23:07:07 [CRITICAL] auth: Successful login for user admin from 203.0.113.10
+2025-08-28 23:09:07 [CRITICAL] auth: Privilege escalation attempt by user admin from 203.0.113.10
+2025-08-28 23:11:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-28 23:22:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-28 23:32:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-28 23:39:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-28 23:44:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-29 00:19:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-29 00:24:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.100
+2025-08-29 00:25:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-29 00:36:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.100
+2025-08-29 00:39:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-29 00:45:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-29 00:51:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-29 00:52:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-29 00:56:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-29 01:10:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-29 01:18:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-29 01:19:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.101
+2025-08-29 01:19:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-29 01:26:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-29 01:27:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.102
+2025-08-29 01:37:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 02:01:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-29 02:07:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-29 02:14:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.101
+2025-08-29 02:16:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.100
+2025-08-29 16:41:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 16:48:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-29 16:57:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-29 16:57:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-29 17:01:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-29 17:16:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-29 17:41:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-29 17:49:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-29 17:53:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-29 17:59:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-29 18:07:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-29 18:20:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.103
+2025-08-29 18:22:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-29 18:25:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-29 18:52:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.100
+2025-08-29 18:54:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.103
+2025-08-29 19:13:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-29 19:15:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-29 19:17:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-29 19:31:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-29 19:35:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-29 19:37:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.104
+2025-08-29 19:39:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-29 19:54:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-29 19:58:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.100
+2025-08-29 20:13:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-29 20:14:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-29 20:23:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-29 20:37:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-29 20:40:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 20:55:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-29 21:13:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.102
+2025-08-29 21:15:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-29 21:16:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-29 21:25:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 21:27:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-29 21:33:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-29 21:34:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 21:43:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-29 21:53:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-29 22:00:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-29 22:02:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-08-29 22:02:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.101
+2025-08-29 22:07:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-29 22:26:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-29 22:26:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-29 22:38:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-29 22:40:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-29 22:40:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-29 22:55:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.100
+2025-08-29 23:26:07 [INFO] auth: Successful login for user mwilson from 10.0.1.104
+2025-08-29 23:34:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-29 23:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-30 00:01:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.103
+2025-08-30 00:17:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-30 00:24:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-30 00:34:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-30 01:15:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-30 01:47:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-30 02:04:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-30 02:12:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-30 02:14:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-30 16:19:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-30 16:21:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-30 16:23:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-30 16:24:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-30 16:25:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.104
+2025-08-30 16:31:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.101
+2025-08-30 16:42:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-30 16:45:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-30 17:01:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-30 17:08:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-30 17:56:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-30 18:00:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-30 18:03:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-30 18:10:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-30 18:12:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-30 18:21:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-30 18:28:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-30 18:29:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.104
+2025-08-30 18:37:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-30 18:41:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-30 18:42:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-30 18:47:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.100
+2025-08-30 19:19:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-30 19:39:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-30 19:41:07 [INFO] auth: Successful login for user service_account from 10.0.1.101
+2025-08-30 19:50:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-30 19:53:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-30 20:08:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-30 20:16:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.101
+2025-08-30 20:23:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.102
+2025-08-30 20:28:07 [INFO] auth: Successful login for user ssmith from 10.0.1.102
+2025-08-30 20:37:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-30 21:09:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-30 21:10:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-30 21:21:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-30 21:27:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-30 21:27:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-30 21:30:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-30 21:43:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-30 21:44:07 [INFO] auth: Successful login for user admin from 10.0.1.103
+2025-08-30 21:45:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-30 21:50:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-30 21:53:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-30 22:01:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-30 22:09:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-30 22:12:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-30 22:17:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-30 22:27:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-30 22:52:07 [INFO] auth: Successful login for user kbrown from 10.0.1.100
+2025-08-30 23:08:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-30 23:22:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.104
+2025-08-30 23:23:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-30 23:31:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-08-30 23:52:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-31 00:05:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.103
+2025-08-31 00:06:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-31 00:20:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-31 00:31:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.102
+2025-08-31 00:43:07 [INFO] auth: Successful login for user ssmith from 10.0.1.101
+2025-08-31 00:52:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-31 01:09:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.104
+2025-08-31 01:09:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.101
+2025-08-31 01:16:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-31 01:25:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.101
+2025-08-31 01:28:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-31 01:33:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-31 01:37:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-31 01:53:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-31 01:59:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-31 02:05:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-31 16:26:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-31 16:28:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-31 16:37:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-31 16:53:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-31 17:25:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-31 17:33:07 [INFO] auth: Successful login for user ssmith from 10.0.1.104
+2025-08-31 17:37:07 [INFO] auth: Successful login for user ssmith from 10.0.1.103
+2025-08-31 17:37:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-31 17:37:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-31 17:40:07 [INFO] auth: Successful login for user jdoe from 10.0.1.101
+2025-08-31 17:42:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.102
+2025-08-31 17:50:07 [INFO] auth: Successful login for user service_account from 10.0.1.104
+2025-08-31 17:52:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-08-31 18:03:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.100
+2025-08-31 18:05:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-31 18:49:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-31 18:49:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-08-31 19:04:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-31 19:12:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-08-31 19:31:07 [INFO] auth: Successful login for user ssmith from 10.0.1.100
+2025-08-31 19:34:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.103
+2025-08-31 20:06:07 [WARN] auth: Failed login attempt for user jdoe from 10.0.1.103
+2025-08-31 20:21:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-31 20:23:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.102
+2025-08-31 20:24:07 [INFO] auth: Successful login for user jdoe from 10.0.1.102
+2025-08-31 20:39:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-31 20:44:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-08-31 20:59:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-08-31 21:05:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-31 21:17:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-08-31 21:30:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-31 21:36:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.103
+2025-08-31 21:39:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-31 21:45:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.101
+2025-08-31 21:49:07 [INFO] auth: Successful login for user service_account from 10.0.1.102
+2025-08-31 21:59:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-31 22:11:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-08-31 22:20:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-08-31 22:23:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.103
+2025-08-31 22:36:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-08-31 22:36:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.103
+2025-08-31 22:49:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.101
+2025-08-31 22:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-08-31 22:58:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-08-31 22:58:07 [INFO] auth: Successful login for user kbrown from 10.0.1.101
+2025-08-31 22:59:07 [INFO] auth: Successful login for user admin from 10.0.1.100
+2025-08-31 23:23:07 [WARN] auth: Failed login attempt for user kbrown from 10.0.1.104
+2025-08-31 23:24:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104
+2025-08-31 23:41:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-08-31 23:46:07 [INFO] auth: Successful login for user mwilson from 10.0.1.100
+2025-08-31 23:53:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-09-01 00:03:07 [INFO] auth: Successful login for user admin from 10.0.1.101
+2025-09-01 00:20:07 [INFO] auth: Successful login for user mwilson from 10.0.1.102
+2025-09-01 00:26:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.102
+2025-09-01 00:35:07 [INFO] auth: Successful login for user jdoe from 10.0.1.100
+2025-09-01 00:40:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-09-01 00:40:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-09-01 00:50:07 [WARN] auth: Failed login attempt for user admin from 10.0.1.104
+2025-09-01 00:50:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-09-01 00:51:07 [INFO] auth: Successful login for user admin from 10.0.1.102
+2025-09-01 00:51:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.104
+2025-09-01 00:58:07 [INFO] auth: Successful login for user jdoe from 10.0.1.103
+2025-09-01 01:02:07 [WARN] auth: Failed login attempt for user service_account from 10.0.1.101
+2025-09-01 01:05:07 [INFO] auth: Successful login for user service_account from 10.0.1.100
+2025-09-01 01:06:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.104
+2025-09-01 01:09:07 [INFO] auth: Successful login for user kbrown from 10.0.1.102
+2025-09-01 01:13:07 [INFO] auth: Successful login for user service_account from 10.0.1.103
+2025-09-01 01:24:07 [INFO] auth: Successful login for user mwilson from 10.0.1.101
+2025-09-01 01:24:07 [INFO] auth: Successful login for user kbrown from 10.0.1.103
+2025-09-01 01:32:07 [INFO] auth: Successful login for user mwilson from 10.0.1.103
+2025-09-01 01:36:07 [INFO] auth: Successful login for user kbrown from 10.0.1.104
+2025-09-01 01:42:07 [INFO] auth: Successful login for user admin from 10.0.1.104
+2025-09-01 01:43:07 [WARN] auth: Failed login attempt for user mwilson from 10.0.1.103
+2025-09-01 01:48:07 [WARN] auth: Failed login attempt for user ssmith from 10.0.1.101
+2025-09-01 01:55:07 [INFO] auth: Successful login for user jdoe from 10.0.1.104

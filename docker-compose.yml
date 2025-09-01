@@ -8,10 +8,30 @@ services:
     volumes:
       - ./logs:/app/logs
       - ./reports:/app/reports
+      - ./temp:/app/temp
     environment:
       - PYTHONUNBUFFERED=1
+      - OLLAMA_URL=http://ollama:11434
+    networks:
+      - log-analysis-network
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+      - log-analysis-network
     restart: unless-stopped
 
 volumes:
   logs-data:
   reports-data:
+  ollama-data:
+
+networks:
+  log-analysis-network:
