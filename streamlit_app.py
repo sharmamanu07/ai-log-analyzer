@@ -598,7 +598,7 @@ def check_ollama_connection():
                 return {
                     'available': True,
                     'url': url,
-                    'model': 'phi3:mini'
+                    'model': 'llama3.2:3b'
                 }
         except:
             continue
@@ -635,7 +635,7 @@ ANALYSIS:"""
         response = requests.post(
             f"{ollama_status['url']}/api/generate",
             json={
-                "model": "phi3:mini",
+                "model": "llama3.2:3b",
                 "prompt": full_prompt,
                 "stream": False,
                 "options": {
@@ -645,7 +645,7 @@ ANALYSIS:"""
                     "stop": ["USER QUESTION:", "LOG DATA:"]
                 }
             },
-            timeout=(10, 90)
+            timeout=(10, 1024)
         )
 
         if response.status_code == 200:
@@ -920,7 +920,7 @@ def filter_logs_by_subject(logs: list, query: str) -> list:
 def process_ai_query(query: str, debug: bool = True):
     """Enhanced AI query processing with better fallback - FIXED VERSION"""
 
-    # First try to get response from Ollama Phi-3 Mini
+    # First try to get response from Ollama - llama3.2:3b
     llm_response = query_ollama(query, {'anomalies': st.session_state.anomalies})
 
     if debug:
@@ -930,14 +930,14 @@ def process_ai_query(query: str, debug: bool = True):
         print("  • Fallback triggered?:", llm_response is None)
 
     if llm_response is not None and len(llm_response.strip()) > 10:
-        response = f"**🤖 AI Analysis (Phi-3 Mini):**\n\n{llm_response}"
+        response = f"**🤖 AI Analysis (llama3.2:3b):**\n\n{llm_response}"
     else:
         response = f"**🤖 Built-in Analysis:**\n\n{generate_intelligent_response(query)}"
 
         # Add note about LLM status
         ollama_status = check_ollama_connection()
         if not ollama_status['available']:
-            response += "\n\n*Note: Advanced AI (Phi-3 Mini) is not available. Using built-in analysis.*"
+            response += "\n\n*Note: Advanced AI (llama3.2:3b) is not available. Using built-in analysis.*"
         else:
             response += "\n\n*Note: AI model response was insufficient. Using enhanced built-in analysis.*"
 
